@@ -1,0 +1,452 @@
+[
+  {
+    "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+    "target": "Compared to TAPP technique and open surgery, TEP method has a higher chance (2.5%) of needing another hernia repair instead.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "An inguinal hernia occurs when part of the intestine protrudes through the abdominal muscles. ",
+    "target": "An inguinal hernia happens when part of the intestine pushes out through the abdominal muscles.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "There may be little to no difference between TAPP and TEP laparoscopic techniques for serious adverse events and hernia recurrence.",
+    "target": "There is little to no difference in outcomes between TAPP and TEP laparoscopic techniques.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP.",
+    "target": "The TEP technique is more likely to need a different type of hernia surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "CBT may result in a small‐to‐moderate reduction of anxiety post‐treatment (SMD ‐0.51, 95% CI ‐0.66 to ‐0.36, low‐certainty evidence). ",
+    "target": "CBT can slightly reduce anxiety after treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "However, compared to this benefit with CBT immediately after treatment, at three to six months post‐treatment, there was little to no difference between CBT and minimal management (SMD ‐0.29, 95% CI ‐0.59 to 0.01, low‐certainty evidence).",
+    "target": "There was little to no difference between CBT and minimal management three to six months after treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "CBT may result in a reduction of comorbid depression symptoms post‐treatment (SMD ‐0.57, 95% CI ‐0.74 to ‐0.40, low‐certainty evidence).",
+    "target": "CBT can reduce symptoms of depression after treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+    "target": "There isn't enough research to say if CBT works better than other types of therapy for anxiety in older people.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "To assess the effects of Cognitive Behavioural Therapy (CT, BT, CBT and third‐wave CBT interventions) on severity of anxiety symptoms compared with minimal management (not providing therapy) for anxiety and related disorders in older adults, aged 55 years or over. ",
+    "target": "To compare how well cognitive behaviour therapy helps reduce anxiety symptoms in people aged 55 or older versus not getting any therapy at all.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+    "target": "Percutaneous and surgical treatments, along with albendazole, are used for uncomplicated liver cysts caused by echinococcosis, but there's limited research that compares them directly.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "To evaluate the benefits and harms of preoperative statin therapy in adults undergoing cardiac surgery compared to standard of care or placebo. ",
+    "target": "To compare the benefits and harms of taking statins before heart surgery with standard treatment or no treatment at all.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included all randomised controlled trials (RCTs) comparing any statin treatment before cardiac surgery, for any given duration and dose, versus no preoperative statin therapy (standard of care) or placebo. ",
+    "target": "We looked at all studies that compared taking a certain type of cholesterol-lowering medicine before heart surgery to not taking it or a placebo.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "We excluded trials without a registered trial protocol and trials without approval by an institutional ethics committee. ",
+    "target": "We left out trials that didn't have a plan or weren't approved by an ethics board.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate‐certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low‐certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low‐certainty evidence).",
+    "target": "Statins make little or no difference in heart attacks and strokes but may slightly lower the risk of irregular heartbeat.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+    "target": "Vitamin D supplements can help pregnant women have healthier pregnancies.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Selection criteria: Randomised and quasi‐randomised trials evaluating the effect of supplementation with vitamin D alone or in combination with other micronutrients for women during pregnancy in comparison to placebo or no intervention. ",
+    "target": "Trials that compare the effect of vitamin D, either alone or combined with other nutrients, on pregnant women to a placebo or no treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of supplementation with vitamin D during pregnancy compared to placebo or no intervention on pre‐eclampsia (risk ratio (RR) 0.53, 95% confidence interval (CI) 0.21 to 1.33; 1 study, 165 women), gestational diabetes (RR 0.53, 95% CI 0.03 to 8.28; 1 study, 165 women), preterm birth (< 37 weeks) (RR 0.76, 95% CI 0.25 to 2.33; 3 studies, 1368 women), nephritic syndrome (RR 0.17, 95% CI 0.01 to 4.06; 1 study, 135 women), or hypercalcaemia (1 study; no cases reported).",
+    "target": "Supplementing with vitamin D during pregnancy seems to reduce the risk of pre-eclampsia and nephritic syndrome, but there's not enough evidence to confirm its effect on gestational diabetes, preterm birth, or hypercalcaemia.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Supplementation with vitamin D during pregnancy may reduce the risk of severe postpartum haemorrhage; however, only one study reported this outcome (RR 0.68, 95% CI 0.51 to 0.91; 1 study, 1134 women; low‐certainty evidence) and may reduce the risk of low birthweight; however, the upper CI suggests that an increase in risk cannot be ruled out (RR 0.69, 95% CI 0.44 to 1.08; 3 studies, 371 infants; low‐certainty evidence). ",
+    "target": "Supplementing with vitamin D during pregnancy may reduce the risk of severe bleeding and low birthweight, but there is not enough reliable information to be sure.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of supplementation with vitamin D and calcium on preterm birth (RR not estimable; very low‐certainty evidence) or for low birthweight (RR 1.45, 95% CI 0.14 to 14.94; very low‐certainty evidence) compared to women who received placebo or no intervention. ",
+    "target": "The effect of vitamin D and calcium on preterm birth is unclear, and there's limited evidence about low birthweight.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+    "target": "A tube that goes into the wrong part of the throat can cause serious pneumonia.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to assess the diagnostic accuracy of ultrasound alone or in combination with other methods for gastric tube placement confirmation in children and adults. ",
+    "target": "The goal was to see how accurately ultrasound can be used on its own or together with other methods to confirm if a gastric tube is placed correctly in both children and adults.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Based on limited evidence, ultrasound does not have sufficient accuracy as a single test to confirm gastric tube placement.",
+    "target": "Ultrasound doesn't accurately confirm gastric tube placement alone.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Our 2009 Cochrane review found that calcium channel blockers (CCBs) improved graft function and prevented graft loss, while the evidence for other BP‐lowering treatments was limited. ",
+    "target": "Our 2009 Cochrane review showed that calcium channel blockers improved transplant success and prevented some failures, but there wasn't much evidence about other blood pressure treatments.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Randomised controlled trials (RCTs) and quasi‐RCTs evaluating any BP‐lowering agent in recipients of a functioning kidney transplant for at least two weeks were eligible",
+    "target": "Trials testing medicines that lower blood pressure in people who have had a kidney transplant for at least two weeks were included.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Compared to placebo or standard care alone, CCBs probably reduce all‐cause death and graft loss.",
+    "target": "CCBs probably reduce death and transplant failures compared to usual treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+    "target": "The effects of CCBs, ACEi or ARB compared to a dummy treatment or usual care alone on heart problems and side effects are unclear.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "For kidney transplant recipients, the use of CCB therapy to reduce BP probably reduces death and graft loss compared to placebo or standard care alone, while ARB may reduce graft loss",
+    "target": "For patients getting a new kidney, taking CCB to lower blood pressure probably saves lives and helps the transplanted kidney last longer than not taking medication, whereas ARB might help the transplant last longer.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+    "target": "Cell transplantation can help fix damaged heart and blood vessel tissue.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Normal pressure hydrocephalus (NPH) occurs when the brain ventricles expand, causing a triad of gait, cognitive, and urinary impairment.",
+    "target": "NPH is a condition where the brain's fluid-filled chambers become enlarged, leading to problems with walking, thinking and bladder control.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "It can occur after a clear brain injury such as trauma, but can also occur without a clear cause (termed idiopathic, or iNPH). ",
+    "target": "It can happen after a head injury. || It can also happen without any known reason.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Non‐randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)‐shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+    "target": "Surgically diverting ventricular fluid to a lower pressure area has been shown to help, but most studies were not random and the results are not yet confirmed by large, well-controlled trials.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "CSF‐shunting probably improves gait speed at less than six months post‐surgery .",
+    "target": "CSF-shunting likely helps patients walk faster within half a year after surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "CSF‐shunting may improve qualitative gait function at less than six months post‐surgery by an uncertain amount ",
+    "target": "CSF-shunting may slightly improve walking ability within six months after surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of CSF‐shunting on cognitive function at less than six months post‐CSF‐shunt surgery.",
+    "target": "The evidence is unclear about how well CSF-shunting improves cognitive function after a short time following CSF-shunt surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Eczema (atopic dermatitis) is the most burdensome skin condition worldwide and cannot currently be prevented or cured. ",
+    "target": "Eczema is a common and difficult-to-cure skin condition that can't be prevented.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to compare and rank the efficacy and safety of topical anti‐inflammatory treatments for people with eczema using a network meta‐analysis. ",
+    "target": "The goal was to compare and evaluate the best treatments for eczema, considering their effectiveness and safety.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included 291 studies involving 45,846 participants with the full spectrum of eczema severity, mainly conducted in high‐income countries in secondary care settings.",
+    "target": "We looked at 291 studies that involved over 45,000 people and covered all levels of eczema severity.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Treatment duration and trial participation were a median of 21 and 28 days (ranging from 7 days to 5 years), respectively.",
+    "target": "The treatment lasted a median of 21 days. || Patients were in trials for a median of 28 days.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short‐term (median 3 weeks, range 1‐16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+    "target": "No study found that using any kind of topical corticosteroid for a short time causes thin skin.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+    "target": "Tobacco use is much more common among people living with HIV.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to assess the benefits, harms and tolerability of interventions for tobacco use cessation among people living with HIV. ",
+    "target": "The goal was to find out whether quitting smoking helps or hurts people with HIV.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included randomised controlled trials (RCTs) of individual‐/group‐level behavioural or pharmacological interventions, or both, for tobacco use cessation, delivered directly to PLWH aged 18 years and over, who use tobacco.",
+    "target": "We studied randomised controlled trials that helped people stop smoking.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "We also included RCTs, quasi‐RCTs, other non‐randomised controlled studies (e.g. controlled before and after studies), and interrupted time series studies of system‐change interventions for tobacco use cessation among PLWH. ",
+    "target": "We also included studies like randomised controlled trials and others where participants were not randomly chosen to help people with HIV stop smoking.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Low‐certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+    "target": "Low-certainty evidence does not show that giving extra help to people living with HIV helps them stop smoking more than just a quick tip or nothing at all.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Moderate‐certainty evidence suggested that varenicline may help more PLWH to quit smoking than placebo with no evidence of heterogeneity.",
+    "target": "Varenicline seems to help people with HIV who smoke to quit.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Low‐certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+    "target": "Low-certainty evidence found no difference between varenicline and a dummy treatment in the number of severe events.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "No studies assessed SAEs for the following: behavioural support plus NRT versus brief advice; varenicline versus NRT and cytisine versus NRT. ",
+    "target": "No studies have looked at side effects for the following: support and NRT compared to brief advice; varenicline compared to NRT, and cytisine compared to NRT.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Repetitive transcranial magnetic stimulation (rTMS) is a non‐invasive therapy involving induction of electrical currents in cortical brain tissue.",
+    "target": "A non-invasive therapy called rTMS involves sending electrical currents to the brain.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Current pharmacological and psychotherapeutic treatments for PTSD are associated with inadequate symptom improvement and high dropout rates. ",
+    "target": "Current treatments for PTSD often don't work well and people stop going to therapy.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of active rTMS on serious adverse events.",
+    "target": "The evidence is unclear about the effect of active rTMS on serious side effects.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  }
+]

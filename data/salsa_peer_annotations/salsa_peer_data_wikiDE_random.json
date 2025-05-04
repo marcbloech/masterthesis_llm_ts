@@ -1,0 +1,92 @@
+[
+  {
+    "source": "Auch wenn ihn seine Arbeit als Apotheker davon abhielt, viel zu verreisen, unterhielt er ganze Reihe von Briefkontakten, unter anderem mit dem Züricher Botaniker Conrad Gessner und dem Nürnberger Arzt und Botaniker Joachim Camerarius dem Jüngeren.",
+    "target": "Auch wenn ihn seine Arbeit als Apotheker davon abhielt, viel zu verreisen, unterhielt er ganze Reihe von Briefkontakten mit den Jüngeren.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MBART"
+    },
+    "edits": []
+  },
+  {
+    "source": "Am 22. März 1985 unterzeichnete die Europäische Gemeinschaft gemeinsam mit mehreren Mitgliedstaaten das Wiener Übereinkommen zum Schutz der Ozonschicht und darauf folgend am 16. September 1987 auch das Montrealer Protokoll.",
+    "target": "Die Europäische Gemeinschaft und einige ihrer Mitgliedsstaaten unterzeichneten 1985 ein Abkommen, um die Ozonschicht zu schützen. || Darauf folgte 1987 noch ein weiteres Abkommen in Montreal.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Zusätzlich zu den drei Disziplinen wird im Level Elite der Mehrkampf angeboten.",
+    "target": "Im Level Elite gibt es zusätzlich einen Mehrkampf.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "In den Wäldern leben Rehe, Wildschweine und Füchse, während die Wiesen und Felder Lebensraum für Vogelarten wie Rotkehlchen, Meisen und Bussarde bieten",
+    "target": "In den Wäldern leben Rehe, Wildschweine und Füchse. || Die Wiesen und Felder sind Lebensraum für Vogelarten wie Rotkehlchen, Meisen und Bussarde.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MBART"
+    },
+    "edits": []
+  },
+  {
+    "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+    "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Der Tag wurde als Wendepunkt in der Entwicklung der Unruhen angesehen, jedoch noch nicht als das Ende dieser Vorkommnisse, zumal der relativ friedliche Verlauf dieses Tages möglicherweise hauptsächlich der Abschreckung durch die hohe Polizeipräsenz und durch die ersten Gefängnisstrafen, die für Gewalttäter verhängt worden waren, zu verdanken war.",
+    "target": "Der Tag wurde als Wendepunkt der Unruhen betrachtet, aber noch nicht als ihr Ende. || Der friedliche Verlauf des Tages lag wahrscheinlich an der starken Polizeipräsenz und den ersten Gefängnisstrafen für Gewalttäter.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Am 31. Juli 2024 kam es bei einer Demonstration unter dem Motto „Enough is enough“ („Genug ist genug“) nahe der Londoner Downing Street, dem Amtssitz des Premierministers, zu gewaltsamen Ausschreitungen zwischen Rechtsradikalen und der Polizei, bei denen über 100 Demonstranten vorübergehend festgenommen wurden.",
+    "target": "Am 31. Juli 2024 kam es bei einer „Genug ist genug“-Demonstration nahe der Downing Street in London zu Gewalt zwischen Rechtsradikalen und der Polizei. || Über 100 Demonstranten wurden vorübergehend festgenommen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Nach dem Bankrott des Handelshauses von Franz von Gumer 1799 und der Zahlungsunfähigkeit von Joseph und Philipp von Gumer 1817 verlor die Familie größtenteils ihr Vermögen und Güter, darunter auch den Landsitz der Gumer, das später sogenannte Toggenburghaus im Weiler Maria Himmelfahrt am Ritten, welches 1818 der Gumer’schen Nichte Annette von Menz aus der Konkursmasse zufiel.",
+    "target": "Nach dem Bankrott des Handelshauses von Franz von Gumer 1799 und der Zahlungsunfähigkeit von Joseph und Philipp von Gumer 1817 verlor die Familie ihr Vermögen. || Sie verloren auch den Landsitz, das Toggenburghaus, das 1818 an ihre Nichte Annette von Menz ging.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Von der Vorläuferbauart wurde auch die Länge über Puffer von 21,72 Metern übernommen, was gegenüber den Anfang der zwanziger Jahre beschafften Fahrzeugen die Vergrößerung der Abteile ermöglichte, teilweise wurde aber auch die Abteilanzahl leicht erhöht.",
+    "target": "Die Länge über Puffer von 21,72 Metern wurde von der Vorläuferbauart übernommen, was größere Abteile ermöglichte. || Manchmal wurde auch die Anzahl der Abteile leicht erhöht.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Unternehmen müssen die Emissionen von geregelten Stoffen in die Umwelt verhindern oder auf ein Mindestmaß reduzieren.",
+    "target": "Die Firmen müssen die Emissionen von geregelten Stoffen in die Umwelt verhindern.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MBART"
+    },
+    "edits": []
+  }
+]

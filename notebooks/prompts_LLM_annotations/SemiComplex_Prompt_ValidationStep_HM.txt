@@ -1,0 +1,63 @@
+You are part of a text simplification research project.
+Please validate the extracted CSV/output content that is provided below and convert it
+to the specified JSON data model. Additionally, verify the correct handling of split edits as explained below.
+
+JSON data model:
+{
+     "source": "<Original complex sentence>",
+     "target": "<Simplified sentence>",
+     "edits": [
+     {
+     "category": "<Edit type: Deletion, Insertion, Substitution, Reordering, Split, Structural>",
+     "input_text": "<Affected words (if any) in the original sentence>",
+     "output_text": "<Affected words (if any) in the simplified sentence>",
+     "quality": "<Quality rating: good, bad, or trivial>",
+     "significance": <Significance level: 0 (trivial), 1 (minor), 2 (somewhat), 3 (a lot)>
+     }
+     ]
+}
+
+Important Note About input_text and output_text:
+If the edit affects a continuous span of words, store them as a single string inside the array.
+Example: ["The quick brown fox"], NOT ["The", "quick", "brown", "fox"].
+If multiple non-sequential segments are affected, store them as separate strings inside the array.
+Example: ["The quick", "fox"].
+Very important: Every single edit MUST have associated word(s) or spans of words, even splits or structure changes. Never indicate an edit operation that has not at least either an input or output text part associated with it.
+A note about splits: If the input annotations have marked entire spans of a sentence as affected by a split, you have permission to change it.
+Example: 
+- Wrong annotation: input_text: ["jumped over the bridge and later ran across the"] output_text: ["jumped over the bridge. || He later ran across the"]
+- Correct annotation: input_text: ["and"] output_text: ["|| He"]
+
+Example Final Output:
+{
+  "source": "Many volatile organic chemicals are increasing in abundance in the lower troposphere.",
+  "target": "Many organic chemicals, which harm the environment, are increasing in the troposphere.",
+  "edits": [
+    {
+      "category": "Deletion",
+      "id": 1,
+      "input_text": ["volatile"],
+      "output_text": [],
+      "quality": "good",
+      "significance": 2
+    },
+    {
+      "category": "Insertion",
+      "id": 2,
+      "input_text": [],
+      "output_text": ["which harm the environment"],
+      "quality": "good",
+      "significance": 2
+    },
+    {
+      "category": "Substitution",
+      "id": 3,
+      "input_text": ["in abundance in the lower troposphere"],
+      "output_text": ["in the troposphere"],
+      "quality": "bad",
+      "significance": 3
+    }
+  ]
+}
+
+Actual data to convert:

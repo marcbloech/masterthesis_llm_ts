@@ -1,0 +1,452 @@
+[
+  {
+    "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+    "target": "The TEP technique might have a higher chance of needing to switch to another hernia repair method like TAPP or open surgery compared to TAPP.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "An inguinal hernia occurs when part of the intestine protrudes through the abdominal muscles. ",
+    "target": "An inguinal hernia happens when part of the intestine pushes through the stomach muscles.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "There may be little to no difference between TAPP and TEP laparoscopic techniques for serious adverse events and hernia recurrence.",
+    "target": "TAPP and TEP laparoscopic techniques may have little to no difference in serious side effects and hernia recurrence.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP.",
+    "target": "TEP technique might have a higher chance of switching to another hernia repair method (either TAPP or open surgery) compared to TAPP.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "CBT may result in a small‐to‐moderate reduction of anxiety post‐treatment (SMD ‐0.51, 95% CI ‐0.66 to ‐0.36, low‐certainty evidence). ",
+    "target": "CBT may slightly to moderately reduce anxiety after treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "However, compared to this benefit with CBT immediately after treatment, at three to six months post‐treatment, there was little to no difference between CBT and minimal management (SMD ‐0.29, 95% CI ‐0.59 to 0.01, low‐certainty evidence).",
+    "target": "However, three to six months after treatment, there was little to no difference between CBT and minimal management.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "CBT may result in a reduction of comorbid depression symptoms post‐treatment (SMD ‐0.57, 95% CI ‐0.74 to ‐0.40, low‐certainty evidence).",
+    "target": "CBT may reduce depression symptoms after treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+    "target": "There is not enough proof to know if CBT works better than other therapies for anxiety in older adults.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "To assess the effects of Cognitive Behavioural Therapy (CT, BT, CBT and third‐wave CBT interventions) on severity of anxiety symptoms compared with minimal management (not providing therapy) for anxiety and related disorders in older adults, aged 55 years or over. ",
+    "target": "The study looks at how Cognitive Behavioural Therapy affects anxiety symptoms in adults aged 55 or older. || It compares this therapy to minimal management, which means not providing therapy.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+    "target": "Doctors can use both percutaneous (through the skin) and surgical methods with albendazole to treat simple liver cysts caused by echinococcosis. || However, there is little evidence from random studies that compare these treatments directly.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "To evaluate the benefits and harms of preoperative statin therapy in adults undergoing cardiac surgery compared to standard of care or placebo. ",
+    "target": "To compare the benefits and risks of taking statins before heart surgery with standard care or a placebo.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included all randomised controlled trials (RCTs) comparing any statin treatment before cardiac surgery, for any given duration and dose, versus no preoperative statin therapy (standard of care) or placebo. ",
+    "target": "We included all randomized controlled trials comparing statin treatment before heart surgery with no statin treatment or a placebo.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We excluded trials without a registered trial protocol and trials without approval by an institutional ethics committee. ",
+    "target": "We excluded trials without a registered protocol and ethics committee approval.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate‐certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low‐certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low‐certainty evidence).",
+    "target": "Statins likely make little to no difference in heart attacks, may make little to no difference in atrial fibrillation, and may make little to no difference in strokes.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+    "target": "Taking vitamin D supplements during pregnancy can help improve the health of mothers and babies. || It can lead to fewer preterm births, fewer low birthweight babies, and reduce the risk of severe bleeding after birth.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Selection criteria: Randomised and quasi‐randomised trials evaluating the effect of supplementation with vitamin D alone or in combination with other micronutrients for women during pregnancy in comparison to placebo or no intervention. ",
+    "target": "We selected trials that looked at the effect of vitamin D supplements, with or without other nutrients, on pregnant women. || These trials compared the supplements to a placebo or no treatment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of supplementation with vitamin D during pregnancy compared to placebo or no intervention on pre‐eclampsia (risk ratio (RR) 0.53, 95% confidence interval (CI) 0.21 to 1.33; 1 study, 165 women), gestational diabetes (RR 0.53, 95% CI 0.03 to 8.28; 1 study, 165 women), preterm birth (< 37 weeks) (RR 0.76, 95% CI 0.25 to 2.33; 3 studies, 1368 women), nephritic syndrome (RR 0.17, 95% CI 0.01 to 4.06; 1 study, 135 women), or hypercalcaemia (1 study; no cases reported).",
+    "target": "The evidence is not clear about how vitamin D supplements during pregnancy affect pre‐eclampsia, gestational diabetes, preterm birth, nephritic syndrome, or hypercalcaemia.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Supplementation with vitamin D during pregnancy may reduce the risk of severe postpartum haemorrhage; however, only one study reported this outcome (RR 0.68, 95% CI 0.51 to 0.91; 1 study, 1134 women; low‐certainty evidence) and may reduce the risk of low birthweight; however, the upper CI suggests that an increase in risk cannot be ruled out (RR 0.69, 95% CI 0.44 to 1.08; 3 studies, 371 infants; low‐certainty evidence). ",
+    "target": "Taking vitamin D during pregnancy might lower the risk of severe bleeding after birth, based on one study with 1134 women. || It might also reduce the risk of low birthweight in babies, but it is not certain because the data is unclear.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of supplementation with vitamin D and calcium on preterm birth (RR not estimable; very low‐certainty evidence) or for low birthweight (RR 1.45, 95% CI 0.14 to 14.94; very low‐certainty evidence) compared to women who received placebo or no intervention. ",
+    "target": "The evidence is unclear if taking vitamin D and calcium affects preterm birth or low birthweight compared to taking a placebo or doing nothing.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+    "target": "Feeding through a tube in the wrong place in the trachea can cause serious pneumonia.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to assess the diagnostic accuracy of ultrasound alone or in combination with other methods for gastric tube placement confirmation in children and adults. ",
+    "target": "The goal was to check how well ultrasound alone or with other methods could confirm the placement of a gastric tube in children and adults.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Based on limited evidence, ultrasound does not have sufficient accuracy as a single test to confirm gastric tube placement.",
+    "target": "Ultrasound alone is not accurate enough to confirm the placement of a gastric tube.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Our 2009 Cochrane review found that calcium channel blockers (CCBs) improved graft function and prevented graft loss, while the evidence for other BP‐lowering treatments was limited. ",
+    "target": "Our 2009 Cochrane review found that calcium channel blockers (CCBs) improved graft function and prevented graft loss, while the evidence for other blood pressure-lowering treatments was limited.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Randomised controlled trials (RCTs) and quasi‐RCTs evaluating any BP‐lowering agent in recipients of a functioning kidney transplant for at least two weeks were eligible",
+    "target": "Randomized controlled trials (RCTs) and quasi-RCTs testing any blood pressure-lowering drug in kidney transplant patients for at least two weeks were eligible.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Compared to placebo or standard care alone, CCBs probably reduce all‐cause death and graft loss.",
+    "target": "Compared to placebo or standard care, CCBs probably lower the chances of death and graft loss.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+    "target": "The effects of CCBs, ACEi, or ARB compared to placebo or standard care on heart problems (such as heart attacks and strokes) or other side effects were unclear.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "For kidney transplant recipients, the use of CCB therapy to reduce BP probably reduces death and graft loss compared to placebo or standard care alone, while ARB may reduce graft loss",
+    "target": "For kidney transplant recipients, using CCB therapy to lower blood pressure likely lowers the chance of death and graft loss more than a placebo or standard care alone, while ARB may reduce graft loss.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+    "target": "Cell transplantation might help fix and regrow damaged heart and blood vessels after a heart attack.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Normal pressure hydrocephalus (NPH) occurs when the brain ventricles expand, causing a triad of gait, cognitive, and urinary impairment.",
+    "target": "Normal pressure hydrocephalus (NPH) happens when the brain ventricles grow larger. || This causes problems with walking, thinking, and urinating.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "It can occur after a clear brain injury such as trauma, but can also occur without a clear cause (termed idiopathic, or iNPH). ",
+    "target": "It can happen after a clear brain injury like trauma or without a clear cause, called idiopathic or iNPH.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Non‐randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)‐shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+    "target": "Non-randomized studies have shown that CSF-shunting surgery benefits iNPH, but there have been few randomized controlled trials to confirm this.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "CSF‐shunting probably improves gait speed at less than six months post‐surgery .",
+    "target": "CSF-shunting probably makes walking faster within six months after surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "CSF‐shunting may improve qualitative gait function at less than six months post‐surgery by an uncertain amount ",
+    "target": "CSF-shunting may improve walking quality within six months after surgery, but the improvement amount is unsure.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of CSF‐shunting on cognitive function at less than six months post‐CSF‐shunt surgery.",
+    "target": "The evidence is unclear about how CSF-shunting affects cognitive function within six months after the surgery.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Eczema (atopic dermatitis) is the most burdensome skin condition worldwide and cannot currently be prevented or cured. ",
+    "target": "Eczema (atopic dermatitis) is the most serious skin condition in the world. || Right now, it cannot be prevented or cured.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to compare and rank the efficacy and safety of topical anti‐inflammatory treatments for people with eczema using a network meta‐analysis. ",
+    "target": "The goal was to compare and rank how well and how safely different topical anti-inflammatory treatments work for people with eczema using a network meta-analysis.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included 291 studies involving 45,846 participants with the full spectrum of eczema severity, mainly conducted in high‐income countries in secondary care settings.",
+    "target": "We included 291 studies with 45,846 participants who had different levels of eczema severity. || Most of the studies were done in high-income countries in secondary care settings.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Treatment duration and trial participation were a median of 21 and 28 days (ranging from 7 days to 5 years), respectively.",
+    "target": "The treatment lasted a median of 21 days, and the trial participation lasted a median of 28 days. || Both ranged from 7 days to 5 years.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short‐term (median 3 weeks, range 1‐16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+    "target": "A study of 25 trials found no evidence of increased skin thinning with short-term use (average 3 weeks) of mild, moderate, potent, or very potent TCS. || Confidence in these results was low.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+    "target": "People living with HIV (PLWH) use tobacco up to four times more than the general population.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The objective was to assess the benefits, harms and tolerability of interventions for tobacco use cessation among people living with HIV. ",
+    "target": "The goal was to check the benefits, harms, and comfort of treatments to help people with HIV stop using tobacco.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We included randomised controlled trials (RCTs) of individual‐/group‐level behavioural or pharmacological interventions, or both, for tobacco use cessation, delivered directly to PLWH aged 18 years and over, who use tobacco.",
+    "target": "We included randomized trials of behavioral or drug treatments, or both, to help people aged 18 and over with HIV quit smoking tobacco.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We also included RCTs, quasi‐RCTs, other non‐randomised controlled studies (e.g. controlled before and after studies), and interrupted time series studies of system‐change interventions for tobacco use cessation among PLWH. ",
+    "target": "We also included RCTs, quasi‐RCTs, other non‐randomized controlled studies (like controlled before and after studies), and interrupted time series studies about system-change interventions to help PLWH stop using tobacco.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Low‐certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+    "target": "Low‐certainty evidence did not show that behavioral support helped PLWH quit smoking compared to brief advice or no help.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Moderate‐certainty evidence suggested that varenicline may help more PLWH to quit smoking than placebo with no evidence of heterogeneity.",
+    "target": "Moderate-certainty evidence suggested that varenicline may help more people living with HIV to quit smoking than a placebo, with no differences between groups.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Low‐certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+    "target": "Low-certainty evidence found no difference between varenicline and placebo in the number of participants with serious side effects (SAEs).",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "No studies assessed SAEs for the following: behavioural support plus NRT versus brief advice; varenicline versus NRT and cytisine versus NRT. ",
+    "target": "No studies checked serious side effects for these comparisons: behavioral support plus NRT versus brief advice; varenicline versus NRT; and cytisine versus NRT.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Repetitive transcranial magnetic stimulation (rTMS) is a non‐invasive therapy involving induction of electrical currents in cortical brain tissue.",
+    "target": "Repetitive transcranial magnetic stimulation (rTMS) is a non-invasive therapy that uses electrical currents in the brain.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Current pharmacological and psychotherapeutic treatments for PTSD are associated with inadequate symptom improvement and high dropout rates. ",
+    "target": "Current drug and therapy treatments for PTSD do not improve symptoms enough and have many dropouts.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The evidence is very uncertain about the effect of active rTMS on serious adverse events.",
+    "target": "The evidence about the effect of active rTMS on severe side effects is very unsure.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  }
+]

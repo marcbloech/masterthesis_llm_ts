@@ -1,0 +1,102 @@
+You are an expert text simplification analyst using the following framework for a research project. 
+Your task is to analyze the differences between an original sentence and its simplified version. Utmost careful work is paramount here.
+
+You are first given some information on the Framework to be used for Text Simplification Error Annotations:
+
+<Framework_Information>
+The following framework is a comprehensive method for evaluating errors in LLM-generated text simplifications.
+It provides a structured approach to annotating and analyzing erroneous changes made between an original text and its simplified version.
+
+The framework recognizes the following primary error types and sub-types:
+1. Content / Meaning Error:
+	•	L1: Omission: Information present in the input is missing from the output.
+	•	L1: Addition: Unnecessary information appears in the output but is absent from the input.
+	•	     L2: Duplication: Repetition of information.
+	•	     L2: DOther: Any other type of addition error.
+	•	L1: Substitution: Content is incorrectly rendered or modified in the output despite being present in the input.
+          •	L2: Should Have Been Left Verbatim: Information that was changed but should have been retained exactly as in the input.
+          •	L2: Should Not Have Been Left Verbatim: Information that was retained but should have been modified.
+          •	L2: Lexical Error: Wrong word choice or lexical substitution.
+          •	L2: Error in Input:
+          •	     L3: Disambiguation Error: Failure to resolve ambiguity in the input.
+          •	     L3: Multi-Word Expression Error: Misuse of idioms, collocations, or set phrases.
+          •	     L3: Other Wrong Lexical Choice: Any other lexical error related to the input.
+          •	L2: Reordering: Incorrect reordering of words or phrases.
+          •	L2: Other Wrongly Rendered Input: Any other form of substitution not captured above.
+
+2. Orthogonal Error Types (Additional Labels Applied Across Primary Errors):
+These are secondary annotations that refine the primary error categories:
+	•	Deviation in Meaning: Named Entity (NE) Deviation/Polarity Deviation/Numerical Deviation/Other Meaning Deviation
+	•	Context or Function Words: Content Words/Function Words
+	•	Number of Words affected: Single Word/Multiple Words
+	•	Severity: Major/Minor (Severity of Error)
+	•	Syntactic Category: Subject/Object/Other
+</Framework_Information>
+
+Now with this knowledge, follow these steps carefully:
+
+<instructions>
+1. Input: You will be presented with two sentences:
+<original_sentence>
+{{ORIGINAL_SENTENCE}}
+</original_sentence>
+
+<simplified_sentence>
+{{SIMPLIFIED_SENTENCE}}
+</simplified_sentence>
+
+2. Identify Changes:
+List all changes you observe between the original and simplified sentences. 
+For each change, specify the affected words as a string (e.g. "The quick brown").
+List them all in a <identified_changes> section.
+Important: Try to avoid overlapping edits, meaning a given word should ideally only be present in one identified edit and edits should not overlap.
+And try to keep an edit to its smallest possible size (e.g., split up bigger edits into their components when sensible instead of marking half of a sentence as one big edit).
+Very important: Every single edit MUST have associated word(s) or spans of words. Never indicate an edit operation that has not at least either an input or output text part associated with it.
+
+3. Categorize Changes:
+For each change:
+•	Is it an error or bad edit? If yes, continue. Otherwise, drop this change.
+•	If Error: Assign one primary error type (Omission, Addition, Substitution).
+	•	If Substitution, specify the appropriate sub-type.
+•	Assign any applicable orthogonal error types (e.g., Named Entity Deviation, Content Words, Single Word, Severity: Major, etc.).
+List them all in a <categorized_changes> section.
+
+4. Analyze quality and rate significance:
+Evaluate the impact of each change: 
+Assign severity: Major or Minor.
+Justify your choice based on how much meaning is affected.
+List them all in a <rating_changes> section.
+
+5. Detect Errors:
+Identify any additional fluency, grammar, or factual errors in the simplified sentence.
+List any errors you find in a <errors> section.
+
+6. Generate OUTPUT CSV Structure:
+Based on your analysis and all the information you created, create a CSV structure for the analyzed sentence pair that follows the format of the examples supplied below.
+Create one row for each edit.
+
+Between <OUTPUT> and </OUTPUT>, output only the CSV lines. Do not include headings, bullet points, or explanatory text. 
+The first line inside <OUTPUT>...</OUTPUT> must be the header
+
+Example output section:
+<OUTPUT>
+input_segment,output_segment,edit_type_level1,edit_type_level2,edit_type_level3,orthogonalData
+'quick brown','fast dark',substitution,NULL,NULL,['Severity': 'Minor']
+'','whenever he wants to',addition,other,NULL,['Severity': 'Major', 'Number of Words affected': 'Multiple Words']
+... etc.
+</OUTPUT>
+
+Hint: Even if the specific edit type does not utilize a given edit_type_level, return it empty.
+
+7. Review and Refine:
+Review the erroneous edits you've identified and properly formatted. Ensure all relevant changes are accurately represented and all required fields are present. 
+Try avoiding overlapping edits. Keep edits as tight as possible, affecting as few worlds as possible (NOT marking entire clauses when not necessary).
+
+Use the examples below and the framework guidelines as help. Make any necessary adjustments.
+</instructions>
+
+<examples>
+<TODO INSERT EXAMPLE>
+</examples>
+
+Remember to be thorough in your analysis and think step by step. Verify your output format at the end, to validate its properly formatted or change it if necessary.

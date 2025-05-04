@@ -1,0 +1,452 @@
+[
+  {
+    "source": "Am 22. März 1985 unterzeichnete die Europäische Gemeinschaft gemeinsam mit mehreren Mitgliedstaaten das Wiener Übereinkommen zum Schutz der Ozonschicht und darauf folgend am 16. September 1987 auch das Montrealer Protokoll.",
+    "target": "Die Europäische Gemeinschaft und einige ihrer Mitgliedsstaaten unterzeichneten 1985 ein Abkommen, um die Ozonschicht zu schützen. || Darauf folgte 1987 noch ein weiteres Abkommen in Montreal.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Im folgenden Jahr wurde die VERORDNUNG (EWG) Nr. 3322/88, als erste europäische Verordnung zur Regelung ozonschädigender Stoffe verabschiedet.",
+    "target": "Mit der Verordnung Nr. || 3322/88 wurde zum ersten Mal eine europäische Verordnung zur Regelung von Stoffen, die das Ozon schaden können, erlassen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Zur Anpassung an die Änderungen des Montrealer Protokolls wurden durch nachfolgende Verordnungen die geregelten Substanzen immer weiter ergänzt und Ein- und Ausfuhr, Produktion und Verwendung weiter eingeschränkt, Fristen verkürzt und Substanzen letztendlich verboten.",
+    "target": "Die EU änderte ihr Montrealer Protokoll mehrmals. || Dabei wurde es strenger gemacht. || So wurden neue Schadstoffe hinzugefügt und die Produktion, Einfuhr und Verwendung bereits regulierter Substanzen begrenzt. || Außerdem wurden Fristen verkürzt und einige der Schadstoffe verboten.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Unternehmen müssen die Emissionen von geregelten Stoffen in die Umwelt verhindern oder auf ein Mindestmaß reduzieren.",
+    "target": "Unternehmen müssen die Schadstoffe, die sie freisetzen, minimieren oder ganz vermeiden.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Francesco Calzolari stammte aus einer alteingesessenen Veroneser Familie, die sich bereits im 13. Jahrhundert unter Ezzelino da Romano einen Namen gemacht hatte.",
+    "target": "Francesco Calzolari kam aus einer alten Familie in Verona. || Seine Familie war schon im 13. || Jahrhundert bekannt, weil sie dem italienischen Herrscher Ezzelino da Romano geholfen hatte.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Francescos kindliche Neugierde beschränkte sich aber nicht nur auf die Botanik, auch Mineralien, Fossilien, und Insekten weckten sein Interesse, die er bei seinen Wanderungen mit seinem Vater sammelte.",
+    "target": "Francesco war sehr neugierig. || Er interessierte sich nicht nur für Pflanzen, sondern auch für Steine, alte Tierknochen und Insekten. || Wenn er mit seinem Vater durch die Natur ging, sammelte er all diese Dinge.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Apotheke seines Vaters wurde auch von Gelehrten aufgesucht, die dort ihre Meinungen und Erkenntnisse austauschten und die einen entscheidenden Einfluss auf den aufgeweckten, jungen Francesco Calzolari ausübten.",
+    "target": "In der Apotheke seines Vaters trafen sich Gelehrte. || Sie teilten ihre Gedanken und Entdeckungen mit einander und hatten großen Einfluss auf den jungen Francesco Calzolari.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Calzolari trat in die Fußstapfen seines Vaters und widmete sich mit Hingabe seiner Arbeit in der Apotheke, deren Leitung er übernahm.",
+    "target": "Nachdem sein Vater aus dem Geschäft ausgestiegen war, übernahm Calzolari dessen Position als Apothekeneigentümer. || Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Auch wenn ihn seine Arbeit als Apotheker davon abhielt, viel zu verreisen, unterhielt er ganze Reihe von Briefkontakten, unter anderem mit dem Züricher Botaniker Conrad Gessner und dem Nürnberger Arzt und Botaniker Joachim Camerarius dem Jüngeren.",
+    "target": "Trotz seiner Arbeit als Apotheker hatte er viele Briefkontakte. || Dazu gehörten der Züricher Botaniker Conrad Gessner und der Nürnberger Arzt und Botaniker Joachim Camerarius dem Jüngeren.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Um den Monte Baldo noch näher zu sein, ließ sich Calzolari in Rivoli Veronese am südlichen Rand der Bergkette ein Landhaus errichten.",
+    "target": "Calzolari ließ sich in Rivoli Veronese ein Haus an der Bergkette Monte Baldo bauen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Es gilt als erstes und ältestes Naturkundemuseum der Welt und ist erstmals 1554 dokumentiert, als Aldrovandi das von ihm als Naturae Theatrum beschriebene Museum besuchte.",
+    "target": "Es ist das erste Naturkundemuseum der Welt. || Es wurde 1554 zum ersten Mal erwähnt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Diese kostete nur 20 Pfennig (ab 1871) und war damit die billigste und auflagenstärkste deutsche Buchreihe.",
+    "target": "Diese Buchserie war sehr billig, nämlich nur 20 Pfennig teuer, und sie wurde oft gedruckt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Im Mittelalter lag südöstlich des heutigen Hofguts eine Burg, von der heute nur noch der Burgstall erhalten ist.",
+    "target": "Südöstlich vom heutigen Hofgut stand im Mittelalter eine Burg. || Heute sind noch die Überreste dieser Burg, genannt Burgstall, übrig.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs wurde am oberen Froschweiher das städtische Freibad eingerichtet, dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden.",
+    "target": "Nach dem Ersten Weltkrieg richtete die Stadt Weingarten an einem See ein neues Freibad ein. || Es wurde auf einer Stelle eingerichtet, wo zuvor schon ein kleineres Bad gestanden hatte.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "In den Wäldern um Nessenreben findet man häufig Buchen, Eichen und Fichten",
+    "target": "In den Wäldern um Nessenreben wachsen häufig Buchen, Eichen und Fichten.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "In den Wäldern leben Rehe, Wildschweine und Füchse, während die Wiesen und Felder Lebensraum für Vogelarten wie Rotkehlchen, Meisen und Bussarde bieten",
+    "target": "In den Wäldern leben Rehe, Wildschweine und Füchse. || Die Wiesen und Felder sind dagegen Lebensraum für Vögel wie Rotkehlchen, Meisen und Bussarden.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Schweiz ist auch Mitgründer des Internationalen Rhönradturn-Verbandes (IRV), welcher 1995 gegründet wurde und seinen Sitz in Bern hat.",
+    "target": "Die Schweiz ist ein Gründungsmitglied der Firma IRV. || Sie hat ihren Hauptsitz in Bern und wurde 1995 ins Leben gerufen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Zusätzlich zu den drei Disziplinen wird im Level Elite der Mehrkampf angeboten.",
+    "target": "Im Level Elite gibt es zusätzlich einen Mehrkampf.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "An den vier Qualifikationswettkämpfen können sich die besten Turner und Turnerinnen für die Schweizer Meisterschaft im März / April qualifizieren.",
+    "target": "Die besten Turner und Turnerinnen qualifizieren sich für die Schweizer Meisterschaft. || Dazu nehmen sie an vier Qualifikationswettkämpfen teil. || Die Meisterschaft findet dann im März bzw. || April statt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "An der Schweizer Meisterschaft wird jeweils auch bekannt gegeben, wer die Schweiz an den Weltmeisterschaften vertreten darf.",
+    "target": "Die Schweizer Meisterschaft bestimmt, welche Athletinnen und Athleten für die Schweiz an den Weltmeisterschaften teilnehmen dürfen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Premiere der deutschen Produktion mit Vishka Asayesh in der Hauptrolle als iranische Menschenrechtsaktivistin auf Freigang ist im September 2024 beim Toronto International Film Festival geplant.",
+    "target": "Vishka Asayesh soll im September 2024 bei dem Filmfestival in Toronto eine deutsche Produktion spielen. || Sie spielt dort eine iranische Menschenrechtsaktivistin, die auf Freigang ist.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Als der inhaftierten iranischen Menschenrechtsaktivistin Maryam aus medizinischen Gründen ein siebentägiger Ausgang gewährt wird, hat sie die Chance, gemeinsam mit ihrer Familie aus dem Iran zu fliehen.",
+    "target": "Maryam, eine iranische Menschenrechtsaktivistin, kann ihre Familie und sich selbst verlassen, wenn sie nach einem kurzen Aufenthalt im Gefängnis freikommt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Der ebenfalls in Teheran geborenene Majid Bakhtiari, zuletzt in Filmen wie Morgen sind wir frei von Hossein Pourseifi und Rheingold von Fatih Akin zu sehen, spielt Behnam.",
+    "target": "Majid Bakhtiari, der auch in Filmen wie \"Rheingold\" mitgespielt hat, spielt Behnam.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Gumer kamen durch zwei Handelsunternehmen zu Reichtum und Wohlstand und zählten über Jahrhunderte zu den wirtschaftlich und politisch einflussreichsten Familien der Stadt.",
+    "target": "Durch Handel wurden die Gumer reich und zählten lange Zeit zu den bedeutendsten Familien in der Stadt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Durch Einheirat waren die Gumer mit anderen altansässigen Bozner Kaufmannsfamilien versippt und verschwägert.",
+    "target": "Die Familie Gumer war durch Heiraten mit anderen wichtigen Familien in der Stadt Bozen verbunden.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "In Folge des Firmenkonkurses von 1799 und 1817 büßten die Gumer zum größten Teil ihr Vermögen und Liegenschaften ein.",
+    "target": "In den Jahren 1799 und 1817 verloren die Gumer ihre Eigentumsrechte und Geld.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Nach dem Bankrott des Handelshauses von Franz von Gumer 1799 und der Zahlungsunfähigkeit von Joseph und Philipp von Gumer 1817 verlor die Familie größtenteils ihr Vermögen und Güter, darunter auch den Landsitz der Gumer, das später sogenannte Toggenburghaus im Weiler Maria Himmelfahrt am Ritten, welches 1818 der Gumer’schen Nichte Annette von Menz aus der Konkursmasse zufiel.",
+    "target": "Nach dem Bankrott der Familie Gumer verloren sie größtenteils ihr Vermögen und ihre Güter. || Der Familienbesitz, das Toggenburghaus, ging an eine Verwandte.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Nach der österreichischen Rückeroberung Tirols zog er sich 1814 nach Italien zurück und starb in Trient als Gubernialrat.",
+    "target": "Nachdem Österreich Tirol wieder zurückerobert hatte, zog er sich 1814 nach Italien zurück. || Dort starb er in Trient als Gubernialrat.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Am 9. August 2024 stürzte das Flugzeug, eine ATR 72-500, etwa 90 Minuten nach seinem Start in Vinhedo nordwestlich von São Paulo ab.",
+    "target": "Das Flugzeug stürzte am 9. || August 2024 nordwestlich von São Paulo ab. || Es war etwa 90 Minuten nach dem Start in Vinhedo.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Im März 2024 wurde das Flugzeug durch einen Tailstrike beschädigt und kam nach Reparaturarbeiten erst am 9. Juli wieder zum regulären Einsatz.",
+    "target": "Am 9. || Juli war ein Flugzeug endlich wieder voll einsatzfähig, nachdem es im März 2024 einen Schaden durch eine zu starke Rückstoßkraft erlitten hatte.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Das Flugzeug war laut VoePass „ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit“.",
+    "target": "Laut dem Unternehmen VoePass war das Flugzeug startbereit.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die im Februar 2011 in den Systems Two Studios, Brooklyn, entstandenen Aufnahmen erschienen 2011 auf dem Label Grizzley Music.",
+    "target": "Im Jahr 2011 wurden die Songs in einem Studio in Brooklyn aufgenommen. || Sie erschienen dann auf dem Label Grizzley Music.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Das Album entstand als Tribut an den 2011 verstorbenen Schlagzeuger, Bandleader und Komponisten Paul Motian.",
+    "target": "Das Album wurde als Tribute an den 2011 verstorbenen Schlagzeuger Paul Motian gemacht.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+    "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Einheits-Schnellzugwagen Bauart 28 sind eine Serie von Schnellzugwagen, die von der Deutschen Reichsbahn-Gesellschaft ab 1928 in mehreren Serien nach einheitlichen Zeichnungen (Austauschbauart) beschafft wurden.",
+    "target": "Die Deutsche Reichsbahn-Gesellschaft beschaffte Schnellzugwagen nach einer einheitlichen Bauart von 1928 an.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Von der Vorläuferbauart wurde auch die Länge über Puffer von 21,72 Metern übernommen, was gegenüber den Anfang der zwanziger Jahre beschafften Fahrzeugen die Vergrößerung der Abteile ermöglichte, teilweise wurde aber auch die Abteilanzahl leicht erhöht.",
+    "target": "Die neue Bauart hatte ein Längen von 21,72 Metern. || Damit konnten die Wagenabteile größer werden, manche Züge hatten sogar mehr Abteile als zuvor.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die für den Fährverkehr nach Schweden und Dänemark vorgesehenen Wagen erhielten Drehgestelle amerikanischer Bauart, Trossenösen an den Langträgern und Scheuerleisten mit Ösen auf dem Dach.",
+    "target": "Die Wagen für die Fähre nach Schweden und Dänemark erhielten amerikanische Drehgestelle. || Außerdem wurden Trossenösen an den Langträgern und Scheuerleisten mit Ösen auf dem Dach installiert.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Gepäckwagen der Bauarten Pw4ü-28 und Pw4ü-29 unterschieden sich grundsätzlich nur durch die verbesserte Beleuchtung der neueren Wagen.",
+    "target": "Die beiden Züge hatten die gleichen Funktionen, aber der jüngere hatte bessere Lampen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Internationale Aufmerksamkeit erhielt die Gasse, als im August 2024 die drei Wiener Konzerte der US-amerikanischen Musikerin Taylor Swift im Rahmen ihrer The Eras Tour aufgrund eines geplanten terroristischen Anschlags abgesagt wurden.",
+    "target": "Im August 2024 musste Taylor Swift ihre Konzerte in Wien absagen, weil ein Terroranschlag geplant war.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Alle Gebäude der Corneliusgasse (bis auf Haus Nr. 6) befindet sich in einer baulichen Schutzzone, die von der Stadt Wien definiert wurde. ",
+    "target": "Das Gebiet der Corneliusgasse ist durch eine Schutzzone für alte Häuser umgeben.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Viele Fans suchten nach der Absage, etwa um Trost zu finden, die Corneliusgasse auf, da Taylor Swift in ihrem 2019 veröffentlichten Album „Lover“ einen Song mit dem Titel „Cornelia Street“ veröffentlichte.",
+    "target": "Nach der Absage suchten viele Fans nach Trost. || Dazu besuchten sie die Corneliusgasse, da Taylor Swift dort in einem Lied von 2019 vorkommt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Die Unruhen im Vereinigten Königreich 2024 sind eine Serie gewalttätiger Ausschreitungen im Vereinigten Königreich, die nach der Messerattacke in Southport begannen und sich innerhalb von Tagen auf Städte in England und Nordirland ausweiteten.",
+    "target": "Im Vereinigten Königreich gibt es aktuell Unruhen. || Sie begannen nach einer Messerattacke in Southport und haben sich schnell auf viele Städte in England und Nordirland ausgebreitet.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Ebenso beteiligte er sich an der Verbreitung von Inhalten, die zu einer Spaltung der britischen Gesellschaft beitragen könnten.",
+    "target": "Er verbreitete Inhalte, die zur Spaltung der britischen Gesellschaft beigetragen haben könnten.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Am 31. Juli 2024 kam es bei einer Demonstration unter dem Motto „Enough is enough“ („Genug ist genug“) nahe der Londoner Downing Street, dem Amtssitz des Premierministers, zu gewaltsamen Ausschreitungen zwischen Rechtsradikalen und der Polizei, bei denen über 100 Demonstranten vorübergehend festgenommen wurden.",
+    "target": "Es gab eine Demonstration in London mit dem Motto \"Genug ist genug\". || Dort kam es zu gewaltsamen Auseinandersetzungen zwischen Rechtsradikalen und der Polizei. || Etwa 100 Demonstranten wurden vorübergehend festgenommen.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Alleine am 3. August 2024 wurden landesweit 147 Personen wegen der Beteiligung an Ausschreitungen festgenommen.",
+    "target": "Am 3. || August 2024 wurden in dem Land 147 Menschen festgenommen, weil sie an Unruhen teilhatten.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Diese Stadt hatte durch den Niedergang des Kohlenabbaus und der Schiffbauindustrie zwischen 1975 und 1989 ein Viertel ihrer Arbeitsplätze verloren.",
+    "target": "Zwischen 1975 und 1989 ging die Stadt aufgrund von Arbeitsplatzverlusten in der Kohle- und Schiffsindustrie um ein Viertel zurück.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Am Tag nach den gewalttätigen Ausbrüchen versammelten sich Einwohner, um die Spuren zu beseitigen; wieder einen Tag später fand ein kleiner Friedensmarsch statt.",
+    "target": "Die Bürger sammelten sich, um die Schäden zu beseitigen. || Am nächsten Tag gab es eine friedliche Prozession.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Der Tag wurde als Wendepunkt in der Entwicklung der Unruhen angesehen, jedoch noch nicht als das Ende dieser Vorkommnisse, zumal der relativ friedliche Verlauf dieses Tages möglicherweise hauptsächlich der Abschreckung durch die hohe Polizeipräsenz und durch die ersten Gefängnisstrafen, die für Gewalttäter verhängt worden waren, zu verdanken war.",
+    "target": "Der Tag wurde als Wende in den Unruhen gesehen. || Trotzdem ging das Chaos nicht auf. || Die Polizei war stark präsent und hatte erstmals Gewalttätern Strafen verhängt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Auch in Bristol, das einige Tage zuvor Schauplatz gewalttätiger Aktionen gewesen war, fand am 7. August 2024 eine Gegendemonstration statt.",
+    "target": "In der britischen Stadt Bristol fand ein Protest gegen einen vorherigen Aufstand statt.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  },
+  {
+    "source": "Als Reaktion auf die anhaltenden Unruhen veröffentlichten am 5. August mehrere Länder, darunter Australien, Nigeria und Indonesien, Reisewarnungen für das Vereinigte Königreich.",
+    "target": "Mehrere Länder wie Australien, Nigeria und Indonesien haben am 5. || August Reisewarnungen für das Vereinigte Königreich ausgegeben.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": []
+  }
+]

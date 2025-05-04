@@ -1,0 +1,1514 @@
+[
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise died, Pionsenay stayed with his brother. || When Skinya and Tahzay started a war in 1875, Pionsenay joined them.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Factual Hallucination",
+                "input_text": [],
+                "output_text": [
+                    "Pionsenay joined them."
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "schism"
+                ],
+                "output_text": [
+                    "war"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "remained loyal"
+                ],
+                "output_text": [
+                    "stayed with"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 1
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Doctors can use both percutaneous (through the skin) and surgical methods with albendazole to treat simple liver cysts caused by echinococcosis. However, there is little evidence from random studies that compare these treatments directly.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "uncomplicated hepatic cystic echinococcosis;"
+                ],
+                "output_text": [
+                    "simple liver cysts caused by echinococcosis."
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical",
+                    "domain_sensitivity": "Domain-Specific"
+                }
+            }
+        ],
+        "_thresh_id": 2
+    },
+    {
+        "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence).",
+        "target": "Statins make little or no difference in heart attacks and strokes but may slightly lower the risk of irregular heartbeat.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "may result in little to no difference"
+                ],
+                "output_text": [
+                    "may slightly lower"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 3
+    },
+    {
+        "source": "Non-randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)-shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+        "target": "Non-randomised studies have shown a benefit from surgically diverting cerebrospinal fluid (CSF) to an area of lower pressure in iNPH. || However, there have been limited randomised controlled trial (RCT) data to confirm this.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)-shunting"
+                ],
+                "output_text": [
+                    "diverting cerebrospinal fluid (CSF) to an area of lower pressure"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 4
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "Importantly, dictionaries from that time said a cause of action starts on the date damage happens, not when the events leading to the damage begin.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [],
+        "_thresh_id": 5
+    },
+    {
+        "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+        "target": "The Board says §2401(a) shouldn't be applied in separate cases, but it applies to each case individually.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [],
+        "_thresh_id": 6
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues on the date of the injury.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "contemporaneous dictionaries also explained"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Essential Omission",
+                "input_text": [
+                    "and not [the] date when causes are set in motion which ultimately produce injury.\""
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 7
+    },
+    {
+        "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+        "target": "They say these laws directly contradict the First Amendment.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Coreference / Anaphora Resolution",
+                "input_text": [
+                    "NetChoice"
+                ],
+                "output_text": [
+                    "They"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Coreference / Anaphora Resolution",
+                "input_text": [
+                    "the Florida and Texas statutes"
+                ],
+                "output_text": [
+                    "these laws"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 8
+    },
+    {
+        "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband's visa violated her constitutional rights, thereby enabling judicial review.",
+        "target": "Muñoz had to say that denying her husband's visa broke Asencio-Cordero's constitutional rights.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "her constitutional rights,"
+                ],
+                "output_text": [
+                    "Asencio-Cordero's constitutional rights."
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "must assert"
+                ],
+                "output_text": [
+                    "had to say"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "Asencio-Cordero cannot invoke the exception himself,"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 9
+    },
+    {
+        "source": "Appreciating the “unique risks” that arise when the President's energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+        "target": "The Court has recognized the \"unique risks\" that arise when the President's energies are diverted by proceedings that might render him \"unduly cautious in the discharge of his official duties.\" || Presidential immunities and privileges are based on our history and the constitutional tradition of separation of powers.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "the Court has recognized"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 10
+    },
+    {
+        "source": "And he contended that a President has absolute immunity from criminal prosecution for actions performed within the outer perimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+        "target": "He argued that a President has absolute immunity from criminal prosecution for actions done outside the limits of his official duties. || This way, he could take on the especially sensitive duties of his office with bold and unhesitating action.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "within"
+                ],
+                "output_text": [
+                    "outside"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This way, he"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 11
+    },
+    {
+        "source": "The dividing line between §201(b)'s bribery provision and §201(c)'s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+        "target": "The main difference between §201 (b) and §201 (c) is that §201 (b) requires an official to have a corrupt state of mind. || §201 (c) requires an official to accept (or agree to accept) a payment for an official act.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Essential Omission",
+                "input_text": [
+                    "to be influenced in"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Factual Hallucination",
+                "input_text": [],
+                "output_text": [
+                    "|| §201 (c)"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 12
+    },
+    {
+        "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+        "target": "Ordering a party to provide a forum for someone else 's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity. || This was what the Court has repeatedly held. || The mandated access would alter or disrupt its own expressive activity.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was what the Court has repeatedly held."
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 13
+    },
+    {
+        "source": "Calzolari trat in die Fußstapfen seines Vaters und widmete sich mit Hingabe seiner Arbeit in der Apotheke, deren Leitung er übernahm.",
+        "target": "Nachdem sein Vater aus dem Geschäft ausgestiegen war, übernahm Calzolari dessen Position als Apothekeneigentümer. || Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Factual Hallucination",
+                "input_text": [],
+                "output_text": [
+                    "und führte sie erfolgreich weiter."
+                ],
+                "orthogonal_data": {}
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [],
+                "output_text": [
+                    "Position als Apothekeneigentümer."
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 14
+    },
+    {
+        "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+        "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "bereits vor"
+                ],
+                "output_text": [
+                    "erst nach"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 15
+    },
+    {
+        "source": "On the outbreak of the 1965 Indo-Pakistani war, the squadron flew 24 Aerial reconnaissance missions with the Lockheed RT-33s providing vital photographic data coverage to the PAF and the Army.",
+        "target": "During the 1965 India-Pakistan war, the squadron flew 24 spy missions using planes that took photos which were very helpful to Pakistan's army and air force.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "On the outbreak"
+                ],
+                "output_text": [
+                    "During"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 16
+    },
+    {
+        "source": "Acmispon tomentosus var. tomentosus is the one subspecies in the genus, generally identified by having less red in their buds and a lot more hairy leaves.",
+        "target": "Acmispon tomentosus has one subspecies with buds that are not as red and hairy leaves that are very thick.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Unnecessary Expansion",
+                "input_text": [],
+                "output_text": [
+                    "that are very thick."
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 17
+    },
+    {
+        "source": "As a key component of the country's road network, the N1 facilitates connectivity between the capital and the northeastern regions, playing a role in the nation's economic and social development.",
+        "target": "The N1 connects the capital with the northeastern regions, helping the country's economy and society.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "As a key component of the country's road network,"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 18
+    },
+    {
+        "source": "Due to the influx of Catholic immigration in Zurich in the 19th century, the church was built from 1893 to 1894 under the Romanesque Revival architecture designs of the architect August Hardegger.",
+        "target": "The church was built between 1893 and 1894 according to the Romanesque Revival style.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "Due to the influx of Catholic immigration in Zurich in the 19th century,"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 19
+    },
+    {
+        "source": "Breedlove was born in 1875 in Granville County, North Carolina near Oxford, to John Henry Breedlove and Susan Caroline Hunt Breedlove. ",
+        "target": "Breedlove was born in 1875. || This was in Granville County, North Carolina near Oxford. || This was to John Henry Breedlove. || This was to Susan Caroline Hunt Breedlove.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "||"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was to"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was to Susan"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 20
+    },
+    {
+        "source": "After the war, the squadron was disbanded in June 1972 with it's assets transferred to No. 2 Squadron.",
+        "target": "After the war, No. 2 Squadron took over its assets and was disbanded in June 1972.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Essential Omission",
+                "input_text": [
+                    "the squadron"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 21
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white people, including a Medal of Honor winner.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "men"
+                ],
+                "output_text": [
+                    "people,"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 22
+    },
+    {
+        "source": "In 1876, the Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches led by Pionsenay.",
+        "target": "The Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches. || This was in 1876. || Apaches was led by Pionsenay.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| Apaches"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 23
+    },
+    {
+        "source": "Prior to his acting debut, he was one of the regular hosts of the university student-focused talk show College Talk",
+        "target": "Before he started acting, he was one of the regular hosts of the college talk show College Talk.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "the university student-focused talk show College Talk"
+                ],
+                "output_text": [
+                    "the college talk show College Talk."
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 24
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for his brutal raids, his rivalry with Cochise's sons, and killing several white men.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "including Medal of Honor recipient Orizoba Spence."
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 25
+    },
+    {
+        "source": "Originating in the capital city of Bangui, the road extends northwest, ultimately terminating at the international border with Chad, near the town of Békoro.",
+        "target": "The road is originating in the capital city of Bangui. || The road extends northwest near the town of Békoro. || Northwest is ultimately terminating at the international border with Chad.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| The"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| Northwest"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 26
+    },
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise's death, Pionsenay stayed loyal to his brother during a disagreement in 1875.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "schism"
+                ],
+                "output_text": [
+                    "disagreement"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "between Skinya and Tahzay"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 27
+    },
+    {
+        "source": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BCE, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger, who was renowned as a promising rhetorician, having been instructed in rhetoric by his grandfather Asinius.",
+        "target": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BC, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger. || He was known as a good writer, and his grandfather Asinius had taught him rhetoric.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "promising rhetorician,"
+                ],
+                "output_text": [
+                    "good writer,"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 28
+    },
+    {
+        "source": "Influenced by his father Jinghui, whom was also a linguist, Saišangga was proficient in Manchu, Mongolian and Chinese.",
+        "target": "Saišangga learned Manchu, Mongolian, and Chinese because his father Jinghui, who was also a linguist, influenced him.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "was proficient"
+                ],
+                "output_text": [
+                    "learned"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 29
+    },
+    {
+        "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short-term (median 3 weeks, range 1-16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+        "target": "A study of 25 trials found no evidence of increased skin thinning with short-term use (average 3 weeks) of mild, moderate, potent, or very potent TCS. || Confidence in these results was low.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "(median"
+                ],
+                "output_text": [
+                    "(average"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 30
+    },
+    {
+        "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+        "target": "Cell transplantation can help fix damaged heart and blood vessel tissue.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "after acute myocardial infarction (AMI)."
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 31
+    },
+    {
+        "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+        "target": "A tube that goes into the wrong part of the throat can cause serious pneumonia.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "Feeding via a tube misplaced in the trachea"
+                ],
+                "output_text": [
+                    "A tube that goes into the wrong part of the throat"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 32
+    },
+    {
+        "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+        "target": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (fatal or nonfatal myocardial infarction, stroke or other adverse events) were not known.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "or other adverse events"
+                ],
+                "output_text": [
+                    "or other adverse events) were not known."
+                ],
+                "orthogonal_data": {}
+            }
+        ],
+        "_thresh_id": 33
+    },
+    {
+        "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+        "target": "Tobacco use is much more common among people living with HIV.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [],
+        "_thresh_id": 34
+    },
+    {
+        "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+        "target": "TEP technique may carry a higher risk of conversion when compared to TAPP (2.5 % versus 0.7 % ; OR 0.28 P). || This was to another hernia repair method (either TAPP technique). || This was to another hernia repair method (open surgery). || = 0.02 OR 0.28 P. || OR 0.28 P = 0.02 was I2 = 0 % ; 13 studies, 1178 participants ; low certainty of evidence. || 2.5 % versus 0.7 % ; OR 0.28 was 95 % CI 0.09 to 0.84.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was to another hernia repair method (open surgery)."
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| = 0.02"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| 2.5"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 35
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence does not show that giving extra help to people living with HIV helps them stop smoking more than just a quick tip or nothing at all.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "behavioural support"
+                ],
+                "output_text": [
+                    "giving extra help"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "brief advice"
+                ],
+                "output_text": [
+                    "quick tip"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 36
+    },
+    {
+        "source": "Low-certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+        "target": "Low-certainty evidence did not detect a difference between varenicline and placebo. || This was in the proportion of participants. || Participants were experiencing SAEs.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| Participants"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 37
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates. || This was in PLWH. || PLWH was randomised to receive behavioural support. || This was compared with brief advice. || This was compared with no intervention.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was compared"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Syntactic Errors",
+                "edit_type_level3": "Subject-Verb Agreement Error",
+                "input_text": [
+                    "PLWH randomised"
+                ],
+                "output_text": [
+                    "PLWH was randomised"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This was compared with no intervention."
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 38
+    },
+    {
+        "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+        "target": "There is not enough proof to know if CBT works better than other therapies for anxiety in older adults.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "psychological"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 39
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Percutaneous and surgical treatments, along with albendazole, are used for uncomplicated liver cysts caused by echinococcosis, but there's limited research that compares them directly.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "combined with"
+                ],
+                "output_text": [
+                    "along with"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 40
+    },
+    {
+        "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+        "target": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth). || Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies). || Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage).",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Unnecessary Expansion",
+                "input_text": [],
+                "output_text": [
+                    "|| Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies)."
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| Vitamin"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 41
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues `` on [the] date that damage is sustained and not [the] date when causes are set in motion. || This was what dictionaries also explained. || Motion ultimately produce injury.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Awkward Phrasing",
+                "input_text": [],
+                "output_text": [
+                    "|| Motion ultimately produce injury."
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            }
+        ],
+        "_thresh_id": 42
+    },
+    {
+        "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+        "target": "The Court looked at English cases and saw that fraudulent conveyance actions were mainly common law suits.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "considering the remedy these suits provided,"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 43
+    },
+    {
+        "source": "To decide the facial challenges here, the courts below must explore the laws' full range of applications — the constitutionally impermissible and permissible both — and compare the two sets.",
+        "target": "The courts must look at all the ways the laws can be applied, both allowed and not allowed by the Constitution, and compare them.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [],
+        "_thresh_id": 44
+    },
+    {
+        "source": "Notwithstanding Crown Coat's holding, the Board and the dissent try to marshal support from its dicta.",
+        "target": "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta. || This is notwithstanding Crown Coat 's holding.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Addition",
+                "edit_type_level3": "Repetitive Addition",
+                "input_text": [],
+                "output_text": [
+                    "dissent try to marshal support."
+                ],
+                "orthogonal_data": {}
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Bad Structure / Split",
+                "input_text": [],
+                "output_text": [
+                    "|| This is from"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Coherence and Structural Issues",
+                "edit_type_level3": "Awkward Phrasing",
+                "input_text": [],
+                "output_text": [
+                    "|| This is notwithstanding"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 45
+    },
+    {
+        "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+        "target": "We conclude that under our constitutional system of separation of powers, a former President should have some immunity from criminal prosecution for official acts he performed during his time in office.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [],
+        "_thresh_id": 46
+    },
+    {
+        "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+        "target": "Because the Sackler decision is not expressly prohibited, they say, paragraph (6) makes it possible for them.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Factual Distortion",
+                "input_text": [
+                    "provisions like the Sackler discharge"
+                ],
+                "output_text": [
+                    "Sackler decision"
+                ],
+                "orthogonal_data": {
+                    "severity": "Critical"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "permits"
+                ],
+                "output_text": [
+                    "makes it possible"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 47
+    },
+    {
+        "source": "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs wurde am oberen Froschweiher das städtische Freibad eingerichtet, dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden.",
+        "target": "Nach dem Ende des Ersten Weltkriegs wurde beim oberen Froschweiher ein städtisches Freibad gebaut. || Das erste Freibad davor war in der Nähe der Wileneggstrasse in Weingarten.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "Nach der Auflösung der Garnison Weingarten"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "dessen Vorläufer"
+                ],
+                "output_text": [
+                    "Das erste"
+                ],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 48
+    },
+    {
+        "source": "Das Flugzeug war laut VoePass „ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit“.",
+        "target": "Laut dem Unternehmen VoePass war das Flugzeug startbereit.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Form / Fluency Errors",
+                "edit_type_level2": "Syntactic Errors",
+                "edit_type_level3": "Tense Inconsistency",
+                "input_text": [
+                    "gestartet"
+                ],
+                "output_text": [
+                    "startbereit."
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "„ohne betriebliche Einschränkungen"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": "Contextual Omission",
+                "input_text": [
+                    "alle Systeme waren für den Flug bereit“."
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "severity": "Major"
+                }
+            }
+        ],
+        "_thresh_id": 49
+    },
+    {
+        "source": "Nach der österreichischen Rückeroberung Tirols zog er sich 1814 nach Italien zurück und starb in Trient als Gubernialrat.",
+        "target": "Nachdem Österreich Tirol zurückerobert hatte, ging er 1814 nach Italien und starb als Regierungsrat in Trient.",
+        "metadata": {
+            "annotator": "claude-3-5-sonnet-20241022",
+            "system": "anthropic"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "Gubernialrat."
+                ],
+                "output_text": [
+                    "Regierungsrat"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            },
+            {
+                "edit_type_level1": "Content / Meaning Errors",
+                "edit_type_level2": "Substitution",
+                "edit_type_level3": "Lexical Inaccuracy & Semantic Drift",
+                "input_text": [
+                    "zog"
+                ],
+                "output_text": [
+                    "ging"
+                ],
+                "orthogonal_data": {
+                    "severity": "Minor"
+                }
+            }
+        ],
+        "_thresh_id": 50
+    }
+]

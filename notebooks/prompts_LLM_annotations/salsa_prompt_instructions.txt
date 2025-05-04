@@ -1,0 +1,125 @@
+You are tasked with annotating sentence pairs from a text simplification dataset. 
+Your goal is to identify and categorize the edits made to simplify the original sentence, as well as to note any errors introduced in the process. 
+Follow these instructions carefully:
+
+1. You will be presented with two sentences:
+<original_sentence>
+{{ORIGINAL_SENTENCE}}
+</original_sentence>
+
+<simplified_sentence>
+{{SIMPLIFIED_SENTENCE}}
+</simplified_sentence>
+
+2. Analyze the differences between the original and simplified sentences, focusing on the following categories of edits:
+
+a) Phrase-level Edits:
+   - Deletion Edits
+   - Insertion Edits
+   - Substitution Edits
+
+b) Sentence-level Edits:
+   - Splitting Edits
+   - Reordering Edits
+   - Structural Edits
+
+When identifying edits, focus on the smallest possible unit: Don't indicate a whole sentence as a substitution if one word has changed, but only that word.
+
+
+3. For each edit identified, determine the type of change and its direction (posive, neutral, or negative):
+   - Deletion:
+       - Insignificant Deletion: Did it remove INSIGNIFICANT information (thus improving the sentence)?
+       - Trivial Deletion: Was it a trivial deletion?
+       - Significant Deletion: Did it remove SIGNIFICANT information (deleting necessary and relevant content to the sentence's central meaning)?
+   - Insertion:
+        Positive Insertions:
+        - Elaboration: Adds meaningful, relevant, and correct information
+        - Trivial Insertion: Adds minor modifications that don't significantly affect meaning or complexity
+        Negative Insertions:
+        - Repetition: Adds information that simply repeats knowledge already contained in the sentence
+        - Irrelevant: Adds information unrelated to the main idea of the sentence
+        - Contradiction: Adds information that contradicts the original sentence
+        - Factual Error: Introduces externally verifiable incorrect information
+
+   - Substitution (Attention: Differing sub-types depending on the type of substitution):
+        - same meaning:  Swaps complex words with equivalent, simpler alternatives, while retaining the same meaning
+        - less information: Deleting insignificant information (good), trivial information, or significant information (bad).
+        - more information: --> refer to Insertion types (Elaboration, etc)
+        - different information: information was removed from the phrase and replaced with new information
+
+   - Splitting (subdiving a sentence into smaller sentencens).
+        - Negative Splitting: Split at an inappropriate location or interrupted the flow of idea
+        - Neutral Splitting: Divides the sentence without significantly affecting readability or meaning
+        - Positive Splitting: Improves clarity by separating independent pieces of information into distinct sentences
+
+   - Reordering:
+        - Word-level Reorder: Reorganizes modifiers within a phrase
+            - Negative: Presented a new word order with less clarity within a clause
+            - Neutral: Reorders words without significantly affecting clarity or meaning
+            - Positive: Presents a new word order that improves clarity within a clause
+        - Component-level Reorder: Moves clauses or content across a sentence
+            - Negative: Presents a new clausal order that reduces clarity or disrupts the logical flow of ideas
+            - Neutral: Reorders components without significantly affecting clarity or meaning
+            - Positive: Presents a new clausal order that improves clarity or the logical flow of ideas
+
+   - Structural: 
+        - Voice Change: Changes between active and passive voice
+        - Part-of-Speech Change: Modifies words' derivation or inflection
+        - Tense Change: Modifies verb modality or tense
+        - Grammatical Number Change: Changes between singular and plural or generic and specific
+        - Clausal Change: Modifies predicate structure
+    Each type of structural change has either a negative, neutral, or positive impact, just like the other edit types.
+
+
+4. For each categorized edit, rate its' severity as a number from 1 to 3:
+
+   Severity levels for negative changes:
+    - 1: low (changes, but sentence retains central meaning)
+    - 2: medium (significant changes, but sentence retains entral meaning)
+    - 3: high (significant changes, changing or removing the sentence's central meaning or information)
+    Severity levels for positive changes:
+    - 1: low (slight improvement in readibility/understandability)
+    - 2: medium (some improvement in improving a sentence's understandability)
+    - 3: high (significant changes in improving a sentence's understandability, while retaining it's core meaning)
+
+
+4. Look for potential errors in the simplification:
+   - Coreference Error
+   - Grammar & Fluency Errors
+
+5. Use a <scratchpad> section to think through your analysis before providing the final annotation. 
+In the scratchpad, list out the edits you've identified and any potential errors.
+
+Provide your final annotation in the following JSON format:
+
+<annotation>
+[
+  {
+    "source": "{{ORIGINAL_SENTENCE}}",
+    "target": "{{SIMPLIFIED_SENTENCE}}",
+    "metadata": {
+      "annotator": "",
+      "system": ""
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion|insertion|substitution|splitting|reordering|structural",
+        "input_idx": [[start_index, end_index IF APPLICABLE]],
+        "output_idx": [[start_index, end_index IF APPLICABLE]],
+        "annotation": {
+          "edit_type": {
+            "val": "good_deletion|bad_deletion|elaboration|repetition|irrelevant|contradiction|factual_error|same_meaning|less_information|more_information|different_information|negative_splitting|neutral_splitting|positive_splitting|word_level_reorder|component_level_reorder|voice_change|part_of_speech_change|tense_change|grammatical_number_change|clausal_change",
+            "severity": 1|2|3
+          },
+          "coreference": "yes|no",
+          "grammar_error": "yes|no"
+        }
+      }
+    ]
+  }
+]
+</annotation>
+For each edit, provide an "id" (starting from 1), "category" (the main edit type), "input_idx" (the indices of the affected words in the original sentence), and detailed "annotation" information including the specific edit type, severity, and any errors.
+Try to avoid overlapping edits, meaning a given word should ideally only be present in one identified edit and edits should not overlap.
+Remember that edits can overlap. Be thorough in your analysis and provide clear explanations for each annotation. Ensure that your JSON is properly formatted and includes all necessary information for each edit.

@@ -1,0 +1,5830 @@
+[
+  {
+    "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+    "target": "After Cochise died, Pionsenay stayed with his brother. || When Skinya and Tahzay started a war in 1875, Pionsenay joined them.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[55, 57]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[38, 55]],
+        "output_idx": [[30, 36]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[6, 18]],
+            "output_idx": [[14, 19]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[79, 85]],
+        "output_idx": [[91, 94]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "facutal_error",
+            "trivial_insertion": {
+              "val": "no"
+            },
+            "facutal_error": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[104, 126]]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[68, 78]],
+            "output_idx": [[58, 62]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 1
+  },
+  {
+    "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+    "target": "Doctors can use both percutaneous (through the skin) and surgical methods with albendazole to treat simple liver cysts caused by echinococcosis. However, there is little evidence from random studies that compare these treatments directly.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "facutal_error",
+            "facutal_error": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[119, 128]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[34, 52]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[40, 48]]
+      },
+      {
+        "category": "insertion",
+        "id": 3,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[0, 7]]
+      },
+      {
+        "category": "insertion",
+        "id": 4,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[16, 20]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[87, 115]],
+        "output_idx": [[100, 118]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[150, 163]],
+        "output_idx": [[163, 169]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[164, 174]],
+        "output_idx": [[179, 198]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[209, 223]],
+        "output_idx": [[218, 228]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "good"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[184, 192]],
+        "output_idx": [[229, 238]]
+      }
+    ],
+    "_thresh_id": 2
+  },
+  {
+    "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence).",
+    "target": "Statins make little or no difference in heart attacks and strokes but may slightly lower the risk of irregular heartbeat.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[86, 172]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[244, 326]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[379, 388]]
+      },
+      {
+        "category": "deletion",
+        "id": 4,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[389, 470]]
+      },
+      {
+        "category": "deletion",
+        "id": 5,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[234, 243]]
+      },
+      {
+        "category": "deletion",
+        "id": 6,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[76, 85]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[8, 26]],
+        "output_idx": [[8, 12]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "a lot"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[54, 75]],
+        "output_idx": [[40, 53]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "a lot"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[214, 233]],
+        "output_idx": [[101, 121]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[372, 378]],
+        "output_idx": [[58, 65]]
+      },
+      {
+        "category": "deletion",
+        "id": 7,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[327, 368]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[173, 213]],
+        "output_idx": [[70, 100]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[66, 69]]
+      }
+    ],
+    "_thresh_id": 3
+  },
+  {
+    "source": "Non-randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)-shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+    "target": "Non-randomised studies have shown a benefit from surgically diverting cerebrospinal fluid (CSF) to an area of lower pressure in iNPH. || However, there have been limited randomised controlled trial (RCT) data to confirm this.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "bad",
+              "bad": "a lot"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[120, 139]],
+        "output_idx": [[70, 95]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "a lot"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[70, 87]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[140, 154]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[164, 167]],
+        "output_idx": [[137, 145]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[134, 136]]
+          }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[168, 180]]
+      }
+    ],
+    "_thresh_id": 4
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "Importantly, dictionaries from that time said a cause of action starts on the date damage happens, not when the events leading to the damage begin.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[13, 28]],
+        "output_idx": [[26, 40]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[42, 46]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[47, 61]],
+        "output_idx": [[41, 45]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[80, 87]],
+        "output_idx": [[64, 70]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 127]],
+        "output_idx": [[83, 98]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[128, 131]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[177, 210]],
+        "output_idx": [[119, 140]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[152, 176]],
+        "output_idx": [
+          [112, 118],
+          [141, 147]
+        ]
+      }
+    ],
+    "_thresh_id": 5
+  },
+  {
+    "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+    "target": "The Board says §2401(a) shouldn't be applied in separate cases, but it applies to each case individually.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[16, 27]],
+        "output_idx": [[10, 14]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[64, 67]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[111, 162]],
+        "output_idx": [[68, 70]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration",
+              "elaboration": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[163, 185]],
+        "output_idx": [[71, 105]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 5]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[51, 71]],
+        "output_idx": [[37, 47]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "somewhat"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[72, 110]],
+        "output_idx": [[48, 63]]
+      }
+    ],
+    "_thresh_id": 6
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "A cause of action accrues on the date of the injury.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 61]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 127]],
+        "output_idx": [[38, 52]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[128, 210]]
+      }
+    ],
+    "_thresh_id": 7
+  },
+  {
+    "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+    "target": "They say these laws directly contradict the First Amendment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "a lot"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 9]],
+        "output_idx": [[0, 4]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[10, 18]],
+        "output_idx": [[5, 8]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[24, 54]],
+        "output_idx": [[9, 19]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[55, 71]],
+        "output_idx": [[20, 39]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "a lot"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[93, 209]]
+      }
+    ],
+    "_thresh_id": 8
+  },
+  {
+    "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband's visa violated her constitutional rights, thereby enabling judicial review.",
+    "target": "Muñoz had to say that denying her husband's visa broke Asencio-Cordero's constitutional rights.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 52]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[53, 57]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "tense"
+          },
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[64, 75]],
+            "output_idx": [[6, 16]]
+          }
+        ]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[81, 94]],
+            "output_idx": [[22, 29]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[123, 126]],
+        "output_idx": [[55, 72]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[150, 183]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "bad",
+              "bad": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[114, 122]],
+        "output_idx": [[49, 54]]
+      }
+    ],
+    "_thresh_id": 9
+  },
+  {
+    "source": "Appreciating the “unique risks” that arise when the President's energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+    "target": "The Court has recognized the \"unique risks\" that arise when the President's energies are diverted by proceedings that might render him \"unduly cautious in the discharge of his official duties.\" || Presidential immunities and privileges are based on our history and the constitutional tradition of separation of powers.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[194, 196]]
+          }
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "good"
+            },
+            "component_level": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[257, 313]],
+        "output_idx": [[265, 318]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[318, 330]]
+      },
+      {
+        "category": "reorder",
+        "id": 2,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "good"
+            },
+            "component_level": {
+              "val": "bad",
+              "bad": "a lot"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[182, 206]],
+        "output_idx": [[0, 24]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 16]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "voice"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[236, 239]]
+          },
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[246, 256]],
+            "output_idx": [[240, 248]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 10
+  },
+  {
+    "source": "And he contended that a President has absolute immunity from criminal prosecution for actions performed within the outer perimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+    "target": "He argued that a President has absolute immunity from criminal prosecution for actions done outside the limits of his official duties. || This way, he could take on the especially sensitive duties of his office with bold and unhesitating action.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 3]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[7, 16]],
+        "output_idx": [[3, 9]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 103]],
+        "output_idx": [[87, 91]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[104, 130]],
+        "output_idx": [[92, 110]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[147, 164]],
+        "output_idx": [[127, 134]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[138, 147]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[135, 137]]
+          }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[165, 179]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[187, 196]],
+        "output_idx": [[157, 164]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "tense"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[183, 186]],
+            "output_idx": [[151, 156]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 11
+  },
+  {
+    "source": "The dividing line between §201(b)'s bribery provision and §201(c)'s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+    "target": "The main difference between §201 (b) and §201 (c) is that §201 (b) requires an official to have a corrupt state of mind. || §201 (c) requires an official to accept (or agree to accept) a payment for an official act.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[4, 17]],
+        "output_idx": [[4, 19]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 53]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[68, 88]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[97, 104]],
+        "output_idx": [[58, 66]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[158, 161]],
+            "output_idx": [[121, 123]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "contradiction",
+            "contradiction": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[124, 132]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[133, 156]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[203, 229]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[230, 232]],
+        "output_idx": [[195, 198]]
+      }
+    ],
+    "_thresh_id": 12
+  },
+  {
+    "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+    "target": "Ordering a party to provide a forum for someone else 's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity. || This was what the Court has repeatedly held. || The mandated access would alter or disrupt its own expressive activity.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[179, 192]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "insertion",
+            "output_idx": [[224, 226]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[176, 178]]
+          }
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 29]],
+        "output_idx": [[193, 223]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[30, 34]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "same": {
+              "val": "good"
+            },
+            "more": {
+              "val": "elaboration",
+              "elaboration": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[210, 215]],
+        "output_idx": [[270, 298]]
+      }
+    ],
+    "_thresh_id": 13
+  },
+  {
+    "source": "Calzolari trat in die Fußstapfen seines Vaters und widmete sich mit Hingabe seiner Arbeit in der Apotheke, deren Leitung er übernahm.",
+    "target": "Nachdem sein Vater aus dem Geschäft ausgestiegen war, übernahm Calzolari dessen Position als Apothekeneigentümer. || Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "somewhat",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[0, 53]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "somewhat",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[158, 192]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration",
+              "elaboration": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[107, 120]],
+        "output_idx": [[73, 113]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "insertion",
+            "output_idx": [[114, 116]]
+          }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[10, 50]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[124, 133]],
+            "output_idx": [[54, 62]]
+          }
+        ]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[51, 96]],
+            "output_idx": [[117, 148]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 14
+  },
+  {
+    "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+    "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 6]],
+        "output_idx": [[0, 3]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[21, 32]],
+        "output_idx": [[18, 27]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[33, 44]],
+        "output_idx": [[28, 48]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[45, 55]],
+        "output_idx": [[49, 59]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[60, 76]],
+        "output_idx": [[64, 80]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[84, 106]]
+      }
+    ],
+    "_thresh_id": 15
+  },
+  {
+    "source": "On the outbreak of the 1965 Indo-Pakistani war, the squadron flew 24 Aerial reconnaissance missions with the Lockheed RT-33s providing vital photographic data coverage to the PAF and the Army.",
+    "target": "During the 1965 India-Pakistan war, the squadron flew 24 spy missions using planes that took photos which were very helpful to Pakistan's army and air force.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 22]],
+        "output_idx": [[0, 10]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[69, 90]],
+        "output_idx": [[57, 60]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[100, 124]],
+        "output_idx": [[70, 82]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[125, 167]],
+        "output_idx": [[83, 123]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration",
+              "elaboration": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[175, 178]],
+        "output_idx": [
+          [147, 157],
+          [127, 137]
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "good"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[183, 192]],
+        "output_idx": [[138, 142]]
+      }
+    ],
+    "_thresh_id": 16
+  },
+  {
+    "source": "Acmispon tomentosus var. tomentosus is the one subspecies in the genus, generally identified by having less red in their buds and a lot more hairy leaves.",
+    "target": "Acmispon tomentosus has one subspecies with buds that are not as red and hairy leaves that are very thick.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[20, 35]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[58, 71]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[130, 140]],
+        "output_idx": [[86, 107]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[141, 154]],
+        "output_idx": [[73, 85]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[36, 42]],
+            "output_idx": [[20, 23]]
+          }
+        ]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[72, 95]],
+            "output_idx": [[39, 43]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[96, 125]],
+        "output_idx": [[44, 68]]
+      }
+    ],
+    "_thresh_id": 17
+  },
+  {
+    "source": "As a key component of the country's road network, the N1 facilitates connectivity between the capital and the northeastern regions, playing a role in the nation's economic and social development.",
+    "target": "The N1 connects the capital with the northeastern regions, helping the country's economy and society.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 49]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[57, 89]],
+        "output_idx": [[7, 15]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "trivial_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[163, 195]],
+        "output_idx": [[81, 101]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[154, 162]],
+        "output_idx": [[71, 80]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[132, 149]],
+            "output_idx": [[59, 66]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 18
+  },
+  {
+    "source": "Due to the influx of Catholic immigration in Zurich in the 19th century, the church was built from 1893 to 1894 under the Romanesque Revival architecture designs of the architect August Hardegger.",
+    "target": "The church was built between 1893 and 1894 according to the Romanesque Revival style.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 98]],
+        "output_idx": [[21, 28]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[112, 161]],
+        "output_idx": [[43, 85]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "a lot"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[162, 196]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 72]]
+      }
+    ],
+    "_thresh_id": 19
+  },
+  {
+    "source": "Breedlove was born in 1875 in Granville County, North Carolina near Oxford, to John Henry Breedlove and Susan Caroline Hunt Breedlove. ",
+    "target": "Breedlove was born in 1875. || This was in Granville County, North Carolina near Oxford. || This was to John Henry Breedlove. || This was to Susan Caroline Hunt Breedlove.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 3,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[92, 100]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[89, 91]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 4,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[129, 137]]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[100, 103]],
+            "output_idx": [[126, 128]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 3,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[28, 30]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 5,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[31, 39]]
+      }
+    ],
+    "_thresh_id": 20
+  },
+  {
+    "source": "After the war, the squadron was disbanded in June 1972 with it's assets transferred to No. 2 Squadron.",
+    "target": "After the war, No. 2 Squadron took over its assets and was disbanded in June 1972.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "yes",
+          "grammar_error": "no"
+        },
+        "input_idx": [[15, 27]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "bad",
+              "bad": "somewhat"
+            }
+          },
+          "grammar_error": "yes"
+        },
+        "input_idx": [[28, 54]],
+        "output_idx": [[55, 82]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[55, 102]],
+        "output_idx": [[15, 50]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[51, 54]]
+      }
+    ],
+    "_thresh_id": 21
+  },
+  {
+    "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+    "target": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white people, including a Medal of Honor winner.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[118, 121]],
+        "output_idx": [[118, 125]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[157, 172]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[136, 137]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[147, 156]],
+        "output_idx": [[153, 160]]
+      }
+    ],
+    "_thresh_id": 22
+  },
+  {
+    "source": "In 1876, the Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches led by Pionsenay.",
+    "target": "The Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches. || This was in 1876. || Apaches was led by Pionsenay.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor",
+            "trivial_insertion": {
+              "val": "yes"
+            }
+          },
+          "grammar_error": "yes"
+        },
+        "output_idx": [[132, 135]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 8]],
+        "output_idx": [[112, 120]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "insertion",
+            "output_idx": [[121, 123]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[100, 102]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 23
+  },
+  {
+    "source": "Prior to his acting debut, he was one of the regular hosts of the university student-focused talk show College Talk",
+    "target": "Before he started acting, he was one of the regular hosts of the college talk show College Talk.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 8]],
+        "output_idx": [[0, 6]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[66, 92]],
+        "output_idx": [[65, 72]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[9, 26]],
+            "output_idx": [[10, 25]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 24
+  },
+  {
+    "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+    "target": "He is known for his brutal raids, his rivalry with Cochise's sons, and killing several white men.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[65, 81]],
+        "output_idx": [[51, 66]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[122, 172]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[16, 36]],
+            "output_idx": [[16, 26]]
+          }
+        ]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[90, 103]],
+            "output_idx": [[71, 78]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 25
+  },
+  {
+    "source": "Originating in the capital city of Bangui, the road extends northwest, ultimately terminating at the international border with Chad, near the town of Békoro.",
+    "target": "The road is originating in the capital city of Bangui. || The road extends northwest near the town of Békoro. || Northwest is ultimately terminating at the international border with Chad.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 3,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[0, 11]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[110, 112]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[55, 57]]
+          }
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "bad",
+              "bad": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[133, 157]],
+        "output_idx": [[85, 109]]
+      },
+      {
+        "category": "insertion",
+        "id": 4,
+        "annotation": {
+          "insertion_type": {
+            "val": "facutal_error",
+            "facutal_error": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[113, 125]]
+      }
+    ],
+    "_thresh_id": 26
+  },
+  {
+    "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+    "target": "After Cochise's death, Pionsenay stayed loyal to his brother during a disagreement in 1875.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[10, 15]],
+        "output_idx": [[16, 22]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[38, 46]],
+        "output_idx": [[33, 39]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "grammar_number"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[75, 78]],
+            "output_idx": [[68, 69]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[79, 85]],
+        "output_idx": [[70, 82]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[86, 111]]
+      }
+    ],
+    "_thresh_id": 27
+  },
+  {
+    "source": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BCE, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger, who was renowned as a promising rhetorician, having been instructed in rhetoric by his grandfather Asinius.",
+    "target": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BC, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger. || He was known as a good writer, and his grandfather Asinius had taught him rhetoric.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[144, 147]],
+        "output_idx": [[143, 148]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[63, 67]],
+        "output_idx": [[63, 66]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[166, 188]],
+        "output_idx": [[164, 176]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "voice"
+          },
+          "impact": {
+            "val": "good",
+            "good": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[189, 214]],
+            "output_idx": [[205, 219]]
+          },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[231, 251]],
+            "output_idx": [[185, 204]]
+          }
+        ]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "tense"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[152, 160]],
+            "output_idx": [[153, 158]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 28
+  },
+  {
+    "source": "Influenced by his father Jinghui, whom was also a linguist, Saišangga was proficient in Manchu, Mongolian and Chinese.",
+    "target": "Saišangga learned Manchu, Mongolian, and Chinese because his father Jinghui, who was also a linguist, influenced him.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "good",
+            "good": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[0, 33]],
+            "output_idx": [[57, 117]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[70, 87]],
+        "output_idx": [[10, 17]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 13]],
+        "output_idx": [[49, 56]]
+      }
+    ],
+    "_thresh_id": 29
+  },
+  {
+    "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short-term (median 3 weeks, range 1-16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+    "target": "A study of 25 trials found no evidence of increased skin thinning with short-term use (average 3 weeks) of mild, moderate, potent, or very potent TCS. || Confidence in these results was low.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 3]],
+        "output_idx": [[0, 7]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[17, 40]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 110]],
+        "output_idx": [[86, 94]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[120, 137]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[150, 154]]
+      },
+      {
+        "category": "deletion",
+        "id": 4,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[164, 168]]
+      },
+      {
+        "category": "deletion",
+        "id": 5,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[176, 180]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[151, 153]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor",
+            "trivial_insertion": {
+              "val": "yes"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[165, 185]]
+      },
+      {
+        "category": "deletion",
+        "id": 6,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[202, 210]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": {
+              "val": "good",
+              "good": "minor"
+            },
+            "component_level": {
+              "val": "good"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[211, 214]],
+        "output_idx": [[186, 190]]
+      }
+    ],
+    "_thresh_id": 30
+  },
+  {
+    "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+    "target": "Cell transplantation can help fix damaged heart and blood vessel tissue.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 130]],
+        "output_idx": [[42, 72]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[131, 171]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "a lot"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[21, 94]],
+        "output_idx": [[21, 33]]
+      }
+    ],
+    "_thresh_id": 31
+  },
+  {
+    "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+    "target": "A tube that goes into the wrong part of the throat can cause serious pneumonia.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "a lot"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 11]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[48, 57]],
+        "output_idx": [[55, 60]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[58, 64]],
+        "output_idx": [[61, 68]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 43]],
+        "output_idx": [[44, 50]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[19, 31]],
+            "output_idx": [[7, 39]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 32
+  },
+  {
+    "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+    "target": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (fatal or nonfatal myocardial infarction, stroke or other adverse events) were not known.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 113]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[155, 172]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[181, 204]],
+        "output_idx": [[152, 176]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[210, 220]],
+        "output_idx": [[182, 192]]
+      }
+    ],
+    "_thresh_id": 33
+  },
+  {
+    "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+    "target": "Tobacco use is much more common among people living with HIV.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[69, 85]],
+        "output_idx": [[15, 24]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [
+          [0, 17],
+          [86, 92]
+        ],
+        "output_idx": [[25, 31]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[30, 58]],
+        "output_idx": [[32, 61]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[93, 124]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[59, 65]]
+      }
+    ],
+    "_thresh_id": 34
+  },
+  {
+    "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+    "target": "TEP technique may carry a higher risk of conversion when compared to TAPP (2.5 % versus 0.7 % ; OR 0.28 P). || This was to another hernia repair method (either TAPP technique). || This was to another hernia repair method (open surgery). || = 0.02 OR 0.28 P. || OR 0.28 P = 0.02 was I2 = 0 % ; 13 studies, 1178 participants ; low certainty of evidence. || 2.5 % versus 0.7 % ; OR 0.28 was 95 % CI 0.09 to 0.84.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[180, 220]]
+      },
+      {
+        "category": "insertion",
+        "id": 6,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[247, 254]]
+      },
+      {
+        "category": "insertion",
+        "id": 7,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[261, 268]]
+      },
+      {
+        "category": "insertion",
+        "id": 8,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[376, 383]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[146, 164]],
+        "output_idx": [[355, 373]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "yes"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[107, 109]],
+            "output_idx": [[177, 179]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "insertion",
+            "output_idx": [[108, 110]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 3,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "yes"
+        },
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "insertion",
+            "output_idx": [[258, 260]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 4,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "insertion",
+            "output_idx": [[237, 239]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 5,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "yes"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[352, 354]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 35
+  },
+  {
+    "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+    "target": "Low-certainty evidence does not show that giving extra help to people living with HIV helps them stop smoking more than just a quick tip or nothing at all.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "tense"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[23, 26]],
+            "output_idx": [[23, 27]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[155, 167]],
+        "output_idx": [[127, 136]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[171, 187]],
+        "output_idx": [[140, 155]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration",
+              "elaboration": "a lot"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 98]],
+        "output_idx": [[63, 85]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[141, 154]],
+        "output_idx": [[110, 126]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[31, 42]],
+        "output_idx": [[32, 36]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[99, 112]]
+      },
+      {
+        "category": "substitution",
+        "id": 7,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[113, 140]],
+        "output_idx": [[42, 59]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[37, 41]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "no"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[60, 62]]
+      },
+      {
+        "category": "structure",
+        "id": 2,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[43, 90]],
+            "output_idx": [[86, 109]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 36
+  },
+  {
+    "source": "Low-certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+    "target": "Low-certainty evidence did not detect a difference between varenicline and placebo. || This was in the proportion of participants. || Participants were experiencing SAEs.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[87, 95]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[84, 86]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[131, 133]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "trivial_insertion": {
+              "val": "yes"
+            },
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[134, 151]]
+      }
+    ],
+    "_thresh_id": 37
+  },
+  {
+    "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+    "target": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates. || This was in PLWH. || PLWH was randomised to receive behavioural support. || This was compared with brief advice. || This was compared with no intervention.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[92, 94]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[113, 115]]
+          }
+        ]
+      },
+      {
+        "category": "split",
+        "id": 3,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[168, 170]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[171, 179]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[211, 219]]
+      },
+      {
+        "category": "insertion",
+        "id": 3,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "trivial_insertion": {
+              "val": "yes"
+            },
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[220, 233]]
+      },
+      {
+        "category": "split",
+        "id": 4,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[168, 170]],
+            "output_idx": [[208, 210]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 4,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[95, 103]]
+      },
+      {
+        "category": "insertion",
+        "id": 5,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor",
+            "trivial_insertion": {
+              "val": "yes"
+            }
+          },
+          "grammar_error": "yes"
+        },
+        "output_idx": [[121, 124]]
+      }
+    ],
+    "_thresh_id": 38
+  },
+  {
+    "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+    "target": "There is not enough proof to know if CBT works better than other therapies for anxiety in older adults.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[20, 28]],
+        "output_idx": [[20, 25]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[32, 49]],
+        "output_idx": [[29, 36]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[89, 102]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[77, 88]],
+        "output_idx": [[59, 64]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[54, 71]],
+            "output_idx": [[41, 53]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 39
+  },
+  {
+    "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+    "target": "Percutaneous and surgical treatments, along with albendazole, are used for uncomplicated liver cysts caused by echinococcosis, but there's limited research that compares them directly.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[40, 48]],
+        "output_idx": [[38, 43]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[66, 86]],
+        "output_idx": [[62, 74]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "a lot"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[101, 108]],
+        "output_idx": [[89, 94]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[132, 140]],
+        "output_idx": [[127, 130]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[152, 183]],
+        "output_idx": [[139, 155]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[184, 223]],
+        "output_idx": [[156, 184]]
+      },
+      {
+        "category": "substitution",
+        "id": 7,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[26, 39]],
+        "output_idx": [[26, 37]]
+      }
+    ],
+    "_thresh_id": 40
+  },
+  {
+    "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+    "target": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth). || Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies). || Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage).",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[127, 130]],
+            "output_idx": [[129, 131]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "trivial_insertion": {
+              "val": "no"
+            },
+            "repetition": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[132, 238]]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[155, 158]],
+            "output_idx": [[264, 266]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "trivial_insertion": {
+              "val": "no"
+            },
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[267, 318]]
+      }
+    ],
+    "_thresh_id": 41
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "A cause of action accrues `` on [the] date that damage is sustained and not [the] date when causes are set in motion. || This was what dictionaries also explained. || Motion ultimately produce injury.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[29, 56]],
+        "output_idx": [[135, 163]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "trivial_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[57, 61]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor",
+            "trivial_insertion": {
+              "val": "yes"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[121, 134]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[118, 120]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "more": {
+              "val": "repetition"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "yes"
+        },
+        "input_idx": [[177, 182]],
+        "output_idx": [[167, 173]]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[164, 166]]
+          }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 28]]
+      }
+    ],
+    "_thresh_id": 42
+  },
+  {
+    "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+    "target": "The Court looked at English cases and saw that fraudulent conveyance actions were mainly common law suits.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "a lot"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[24, 72]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[73, 82]],
+        "output_idx": [[0, 9]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 9]],
+        "output_idx": [[10, 19]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[83, 92]],
+        "output_idx": [[38, 41]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[151, 172]],
+        "output_idx": [[89, 106]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[133, 150]],
+        "output_idx": [[82, 88]]
+      }
+    ],
+    "_thresh_id": 43
+  },
+  {
+    "source": "To decide the facial challenges here, the courts below must explore the laws' full range of applications — the constitutionally impermissible and permissible both — and compare the two sets.",
+    "target": "The courts must look at all the ways the laws can be applied, both allowed and not allowed by the Constitution, and compare them.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "somewhat"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[105, 164]],
+        "output_idx": [[62, 111]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[177, 190]],
+        "output_idx": [[124, 129]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 37]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[49, 54]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[60, 67]],
+        "output_idx": [[16, 23]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "pos"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[68, 104]],
+            "output_idx": [[24, 61]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 44
+  },
+  {
+    "source": "Notwithstanding Crown Coat's holding, the Board and the dissent try to marshal support from its dicta.",
+    "target": "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta. || This is notwithstanding Crown Coat 's holding.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[76, 83]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "insertion",
+            "output_idx": [[73, 75]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": {
+              "val": "yes",
+              "yes": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[103, 110]]
+      },
+      {
+        "category": "split",
+        "id": 2,
+        "annotation": {
+          "impact": {
+            "val": "bad",
+            "bad": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "insertion",
+            "output_idx": [[100, 102]]
+          }
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "bad",
+              "bad": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 37]],
+        "output_idx": [[111, 149]]
+      },
+      {
+        "category": "split",
+        "id": 3,
+        "annotation": {
+          "impact": {
+            "val": "trivial"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[48, 51]],
+            "output_idx": [[34, 36]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 3,
+        "annotation": {
+          "insertion_type": {
+            "val": "repetition",
+            "trivial_insertion": {
+              "val": "yes"
+            },
+            "repetition": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[49, 72]]
+      }
+    ],
+    "_thresh_id": 45
+  },
+  {
+    "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+    "target": "We conclude that under our constitutional system of separation of powers, a former President should have some immunity from criminal prosecution for official acts he performed during his time in office.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[55, 64]],
+        "output_idx": [[52, 65]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[73, 119]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[163, 175]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[213, 219]],
+        "output_idx": [[187, 191]]
+      }
+    ],
+    "_thresh_id": 46
+  },
+  {
+    "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+    "target": "Because the Sackler decision is not expressly prohibited, they say, paragraph (6) makes it possible for them.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "MUSS"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[8, 23]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 45]],
+        "output_idx": [[20, 28]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[46, 49]],
+        "output_idx": [[29, 31]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "good_deletion"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[81, 88]],
+        "output_idx": [[63, 67]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 122]],
+        "output_idx": [[82, 103]]
+      }
+    ],
+    "_thresh_id": 47
+  },
+  {
+    "source": "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs wurde am oberen Froschweiher das städtische Freibad eingerichtet, dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden.",
+    "target": "Nach dem Ende des Ersten Weltkriegs wurde beim oberen Froschweiher ein städtisches Freibad gebaut. || Das erste Freibad davor war in der Nähe der Wileneggstrasse in Weingarten.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[133, 146]],
+        "output_idx": [[91, 98]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[87, 89]],
+        "output_idx": [[42, 46]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[48, 58]],
+        "output_idx": [[5, 13]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 42]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "bad"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[110, 113]],
+        "output_idx": [[67, 70]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "insertion",
+            "output_idx": [[99, 101]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": {
+              "val": "good",
+              "good": "minor"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [
+          [164, 168],
+          [215, 224]
+        ],
+        "output_idx": [[126, 129]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "bad_deletion"
+            },
+            "more": {
+              "val": "elaboration"
+            },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[147, 163]],
+        "output_idx": [[102, 125]]
+      }
+    ],
+    "_thresh_id": 48
+  },
+  {
+    "source": "Das Flugzeug war laut VoePass „ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit“.",
+    "target": "Laut dem Unternehmen VoePass war das Flugzeug startbereit.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "LLAMA"
+    },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "minor"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[30, 78]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "somewhat"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[79, 119]],
+        "output_idx": [[46, 58]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "good",
+              "good": "minor"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 12]],
+        "output_idx": [[33, 45]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[5, 20]]
+      },
+      {
+        "category": "reorder",
+        "id": 2,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": {
+              "val": "trivial"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[13, 16]],
+        "output_idx": [[29, 32]]
+      }
+    ],
+    "_thresh_id": 49
+  },
+  {
+    "source": "Nach der österreichischen Rückeroberung Tirols zog er sich 1814 nach Italien zurück und starb in Trient als Gubernialrat.",
+    "target": "Nachdem Österreich Tirol zurückerobert hatte, ging er 1814 nach Italien und starb als Regierungsrat in Trient.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": [
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": {
+            "val": "clausal"
+          },
+          "impact": {
+            "val": "good",
+            "good": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[0, 46]],
+            "output_idx": [[0, 45]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "trivial"
+            },
+            "less": {
+              "val": "bad_deletion",
+              "bad_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[47, 50]],
+        "output_idx": [[46, 50]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[77, 83]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": {
+              "val": "trivial"
+            },
+            "component_level": {
+              "val": "good"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 103]],
+        "output_idx": [[100, 110]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": {
+              "val": "good"
+            },
+            "less": {
+              "val": "good_deletion",
+              "good_deletion": "minor"
+            },
+            "more": {
+              "val": "elaboration"
+            }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[108, 121]],
+        "output_idx": [[86, 99]]
+      }
+    ],
+    "_thresh_id": 50
+  }
+]

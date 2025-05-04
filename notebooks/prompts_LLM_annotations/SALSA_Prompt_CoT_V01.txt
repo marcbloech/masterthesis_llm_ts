@@ -1,0 +1,119 @@
+You are an expert text simplification analyst using the SALSA framework for a research project. 
+Your task is to analyze the differences between an original sentence and its simplified version. Utmost careful work is paramount here.
+
+You are first given some information on the SALSA Framework for Text Simplification Annotations:
+<SALSA_Information>
+The SALSA (Structured Annotation for Linguistic Simplification Analysis) Framework is a comprehensive method for evaluating text simplifications. 
+It provides a structured approach to annotating and analyzing changes made between an original text and its simplified version.
+
+SALSA recognizes 6 primary types of edits:
+Deletion, Insertion, Substitution, Splitting, Reordering, and Structural Changes.
+
+- Deletion:
+       - Insignificant Deletion: Did it remove INSIGNIFICANT information (thus improving the sentence)? Example: "Like so many hyped books before it, The Midnight Library excited me and gave me pause." → "The Midnight Library excited me and gave me pause."
+       - Trivial Deletion: Was it a trivial deletion?
+       - Significant Deletion: Did it remove SIGNIFICANT information (deleting necessary and relevant content to the sentence's central meaning)? Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many chemicals are increasing in abundance in the lower troposphere." (Removing "volatile organic")
+   - Insertion:
+        Positive Insertions:
+        - Elaboration: Adds meaningful, relevant, and correct information. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, which harm our environment, are increasing..."
+        - Trivial Insertion: Adds minor modifications that don't significantly affect meaning or complexity. Example: "How big is the family you cook for?" → "How big is the family THAT you cook for?"
+        Negative Insertions:
+        - Repetition: Adds information that simply repeats knowledge already contained in the sentence. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals, which are chemicals, are increasing in abundance in the lower troposphere."
+        - Irrelevant: Adds information unrelated to the main idea of the sentence. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, unlike low vapor pressure chemicals, are increasing..."
+        - Contradiction: Adds information that contradicts the original sentence. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, which are decreasing in our troposphere, are increasing..."
+        - Factual Error: Introduces externally verifiable incorrect information. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing in abundance in the lower troposphere when they decide to."
+
+   - Substitution (Attention: Differing sub-types depending on the type of substitution):
+        - same meaning:  Swaps complex words with equivalent, simpler alternatives, while retaining the same meaning. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are being seen more in the lower troposphere."
+        - less information: Deleting insignificant information (good), trivial information, or significant information (bad). Example: Like Deletion
+        - more information: --> refer to Insertion types (Elaboration, etc). Example: Like Insertion.
+        - different information: information was removed from the phrase and replaced with new information. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are decreasing in abundance in the lower troposphere."
+
+   - Splitting (subdiving a sentence into smaller sentencens).
+        - Negative Splitting: Split at an inappropriate location or interrupted the flow of idea. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing. They are increasing in abundance in the lower troposphere."
+        - Neutral Splitting: Divides the sentence without significantly affecting readability or meaning
+        - Positive Splitting: Improves clarity by separating independent pieces of information into distinct sentences. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing. They are found in abundance in the lower troposphere."
+
+   - Reordering:
+        - Word-level Reorder: Reorganizes modifiers within a phrase
+            - Negative: Presented a new word order with less clarity within a clause
+            - Neutral: Reorders words without significantly affecting clarity or meaning
+            - Positive: Presents a new word order that improves clarity within a clause. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many organic volatile chemicals are increasing in abundance in the lower troposphere."
+        - Component-level Reorder: Moves clauses or content across a sentence
+            - Negative: Presents a new clausal order that reduces clarity or disrupts the logical flow of ideas
+            - Neutral: Reorders components without significantly affecting clarity or meaning
+            - Positive: Presents a new clausal order that improves clarity or the logical flow of ideas. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "In the lower troposphere, many volatile organic chemicals are increasing in abundance."
+
+   - Structural: 
+        - Voice Change: Changes between active and passive voice. Example: "Elevation is not primarily considered by the system." → "The system does not primarily consider elevation."
+        - Part-of-Speech Change: Modifies words' derivation or inflection. Example: "The ability to capture nature scenes has been improving..." → "The ability to capture nature scenes has seen improvement..." Additional example: "The protesters turned violent when..." → "The violent protesters..."
+        - Tense Change: Modifies verb modality or tense. "The governor told reporters he had overseen a productive conversation." → "The governor oversaw a productive conversation."
+        - Grammatical Number Change: Changes between singular and plural or generic and specific. Example: "Victor had scored that goal against the US in 2011, and another in 2012." → "Victor had scored those goals in 2011 and 2012."
+        - Clausal Change: Modifies predicate structure. Example: "Donaldson attempted to speak clearly and he was successful." → "Donaldson attempted to speak clearly and successfully." Additional example: "Although it was raining outside, Jobs continued work in his garage." → "Outside it was raining and Jobs continued work in his garage."
+
+For each edit, we rate its severity as a number from 1 to 3:
+   Severity levels for negative changes:
+    - 1: minor (changes, but sentence retains central meaning)
+    - 2: somewhat (significant changes, but sentence retains central meaning)
+    - 3: a lot (significant changes, changing or removing the sentence's central meaning or information)
+    Severity levels for positive changes:
+    - 1: minor (slight improvement in readibility/understandability)
+    - 2: somewhat (some improvement in improving a sentence's understandability)
+    - 3: a lot (significant changes in improving a sentence's understandability, while retaining it's core meaning)
+
+In conclusion, the SALSA Framework offers a comprehensive and structured approach to analyzing text simplifications. 
+By breaking down edits into specific categories (Deletion, Insertion, Substitution, Reordering, Splitting, and Structural Change) and assessing their impact on information content and readability, 
+it provides a powerful tool for evaluating and improving simplification efforts.
+</SALSA_Information>
+
+Now with this knowledge, follow these steps carefully:
+
+<instructions>
+1. Input: You will be presented with two sentences:
+<original_sentence>
+{{ORIGINAL_SENTENCE}}
+</original_sentence>
+
+<simplified_sentence>
+{{SIMPLIFIED_SENTENCE}}
+</simplified_sentence>
+
+2. Identify Changes:
+List all changes you observe between the original and simplified sentences. 
+For each change, specify the affected words (using their indexes) 
+Important: You are given an index map of the words, indicating the position of each word. Use the numeric indices to mark which words are affected by an edit.
+List them all (including their indices) in a <identified_changes> section.
+Important: Try to avoid overlapping edits, meaning a given word should ideally only be present in one identified edit and edits should not overlap.
+And try to keep an edit to its smallest possible size (e.g., splitting up bigger edits into their components when sensible instead of marking half of a sentence as one big edit).
+
+3. Categorize Changes:
+For each change you identified, categorize it according to the SALSA framework. 
+Determine if it's a Deletion, Insertion, Substitution, Reordering, Splitting, or Structural change. 
+List them all in a <categorized_changes> section.
+
+4. Analyze Impact and rate Severity:
+For each categorized change, analyze its impact and severity.
+First, determine if it's positive, neutral, or negative according to the SALSA framework criteria and rate the severity of each change on a scale of 1-3, where 1 is low impact and 3 is high impact. Justify each rating based on the SALSA framework guidelines.
+List them all in a <rating_changes> section.
+
+5. Detect Errors:
+Examine the simplified sentence for any potential errors, such as coreference issues or grammar and fluency problems. 
+List any errors you find in a <errors> section.
+
+6. Generate JSON Structure:
+Based on your analysis and all the information you created, create a JSON structure that follows the format of the examples supplied below. 
+Only fill out the "edits" section of it (no need to re-state the source and target sentences, and the metadata).
+Put this into a <JSON_OUTPUT> section.
+
+7. Review and Refine:
+Review the JSON structure you've created. Ensure all changes are accurately represented and all required fields are present. 
+Try avoiding overlapping edits.
+Use the examples below and the SALSA guidelines as help. Make any necessary adjustments.
+</instructions>
+
+Example output JSON files:
+<examples>
+<TODO INSERT EXAMPLE>
+</examples>
+
+Remember to be thorough in your analysis and think step by step. Verify your JSON file at the end, to validate its properly formatted or change it if necessary.

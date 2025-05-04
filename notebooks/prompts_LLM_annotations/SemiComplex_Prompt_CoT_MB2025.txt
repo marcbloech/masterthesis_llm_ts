@@ -1,0 +1,119 @@
+You are an expert text simplification analyst using the following framework for a research project. 
+Your task is to analyze the differences between an original sentence and its simplified version. Utmost careful work is paramount here.
+
+You are first given some information on the Framework to be used for Text Simplification Error Annotations:
+
+<Framework_Information>
+The following framework is a comprehensive method for evaluating errors in LLM-generated text simplifications.
+It provides a structured approach to annotating and analyzing erroneous changes made between an original text and its simplified version.
+The taxonomy is designed to be domain-agnostic and captures both content/meaning errors and fluency/form errors, while allowing for adjustments to the level of detail through its hierarchical structure (3 levels).
+
+The framework recognizes the following primary error types and sub-types:
+1. Content / Meaning Errors (Errors impacting factual content, semantics, or meaning):
+	L2: Omission: Information present in the original sentence is missing in the simplified version.
+		•	L3: Essential Omission: Critical data (e.g., numerical values, key descriptors, or qualifiers) that is necessary for understanding the core meaning is lost.
+		•	L3: Contextual Omission: Background or contextual details are omitted. While the core meaning may remain intact, nuance and tone are affected.
+	L2: Addition: Unnecessary or incorrect information is added to the simplified version.
+		•	L3: Unnecessary Expansion: Factually accurate details are added that do not contribute to the core message and may distract from it.
+		•	L3: Factual Hallucination: Incorrect or fabricated information is inserted, misrepresenting the original facts.
+		•	L3: Repetitive Addition: Redundant information is added (e.g., restating something already present).
+	L2: Substitution: Content is replaced with incorrect, misleading, or unnecessarily complex alternatives.
+		•	L3: Lexical Inaccuracy / Semantic Drift: A word/phrase is replaced with one that is semantically incorrect or changes the meaning.
+		•	L3: Factual Distortion: Factual elements (such as numbers, names, or events) are altered, resulting in a misrepresentation of the original.
+		•	L3: Lack of Simplicity / Lexical Complexity: A simpler expression is replaced by a more complex or technical term that does not suit the purpose of simplification.
+		•	L3: Coreference / Anaphora Resolution: Errors in resolving pronouns or references that lead to confusion about the entity being discussed.
+
+2. Form / Fluency Errors (Errors affecting the text’s readability, fluency, or grammatical correctness):
+	L2: Coherence and Structural Issues: Logical flow, sentence structure, or overall coherence is disrupted.
+		•	L3: Awkward Phrasing: Unnatural, clunky, or forced expressions disrupt fluency.
+		•	L3: Bad Structure / Split: Sentences are reordered or split unnaturally, harming readability and disrupting the intended narrative flow.
+	L2: Syntactic Errors: Grammatical issues impair the text’s correctness and clarity.
+		•	L3: Subject-Verb Agreement Error: Subject and verb disagree in number or person.
+		•	L3: Tense Inconsistency: Tense shifts within the same context cause confusion.
+		•	L3: Punctuation Errors: Incorrect/missing punctuation reduces clarity.
+	L2: Stylistic Errors: The tone, style, or genre becomes inconsistent with the original or the intended audience.
+		•	L3: Genre/Tone Misalignment: The style or tone does not match the context or audience.
+
+3. Orthogonal Dimensions (Applied Across All Error Types):
+These additional attributes refine the primary error categories:
+	•	Severity: Minor, Major, Critical 
+		(Minor: The error has little to no impact on comprehension (e.g., a slight punctuation mistake). Major: The error leads to noticeable confusion or misrepresentation of key content. Critical: The error severely alters the intended meaning or factual accuracy.)
+	•	Scope: Word, Phrase, Clause, Sentence affected/covered by the edit
+	•	Domain Sensitivity: Generic, Domain-Specific (Does the error disproportionately impact specialized content like medical or legal text, making it more critical there?)
+	•	Factual Dependence: Requires External Knowledge, Self-Contained (Does identifying the error require external world knowledge or is it inferable from the text alone?)
+	•	Polarity Switch / Contradiction: Whether the meaning is inverted or contradicted (e.g., “safe” → “dangerous”).
+	•	Simplification Direction: Too Complex, Too Simple (Did the edit make the text harder to read by introducing unnecessary jargon or complexity; or oversimplified the meaning?)
+
+Additional Guidelines:
+	•	Atomicity and Non-Overlap:
+Each edit should be as atomic as possible. Ensure that each identified change captures the smallest meaningful unit (word, phrase, clause) without overlapping with other edits. Consider using a decision tree:
+	1.	Does the change affect factual content? → Consider Content / Meaning Errors.
+	2.	Is the change only in structure or grammar? → Consider Form / Fluency Errors.
+	3.	If both apply, determine the primary impact (factual misrepresentation vs. readability issue).
+	
+</Framework_Information>
+
+Now with this knowledge, follow these steps carefully:
+
+<instructions>
+1. Input: You will be presented with two sentences:
+<original_sentence>
+{{ORIGINAL_SENTENCE}}
+</original_sentence>
+
+<simplified_sentence>
+{{SIMPLIFIED_SENTENCE}}
+</simplified_sentence>
+
+2. Identify Changes:
+List all changes you observe between the original and simplified sentences. 
+For each change, specify the affected words as a string (e.g. 'The quick brown').
+List them all in a <identified_changes> section.
+Important: Try to avoid overlapping edits, meaning a given word should ideally only be present in one identified edit and edits should not overlap.
+And try to keep an edit to its smallest possible size (e.g., split up bigger edits into their components when sensible instead of marking half of a sentence as one big edit).
+Very important: Every single edit MUST have associated word(s) or spans of words. Never indicate an edit operation that has not at least either an input or output text part associated with it.
+
+3. Categorize Changes
+
+For each change: 
+	•	Is it an error or bad edit? If yes, continue. Otherwise, drop this change.
+	•	Assign Level 1 error type (Content/Meaning or Form/Fluency).
+	•	Assign Level 2 sub-type.
+	•	If applicable, specify Level 3 sub-type.
+	•	Assign orthogonal error attributes as necessary:
+		•	Severity
+		•	Scope
+		•	Domain Sensitivity
+		•	Factual Dependence
+		•	Polarity Switch / Contradiction
+		•	Simplification Direction
+
+4. Generate OUTPUT CSV Structure:
+Based on your analysis and all the information you created, create a CSV structure for the analyzed sentence pair that follows the format of the examples supplied below.
+Create one row for each edit.
+
+Between <OUTPUT> and </OUTPUT>, output only the CSV lines. Do not include headings, bullet points, or explanatory text. 
+The first line inside <OUTPUT>...</OUTPUT> must be the header
+
+Example output section:
+<OUTPUT>
+input_segment,output_segment,edit_type_level1,edit_type_level2,edit_type_level3,orthogonal_types
+"quick brown","fast dark","Content / Meaning Errors","Substitution","Lexical Inaccuracy / Semantic Drift","severity:Major;scope:Phrase"
+"","which harm the environment","Content / Meaning Errors","Addition","Unnecessary Expansion","severity:Minor;scope:Phrase"
+</OUTPUT>
+
+Hint: Even if the specific edit type does not utilize a given edit_type_level, return it empty.
+
+
+5. Review and Refine:
+Review the erroneous edits you've identified and properly formatted. Ensure all relevant changes are accurately represented and all required fields are present. 
+Try avoiding overlapping edits. Keep edits as tight as possible, affecting as few worlds as possible (NOT marking entire clauses when not necessary).
+
+Use the examples below and the framework guidelines as help. Make any necessary adjustments.
+</instructions>
+
+<examples>
+<TODO INSERT EXAMPLE>
+</examples>
+
+Remember to be thorough in your analysis and think step by step. Verify your output format at the end, to validate its properly formatted or change it if necessary.

@@ -1,0 +1,4633 @@
+[
+  {
+    "source": "Further important aspects of Fungi in Art relate to preservation of artworks from fungal decay and contamination, as well as initiatives fostering and supporting works able to stimulate dialogues between mycologists (fungal researchers), artists, and society (as for example from the 'Massee Art Grant' by the British Mycological Society or works encouraged and supported by the Fungi Foundation).",
+    "target": "An important aspect of Fungi in Art is the protection of artwork from fungal damage. || Another important aspect is to make sure mycologists, artists, and society are all on the same page.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [
+            36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52,
+            53, 54, 55, 56, 57
+          ]
+        ],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[31, 32]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[15, 16]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[20, 21, 22, 23, 24, 25]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[0, 1, 2]],
+        "output_idx": [[0, 1, 2]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[7, 8, 9]],
+        "output_idx": [[7, 8, 9]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[14]],
+        "output_idx": [[14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[11]],
+        "output_idx": [[11]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[27, 28, 29]],
+        "output_idx": [[21, 22, 27, 28, 29, 30, 31, 32]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In time Eliot relocated to Washington, D.C., first as director of the National Capital Park and Planning Commission until 1933, involved in the development of the National Mall, then until 1943 as Director of the National Resources Planning Board, which formed part of the Public Works Administration.",
+    "target": "When he moved to Washington, D.C., he worked for the National Capital Park and Planning Commission until 1933. || He helped with the building of the National Mall. || After that, he worked for the National Resources Planning Board, which was part of the Public Works Administration.",
+    "metadata": { "annotator": "annotator_3", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[29, 30]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[28]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[2]],
+        "output_idx": [[1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "bad_deletion", "bad_deletion": "somewhat" }
+          },
+          "grammar_error": "yes"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[2]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[7, 8, 9, 10]],
+        "output_idx": [[6, 7, 8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[20]],
+        "output_idx": [[20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[21, 22, 23, 24]],
+        "output_idx": [[21, 22, 23]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 6,
+        "category": "substitution",
+        "input_idx": [[31, 32, 33]],
+        "output_idx": [[31, 32, 33]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 7,
+        "category": "substitution",
+        "input_idx": [[40]],
+        "output_idx": [[40]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[19]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[29, 30]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 8,
+            "category": "substitution",
+            "input_idx": [[0, 1]],
+            "output_idx": [[0]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "transition" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 9,
+            "category": "substitution",
+            "input_idx": [[7, 10]],
+            "output_idx": [[6, 8]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 10,
+            "category": "substitution",
+            "input_idx": [[31, 33]],
+            "output_idx": [[31, 33]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Divided into sections pertaining to each season and covering self-reliance, growing and gardening, cooking, health and beauty, and wilderness, and with photos and illustrations evocative of the great outdoors, A Wilder Life shows that getting in touch with nature is possible.",
+    "target": "A Wilder Life shows that getting in touch with nature is possible. || To show this, the book details many different aspects of the outdoors.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [
+          [
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
+            19, 20, 21, 22, 23, 24, 25, 26, 27, 28
+          ]
+        ],
+        "output_idx": [[18, 19, 20, 21, 22, 23, 24]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[16, 17]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[13, 14, 15]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]],
+        "output_idx": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[0, 28]],
+            "output_idx": [[18, 24]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The Taiwanese government announces that it would extend the required duration for conscription from four months to one year, citing the increasing threat of China using military force to pursue Chinese unification.",
+    "target": "The Taiwanese government announced that it would extend the required duration for conscription from four months to one year, citing the increasing threat of China using military force to pursue Chinese unification.",
+    "metadata": { "annotator": "annotator_0", "system": "new-wiki-1/T5-3B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[3]],
+            "output_idx": [[3]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "According to anonymous sources cited by The Wall Street Journal, FTX had lent $10 billion of its customer assets to Alameda Research in 2022, and Alameda CEO Caroline Ellison disclosed to other Alameda employees that she, Sam Bankman-Fried, Gary Wang, and Nishad Singh knew about that decision.",
+    "target": "The Wall Street Journal reported that FTX had given Alameda Research $10 billion to buy some of its business, and that Alameda CEO Caroline Ellison had told other Alameda employees that she, Sam Bankman-Fried, Gary Wang, and Nishad Singh knew about the deal.",
+    "metadata": { "annotator": "annotator_2", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0, 1, 2, 3, 4, 5]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[22, 23]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[15, 16, 17, 18]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[12, 19]],
+        "output_idx": [[8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[29, 30]],
+        "output_idx": [[25, 26]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[45, 46]],
+        "output_idx": [[41, 42]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[4, 5]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[13, 14, 15, 16, 17, 18]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[13, 14]],
+        "output_idx": [[11, 12]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "A high-profile affair at the time, the impeachment pitted the two major United States political parties of the era against each other amid a battle between the parties over, among other things, what the role of Federal courts should look like.",
+    "target": "The impeachment was a major event during that time. || It was a struggle between the two major U.S. political parties about, for example, the role of Federal courts.",
+    "metadata": {
+      "annotator": "annotator_2",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0, 1, 2, 3, 4, 5]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]],
+        "output_idx": [[2, 3, 4, 5, 6, 7, 8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[27]],
+        "output_idx": [[14, 15, 16, 17, 18, 19, 20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[32, 33, 34, 35, 36, 37, 38, 39, 40]],
+        "output_idx": [[24, 25, 26, 27, 28]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[29, 31]],
+            "output_idx": [[22, 23]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "transition" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Three members of the endangered Irrawaddy dolphin have died within ten days from each other in Cambodia, prompting an increasingly alarming situation.",
+    "target": "In Cambodia, three Irrawaddy dolphins have passed away within ten days of each other, creating a worrying situation.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[1, 2, 3, 4]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[8]],
+        "output_idx": [[6, 7]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[12]],
+        "output_idx": [[11]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[17, 18, 19, 20]],
+        "output_idx": [[14, 15, 16]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[15, 16]],
+        "output_idx": [[0, 1]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[6]],
+            "output_idx": [[4]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "grammar_number" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Blogger DJ Akademiks held a three-hour stream in honor of Takeoff, in which he analyzed videos from the moment of the murder of Kirshnik, and also called for fighting the ideology of violence in hip-hop, including stop imitating rappers YNW Melly and Tay-K, who were convicted of murder.",
+    "target": "Blogger DJ Akademiks held a three-hour long stream to honor Takeoff. || In this stream, he analyzed videos from the moment of Kirshnik’s murder. || He also asked people to challenge the use of violence in hip-hop and to stop copying rappers like YNW Melly and Tay-K who were convicted of murder.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[26, 27, 28, 29, 30]],
+        "output_idx": [[27, 28, 29, 30, 31, 32]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[12]],
+        "output_idx": [[13, 14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[21, 22, 23]],
+        "output_idx": [[22, 23]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[7, 9]],
+            "output_idx": [[8, 9]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[35, 38]],
+            "output_idx": [[37, 41]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Widespread blackouts are reported in Western Ukraine as Russian forces launch another wave of cruise missile strikes, including the city of Lviv which has experienced a total blackout.",
+    "target": "As Russian forces launch another wave of cruise missile strikes, widespread blackouts are reported in Western Ukraine.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[0, 1, 2, 3, 4, 5, 6]],
+        "output_idx": [[10, 11, 12, 13, 14, 15, 16]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On 14 November, an interview with journalist Piers Morgan was published, where Ronaldo said that he felt \"betrayed\" by ten Hag and \"two or three others\" who wanted Ronaldo to leave the club, while also adding that the club \"doubted\" him when he said he could not attend pre-season training due to the illness of his daughter, and that he did not respect ten Hag \"because he doesn't show respect for me\", leading him to be disappointed with the communication of the club.",
+    "target": "On 14 November, an interview with journalist Piers Morgan was published, where Ronaldo said he felt \"betrayed\" by ten Hag and \"two or three others\" who wanted Ronaldo to leave the club.",
+    "metadata": { "annotator": "annotator_1", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [
+            33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+            50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66,
+            67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82
+          ]
+        ],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[14]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Stephany initially announced her intent to remain as Minority Leader of the Vermont House while campaigning for mayor, stating that she would turn over day-to-day duties to Assistant Minority Leader Paul N. Poirier.",
+    "target": "Stephany is campaigning for mayor, but announced she would also try to remain as Minority Leader of the Vermont House. || She stated she would give day-to-day work to Assistant Minority Leader Paul N. Poirier.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[1]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[22, 23]],
+        "output_idx": [[25]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[25]],
+        "output_idx": [[27]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[3, 4]],
+        "output_idx": [[7, 8, 9, 10]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[18, 19]],
+        "output_idx": [[21, 22]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[5]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[14, 15, 16, 17]],
+        "output_idx": [[1, 2, 3, 4]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[14, 17]],
+            "output_idx": [[1, 4]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 2, "category": "insertion", "output_idx": [[5]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 6,
+            "category": "substitution",
+            "input_idx": [[3, 4]],
+            "output_idx": [[7, 10]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 7,
+            "category": "substitution",
+            "input_idx": [[18, 19]],
+            "output_idx": [[21, 22]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Born on September 27, 1940 in Keekozhur, a small hamlet in the Pathanamthitta district, in the south Indian state of Kerala, Thomas Mathew did his education at Christian College, Chengannur, and Maharaja's College, Ernakulam, and started his career as a lecturer at his alma mater, Christian College, Chengannur.",
+    "target": "Thomas Mathew was born on September 27, 1940 in Keekozhur, a small hamlet in the Pathanamthitta district, in the south Indian state of Kerala, Thomas Mathew did his education at Maharaja's College, Ernakulam and Christian College, Chengannur, where he was a very good student.",
+    "metadata": { "annotator": "annotator_1", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]],
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[27, 28, 29, 30, 31, 32, 33]],
+        "output_idx": [[30, 31, 32, 33, 34, 35, 36]],
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 3, "category": "insertion", "output_idx": [[2]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "LaSalle's nomination was opposed by progressive members of the New York State Senate, who criticized LaSalle's record on abortion and labor cases, which they perceived as conservative.",
+    "target": "LaSalle's appointment was disagreed with by the progressive members of the New York Senate. || They spoke out against LaSalle because of how he handled cases involving abortion and labor, which they considered too conservative.",
+    "metadata": {
+      "annotator": "annotator_2",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[11]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[16]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[1]],
+        "output_idx": [[1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[3, 4]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[14]],
+        "output_idx": [[16, 17, 18]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[24]],
+        "output_idx": [[32]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[6]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[20, 21, 22, 23, 24]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "insertion",
+        "output_idx": [[26]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[21]],
+        "output_idx": [[25]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[15]],
+            "output_idx": [[19]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 6,
+            "category": "substitution",
+            "input_idx": [[25]],
+            "output_idx": [[33]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On November 9, Fetterman was projected as the winner of the election by media outlets.",
+    "target": "The media projected Fetterman to win the election on November 9.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[13, 14]],
+        "output_idx": [[0, 1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[0, 1, 2]],
+        "output_idx": [[8, 9, 10]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "reorder",
+        "input_idx": [[13]],
+        "output_idx": [[1]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 1, "category": "deletion", "input_idx": [[4]] },
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[6, 9]],
+            "output_idx": [[4, 5]]
+          },
+          {
+            "id": 3,
+            "category": "reorder",
+            "input_idx": [[13, 14]],
+            "output_idx": [[0, 1]]
+          },
+          {
+            "id": 4,
+            "category": "reorder",
+            "input_idx": [[5]],
+            "output_idx": [[2]]
+          },
+          {
+            "id": 5,
+            "category": "reorder",
+            "input_idx": [[3]],
+            "output_idx": [[3]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "good", "good": "a lot" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 2, "category": "deletion", "input_idx": [[12]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "good", "good": "a lot" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Republicans have blamed the increase in violent crime and homicides in 2020 and 2021 on progressives and liberals, although Biden had previously rejected calls to \"defund the police\", a slogan supported by racial justice protesters.",
+    "target": "Republicans have blamed the increase in violent crime on progressives and liberals. || However,  Biden had rejected calls from racial justice protesters to “defund the police.”",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[8, 9, 10, 11, 12, 13]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[21]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[18]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[28, 29, 30, 31]],
+        "output_idx": [[18]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[13]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[24, 25, 26, 27]],
+        "output_idx": [[22, 23, 24, 25]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On November 9, Fetterman was projected as the winner of the election by media outlets.",
+    "target": "On November 9, the media said that Fetterman was the winner of the election.",
+    "metadata": { "annotator": "annotator_1", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[13, 14]],
+        "output_idx": [[3, 4]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[5]],
+        "output_idx": [[5, 6]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[8]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "bad", "bad": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 1, "category": "deletion", "input_idx": [[12]] },
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[4, 6]],
+            "output_idx": [[5, 6]]
+          },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[3]],
+            "output_idx": [[7]]
+          },
+          {
+            "id": 2,
+            "category": "reorder",
+            "input_idx": [[13, 14]],
+            "output_idx": [[3, 4]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "good", "good": "a lot" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The film received positive reviews from critics, with praise towards Coogler's direction, the action sequences, production and costume design, the cast's performances (particularly those of Wright, Gurira, Huerta, and Bassett), emotional weight, musical score, and its tributes to Boseman, although the runtime received some criticism.",
+    "target": "Critics praised the film's direction by Coogler, the action sequences, production and costume design, and the performances of Wright, Gurira, Huerta, and Bassett. || They also approved of its emotional weight, musical score, and its tributes to Boseman. || However, the runtime was criticized.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[20]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[14]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 2, "category": "deletion", "input_idx": [[2, 5]] },
+          { "id": 3, "category": "deletion", "input_idx": [[7]] },
+          { "id": 4, "category": "deletion", "input_idx": [[9]] },
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[1]],
+            "output_idx": [[3]]
+          },
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[8]],
+            "output_idx": [[1]]
+          },
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[10]],
+            "output_idx": [[6]]
+          },
+          { "id": 2, "category": "insertion", "output_idx": [[5]] },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[0, 1]],
+            "output_idx": [[2, 3]]
+          },
+          {
+            "id": 2,
+            "category": "reorder",
+            "input_idx": [[6]],
+            "output_idx": [[0]]
+          },
+          {
+            "id": 3,
+            "category": "reorder",
+            "input_idx": [[8]],
+            "output_idx": [[1]]
+          },
+          {
+            "id": 4,
+            "category": "reorder",
+            "input_idx": [[11]],
+            "output_idx": [[4]]
+          },
+          {
+            "id": 5,
+            "category": "reorder",
+            "input_idx": [[10]],
+            "output_idx": [[6]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 5, "category": "deletion", "input_idx": [[43]] },
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[42]],
+            "output_idx": [[42]]
+          },
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[44]],
+            "output_idx": [[43]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "a lot" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 6, "category": "deletion", "input_idx": [[22, 23]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In the opening game of their group, they defeated a much fancied Argentina side 2-1, ending an Argentine unbeaten streak of 36 games dating back to 2019.",
+    "target": "In the opening game of their group, they defeated Argentina side 2-1. || The win ended Argentina's 36 game unbeaten streak, the longest in the world.",
+    "metadata": { "annotator": "annotator_2", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[9, 10, 11]],
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[23, 24, 25, 26]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[18, 19, 20, 21, 22]],
+        "output_idx": [[17, 18, 19, 20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[21, 22, 23, 24, 25]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[18, 19, 20, 21, 22]],
+        "output_idx": [[17, 18, 19, 20]],
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[16, 17]],
+            "output_idx": [[16]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Argentine footballer Lionel Messi's Instagram post containing photos of him lifting the FIFA World Cup Trophy and celebrating with the Argentina team after winning the 2022 FIFA World Cup two days prior becomes the social networking service's most-liked post after reaching over 56 million likes, surpassing the previous record held by the Instagram egg.",
+    "target": "Argentine footballer Lionel Messi's Instagram post of him lifting the FIFA World Cup Trophy and celebrating with the Argentina team after winning the 2022 FIFA World Cup two days prior becomes the social networking service's most-liked post.",
+    "metadata": { "annotator": "annotator_2", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[6, 7]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [
+          [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+        ],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "England are the reigning T20 World Cup holders, having beaten Pakistan in the 2022 final, winning their second title.",
+    "target": "England won their second title when they beat Pakistan in the final. || They are the reigning T20 World Cup holders.",
+    "metadata": { "annotator": "annotator_3", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[13]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[1, 2, 3, 4, 5, 6, 7]],
+        "output_idx": [[14, 15, 16, 17, 18, 19, 20]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "reorder",
+        "input_idx": [[15, 16, 17, 18]],
+        "output_idx": [[1, 2, 3, 4]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 2, "category": "deletion", "input_idx": [[8]] },
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[9]],
+            "output_idx": [[7]]
+          },
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[15]],
+            "output_idx": [[1]]
+          },
+          { "id": 1, "category": "insertion", "output_idx": [[5]] },
+          { "id": 2, "category": "insertion", "output_idx": [[6]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "A winter storm causes record-breaking low temperatures and leaves more than 80 people dead across North America.",
+    "target": "A deadly winter storm swept across North America, resulting in record-low temperatures and the death of over 80 people.",
+    "metadata": {
+      "annotator": "annotator_2",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[8, 9]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[4, 5]],
+        "output_idx": [[10]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[8, 9, 10, 11, 12, 13]],
+        "output_idx": [[13, 14, 15, 16, 17, 18]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[4]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[14, 15, 16]],
+        "output_idx": [[5, 6, 7]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The Supreme Court of the United Kingdom unanimously denies the Scottish government the right to hold a second referendum on Scottish independence from the United Kingdom without approval from the British government.",
+    "target": "The Supreme Court of the United Kingdom ruled that the Scottish government cannot hold another referendum on Scottish independence without permission from the British government.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[22, 23, 24, 25]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[7]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[27]],
+        "output_idx": [[20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[8, 12, 13, 14]],
+        "output_idx": [[7, 8, 12]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[16, 17]],
+        "output_idx": [[14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In 2021 the EU imported 83% of its natural gas, but following the invasion of Ukraine, gas imports from Russia have fallen, partly due to the increasing cost, partly because of reductions in supply from Russia, partly through reduction of consumption and partly because of a desire to move away from Russia's Gazprom as a supplier.",
+    "target": "The EU used to import a lot of gas from Russia. || But due to the invasion of Ukraine, gas imports from Russia have fallen. || This is because costs have increased, supply from Russia has gone down, consumption in Europe has decreased, and Europe wants to move away from Russia as a natural gas supplier.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0, 1]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[2, 3, 4, 5, 6, 7, 8, 9]],
+        "output_idx": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[11]],
+        "output_idx": [[13, 14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[23, 24, 25, 26, 27]],
+        "output_idx": [[28, 29, 30, 31]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[31, 32, 33, 34, 35]],
+        "output_idx": [[32, 33, 34, 35, 36, 37]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[38, 39, 40]],
+        "output_idx": [[38, 39, 40, 41, 42]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 6,
+        "category": "substitution",
+        "input_idx": [[45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]],
+        "output_idx": [[43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "French serial killer Charles Sobhraj, who received a life sentence in Nepal for murdering two tourists in 1975, is released from prison due to his old age and good behavior in accordance with a Supreme Court order.",
+    "target": "French serial killer Charles Sobhraj, who received a life sentence in Nepal for murdering two tourists in 1975, is released from prison due to his old age and good behavior.",
+    "metadata": { "annotator": "annotator_0", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[30, 31, 32, 33, 34, 35, 36]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "There is general acknowledgment among the mediators, as well as some outside observers, that this agreement represents a step towards peace, but that true peace had yet to be fully realized.",
+    "target": "Outside observers and mediators think that this agreement is a step towards peace. || However, they think that true peace has not been fully realized yet.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0, 1, 2, 3, 4, 5]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[10]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[16]],
+        "output_idx": [[8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[7, 8, 9]],
+        "output_idx": [[2]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[26, 27, 28]],
+        "output_idx": [[21, 22, 25]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[4]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[11, 12]],
+        "output_idx": [[0, 1]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[25]],
+            "output_idx": [[20]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Further important aspects of Fungi in Art relate to preservation of artworks from fungal decay and contamination, as well as initiatives fostering and supporting works able to stimulate dialogues between mycologists (fungal researchers), artists, and society (as for example from the 'Massee Art Grant' by the British Mycological Society or works encouraged and supported by the Fungi Foundation).",
+    "target": "Fungi in Art is important for its role in preserving artworks from fungal decay and contamination. || It also supports dialogues between mycologists, artists, and society through initiatives like the 'Massee Art Grant' by the British Mycological Society and other projects supported by the Fungi Foundation.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[17, 18, 19]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[20, 21, 22, 23, 24, 25, 26]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[1, 2, 3, 4, 5, 6]],
+        "output_idx": [[0, 1, 2, 3, 4, 5]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[7, 8, 9, 10]],
+        "output_idx": [[6, 7, 8, 9]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[27]],
+        "output_idx": [[19]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [
+          [
+            30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46,
+            47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57
+          ]
+        ],
+        "output_idx": [
+          [
+            22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+            39, 40, 41, 42, 43, 44, 45
+          ]
+        ],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[17, 18]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 4, "category": "deletion", "input_idx": [[0]] },
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[1, 6]],
+            "output_idx": [[0, 5]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 6,
+            "category": "substitution",
+            "input_idx": [[7, 10]],
+            "output_idx": [[6, 9]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 5, "category": "deletion", "input_idx": [[20, 26]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 7,
+            "category": "substitution",
+            "input_idx": [[27]],
+            "output_idx": [[19]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "grammar_number" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "An activist hiding his identity said the Egyptian authorities were carrying out random detentions ahead of COP, where they are randomly stopping people and inspecting their mobile phones to look for any evidence of dissent.",
+    "target": "An activist who did not want to be named said the Egyptian government was holding random arrests ahead of COP. || He said they stopped people at random and checked their phones to look for evidence of dissent.",
+    "metadata": { "annotator": "annotator_0", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[26]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[31]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[2, 3, 4]],
+        "output_idx": [[2, 3, 4, 5, 6, 7, 8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[8]],
+        "output_idx": [[12]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[10, 11]],
+        "output_idx": [[14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[13]],
+        "output_idx": [[16]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[24]],
+        "output_idx": [[29]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 6,
+        "category": "substitution",
+        "input_idx": [[19, 21]],
+        "output_idx": [[24]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 7,
+            "category": "substitution",
+            "input_idx": [[9]],
+            "output_idx": [[13]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "grammar_number" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 8,
+            "category": "substitution",
+            "input_idx": [[24]],
+            "output_idx": [[29]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 9,
+            "category": "substitution",
+            "input_idx": [[20]],
+            "output_idx": [[26, 27]]
+          },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[20]],
+            "output_idx": [[26, 27]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Further important aspects of Fungi in Art relate to preservation of artworks from fungal decay and contamination, as well as initiatives fostering and supporting works able to stimulate dialogues between mycologists (fungal researchers), artists, and society (as for example from the 'Massee Art Grant' by the British Mycological Society or works encouraged and supported by the Fungi Foundation).",
+    "target": "An important aspect of Fungi in Art is the protection of artwork from fungal damage. || Another important aspect is to make sure mycologists, artists, and society are all on the same page.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [
+            36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52,
+            53, 54, 55, 56, 57
+          ]
+        ],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[31, 32]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[15, 16]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[20, 21, 22, 23, 24, 25]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[0, 1, 2]],
+        "output_idx": [[0, 1, 2]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[7, 8, 9]],
+        "output_idx": [[7, 8, 9]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[14]],
+        "output_idx": [[14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[11]],
+        "output_idx": [[11]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[27, 28, 29]],
+        "output_idx": [[21, 22, 27, 28, 29, 30, 31, 32]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In time Eliot relocated to Washington, D.C., first as director of the National Capital Park and Planning Commission until 1933, involved in the development of the National Mall, then until 1943 as Director of the National Resources Planning Board, which formed part of the Public Works Administration.",
+    "target": "Eliot moved to Washington, D.C. in 1933. || His job was to direct the National Capital Park and Planning Commission and develop the National Mall. || He worked in this role until 1943 when he switched to the National Resources Planning Board, which was part of the Public Works Administration.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0, 1]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[7, 8, 9, 10]],
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[28]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[18]],
+        "output_idx": [[5]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[20, 21, 22, 23, 24]],
+        "output_idx": [[21]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[31, 32, 33]],
+        "output_idx": [[33, 34, 35, 36, 37]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "bad_deletion", "bad_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[40]],
+        "output_idx": [[43]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[8, 9, 10, 11, 12]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[20]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "insertion",
+        "output_idx": [[26, 27, 28, 29, 30]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[18, 19]],
+        "output_idx": [[5, 6]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 4, "category": "insertion", "output_idx": [[20]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 4, "category": "deletion", "input_idx": [[0, 1]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 6,
+            "category": "substitution",
+            "input_idx": [[20, 24]],
+            "output_idx": [[21]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 7,
+            "category": "substitution",
+            "input_idx": [[31, 33]],
+            "output_idx": [[33, 37]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Widespread blackouts are reported in Western Ukraine as Russian forces launch another wave of cruise missile strikes, including the city of Lviv which has experienced a total blackout.",
+    "target": "After another wave of missile strikes, blackouts have been reported in Western Ukraine including the city of Lviv which experienced a total blackout.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[0]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[8, 9, 10]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[14]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[7]],
+        "output_idx": [[0]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[1, 2, 3, 4, 5, 6]],
+        "output_idx": [[6, 7, 8, 9, 10, 11, 12]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[23, 24]],
+            "output_idx": [[19]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[2]],
+            "output_idx": [[7, 8]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On November 9, Fetterman was projected as the winner of the election by media outlets.",
+    "target": "On Novermber 9, media outlets predicted Fetterman would win the US Senate election in Pennsylvania.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[5]],
+        "output_idx": [[5]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[11]],
+        "output_idx": [[10, 11, 12, 13, 14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 1, "category": "deletion", "input_idx": [[4]] },
+          { "id": 2, "category": "deletion", "input_idx": [[12]] },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[13, 14]],
+            "output_idx": [[3, 4]]
+          },
+          {
+            "id": 2,
+            "category": "reorder",
+            "input_idx": [[3]],
+            "output_idx": [[6]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "good", "good": "a lot" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[6, 9]],
+            "output_idx": [[7, 8]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[5]],
+            "output_idx": [[5], [7, 8]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The DC Native History Project was established to work with local tribe members to gain further understanding and recognition of the Anacostan heritage of the region, and to create an interactive map of Washington, D.C. with identified original village sites and the locations of artifact excavations.",
+    "target": "The DC Native History Project was created to collaborate with indigenous people from the area and to bring awareness to the Anacostan culture of the region. || They are also making an interactive map of Washington, D.C. that shows the original village sites and places where artifacts were discovered.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[6]],
+        "output_idx": [[6]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[8]],
+        "output_idx": [[8]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[10, 11, 12]],
+        "output_idx": [[10, 11]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[14, 15, 16, 17, 18, 19]],
+        "output_idx": [[17, 18, 19]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[22]],
+        "output_idx": [[22]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 6,
+        "category": "substitution",
+        "input_idx": [[27, 28]],
+        "output_idx": [[30]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 7,
+        "category": "substitution",
+        "input_idx": [[41, 42]],
+        "output_idx": [[44]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 8,
+        "category": "substitution",
+        "input_idx": [[43, 45]],
+        "output_idx": [[45, 47, 48]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 9,
+        "category": "substitution",
+        "input_idx": [[35]],
+        "output_idx": [[37, 38]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "more",
+            "more": { "val": "elaboration", "elaboration": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[15]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[12, 13, 14]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "insertion",
+        "output_idx": [[39]],
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": "no"
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 10,
+            "category": "substitution",
+            "input_idx": [[27, 28]],
+            "output_idx": [[30]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On the fifth day of flight, November 20, 2022, at 19:09 UTC, the Orion spacecraft entered the Lunar sphere of influence, thus the Moon's gravitational force became stronger than Earth's relative to the spacecraft.",
+    "target": "On November 20, 2022, at 19:09 UTC, the Orion spacecraft entered the Lunar sphere of influence. || This meant that the Moon was pulling the spacecraft with more gravitational force than the Earth.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[1, 2, 3, 4, 5]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[26, 27]],
+        "output_idx": [[26, 27]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 2, "category": "deletion", "input_idx": [[30, 33]] },
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[23]],
+            "output_idx": [[21]]
+          },
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[26, 27]],
+            "output_idx": [[26, 27]]
+          },
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[29]],
+            "output_idx": [[32]]
+          },
+          { "id": 1, "category": "insertion", "output_idx": [[22, 25]] },
+          { "id": 2, "category": "insertion", "output_idx": [[31]] },
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[24, 25]],
+            "output_idx": [[28, 29]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The last president to run after leaving office was Theodore Roosevelt, who came in second in the 1912 election as the presidential nominee of the Progressive Party, although Herbert Hoover did briefly seek the Republican presidential nomination at several national conventions subsequent to leaving office in 1933.",
+    "target": "The last president to run after leaving office was Theodore Roosevelt, although Herbert Hoover did later seek the Republican presidential nomination in 1933.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+        ],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[31]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[37, 38, 39, 40]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[41, 42, 43, 44]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[15]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The last president to run after leaving office was Theodore Roosevelt, who came in second in the 1912 election as the presidential nominee of the Progressive Party, although Herbert Hoover did briefly seek the Republican presidential nomination at several national conventions subsequent to leaving office in 1933.",
+    "target": "The last president to run after leaving office was Theodore Roosevelt.",
+    "metadata": { "annotator": "annotator_2", "system": "new-wiki-1/T5-3B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [
+            11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+            28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+            45, 46
+          ]
+        ],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In southwestern Ontario, Highway 401 was closed for much of December 23 between London and Tilbury, west of Chatham, due to about 100 vehicles, including numerous tractor trailers, being involved in multiple collisions, while Highway 402 was closed between London and Sarnia because of a 50-vehicle pileup and deteriorating conditions.",
+    "target": "In southwestern Ontario, Highway 401 was closed for a lot of time on December 23 between London and Tilbury, west of Chatham, because of many cars being hit. || Also, Highway 402 was closed between London and Sarnia because of a 50-vehicle pileup, and it was not clear when it would open again.",
+    "metadata": { "annotator": "annotator_3", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[24, 25, 26, 27]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[47, 48, 49]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[8, 9]],
+        "output_idx": [[8, 9, 10, 11, 12]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[19, 20]],
+        "output_idx": [[22, 23]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[21, 22, 23]],
+        "output_idx": [[24, 25]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[28, 29, 30, 31, 32]],
+        "output_idx": [[26, 27]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[43, 44, 45, 46, 47, 48, 49, 50, 51, 52]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The film centers on a reclusive wealthy family who has spent months living in virtual isolation in the family mansion to prevent their community from finding out that daughter Hélène has gotten pregnant from a one-night stand, only to have their fragile equilibrium challenged when Hélène abandons the house soon after the baby's birth to look for the father.",
+    "target": "The movie is about a family who spend months living in virtual isolation because their daughter Hélène has gotten pregnant after a one-night stand. || After the baby is born, Hélène leaves the house to look for the father, but the family does not know if the father is the father of the baby or not.",
+    "metadata": { "annotator": "annotator_0", "system": "new-wiki-1/Muss" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[5, 6]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[16, 17, 18, 19]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[20, 21, 22, 23, 24, 25, 26, 27]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[37, 38, 39, 40, 41, 42, 43, 44]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "deletion",
+        "input_idx": [[49]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[1]],
+        "output_idx": [[1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[2, 3]],
+        "output_idx": [[2, 3]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[46]],
+        "output_idx": [[31]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[13, 14]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[9, 10]],
+            "output_idx": [[7]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[52, 53]],
+            "output_idx": [[27, 29]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The 8mm and 16mm camera props used in the film had real film inside them, with LaBelle being taught how to use the cameras so that what was shot with them on set can be developed for usage in the film, as well as how to cut and splice film stock using the editing machines and film projectors of the time period.",
+    "target": "LaBelle was taught how to use the 8mm and 16mm camera props with real film inside them, for the film. || She also learned how to cut and splice film stock using the editing machines and projectors of the time period.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [
+          [
+            22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+            39, 40
+          ]
+        ],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[41, 42, 43]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[6]],
+        "output_idx": [[17]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[21, 22, 23]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[16, 17, 18, 19, 20, 21]],
+        "output_idx": [[0, 1, 2, 3, 4, 5]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "reorder",
+        "input_idx": [[6, 7, 8, 9]],
+        "output_idx": [[17, 18, 19]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[16, 20]],
+            "output_idx": [[0, 5]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[6]],
+            "output_idx": [[17]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Following the release of Wednesday, Wednesday Addams's dance from the series and its fan recreations to Lady Gaga's song \"Bloody Mary\" went viral on video sharing service TikTok.",
+    "target": "Following the release of \" Wednesday \", Addams'dance from the series and its fan recreations of Lady Gaga's song \"Bloody Mary\" went viral on the video sharing service TikTok.",
+    "metadata": { "annotator": "annotator_1", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[5]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[15]],
+        "output_idx": [[15]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[24]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Widespread blackouts are reported in Western Ukraine as Russian forces launch another wave of cruise missile strikes, including the city of Lviv which has experienced a total blackout.",
+    "target": "Widespread blackouts are reported in Western Ukraine as Russian forces launch another wave of cruise missile strikes.",
+    "metadata": { "annotator": "annotator_1", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "On November 5, 2022, FIFA sent out a letter to all participating nations telling them to cease and avoid any further or current discussion of Qatar's poor human rights records to \"respect all opinions and beliefs, without handing out moral lessons to the rest of the world\" and to \"focus on the football.\"",
+    "target": "On November 5, 2022, FIFA sent a letter to all of its participating nations. || This letter told them to stop discussing Qatar’s poor human rights records to “respect all opinions and beliefs, without handing out moral lessons to the rest of the world” and to “focus on the football.”.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[19, 20, 21, 22]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[13]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[16, 17, 18]],
+        "output_idx": [[20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[49, 50, 51, 52]],
+        "output_idx": [[46, 47, 48, 49]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "yes"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[15, 16, 17]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[23, 24]],
+            "output_idx": [[21]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The film has grossed over $552 million worldwide, becoming the eighth highest-grossing film of 2022.",
+    "target": "The film made over $552 million, becoming the eighth highest-grossing film of 2022.",
+    "metadata": {
+      "annotator": "annotator_2",
+      "system": "new-wiki-1/Human-2-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[7]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[2]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[2, 3]],
+            "output_idx": [[2]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In the opening game of their group, they defeated a much fancied Argentina side 2-1, ending an Argentine unbeaten streak of 36 games dating back to 2019.",
+    "target": "In the opening game of their group, they defeated a much fancied Argentina side 2-1. || This ended an Argentine unbeaten streak of 36 games dating back to 2019.",
+    "metadata": { "annotator": "annotator_3", "system": "new-wiki-1/T5-11B" },
+    "edits": [
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[16]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[15]],
+            "output_idx": [[17]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The activists called out to the Russian delegation, stating that the Russians were war criminals who didn't have the right to be present at the conference and didn't deserve respect.",
+    "target": "The activists said that the Russians were war criminals and shouldn’t be at the conference.",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[2, 3, 4, 5, 6, 7]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[26, 27, 28, 29]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]],
+        "output_idx": [[9, 10, 11, 12, 13, 14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[8]],
+            "output_idx": [[2]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The Supreme Court of the United Kingdom unanimously denies the Scottish government the right to hold a second referendum on Scottish independence from the United Kingdom without approval from the British government.",
+    "target": "The Supreme Court of the United Kingdom ruled that the Scottish government cannot hold another referendum on Scottish independence without permission from the British government.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/GPT-3-few-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[22, 23, 24, 25]],
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[7]],
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[27]],
+        "output_idx": [[20]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[8, 12, 13, 14]],
+        "output_idx": [[7, 8, 12]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[16, 17]],
+        "output_idx": [[14]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The book is illustrated with more than 200 newly commissioned color photographs by the British architectural photographer Morley von Sternberg, as well as older images where needed to illustrate buildings that have been significantly altered or demolished.",
+    "target": "More than 200 brand-new, colored photographs have been taken by British architectural photographer Morley von Sternberg for this book. || Additionally, older images have been used to show buildings that have changed or been destroyed.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[25, 26]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[33]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[2, 3, 4]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[13]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[8, 9]],
+        "output_idx": [[3]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "less": { "val": "good_deletion", "good_deletion": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[28]],
+        "output_idx": [[27]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[32, 34]],
+        "output_idx": [[31]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[6, 7, 8]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[16]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[0, 1]],
+        "output_idx": [[17, 18]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "bad", "bad": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[36]],
+            "output_idx": [[34]]
+          },
+          { "id": 3, "category": "insertion", "output_idx": [[33]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "About 80 percent of buildings in the area were reconstructed or retrofitted after the 1999 earthquakes, reducing the impact of this earthquake.",
+    "target": "Around 80% of the buildings in the area were rebuilt or modified after the 1999 earthquakes, thus decreasing the effect of this quake.",
+    "metadata": {
+      "annotator": "annotator_1",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[0]],
+        "output_idx": [[0]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[1, 2]],
+        "output_idx": [[1]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[9]],
+        "output_idx": [[9]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[11]],
+        "output_idx": [[11]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "a lot" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[16]],
+        "output_idx": [[17]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 6,
+        "category": "substitution",
+        "input_idx": [[18]],
+        "output_idx": [[19]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 7,
+        "category": "substitution",
+        "input_idx": [[21]],
+        "output_idx": [[22]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[3]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[16]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "Once inaugurated in January 2023, she will become the first female Governor of Massachusetts as well as the first openly lesbian woman and third openly LGBT person (after Kate Brown and Jared Polis) to take office as governor of a U.S. state.",
+    "target": "She will become the first female Governor of Massachusetts in January 2023, and the first openly lesbian governor of a U.S. state, along with the third openly LGBT person (after Kate Brown and Jared Polis).",
+    "metadata": {
+      "annotator": "annotator_3",
+      "system": "new-wiki-1/GPT-3-zero-shot"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[14, 15, 16]],
+        "output_idx": [[12]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[22]],
+        "output_idx": [[22, 23, 24]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[2, 3, 4]],
+        "output_idx": [[9, 10, 11]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "reorder",
+        "input_idx": [[37, 38, 39, 40, 41]],
+        "output_idx": [[17, 18, 19, 20, 21]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 1, "category": "deletion", "input_idx": [[0, 1]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "transition" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "The sitcom series features the story of Abi (played by Bolu Essien) who secures a job at a top advertising agency in Lagos, although she had a rough start with her superior, she soon got an opportunity to shine at work when she was promoted to become the acting manager after the manager traveled to another branch.",
+    "target": "The sitcom series is about the story of Abi who gets a job at a top ad agency in Lagos. || Though she has a rough start with her superior, she gets a chance to shine at work when she is promoted to acting manager. || This happens because her manager travels to another branch.",
+    "metadata": {
+      "annotator": "annotator_2",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[8, 9, 10, 11]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[33]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[46, 47]],
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[3]],
+        "output_idx": [[3, 4]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "substitution",
+        "input_idx": [[13]],
+        "output_idx": [[10]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "substitution",
+        "input_idx": [[19]],
+        "output_idx": [[16]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "substitution",
+        "input_idx": [[35, 36]],
+        "output_idx": [[32, 33]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "substitution",
+        "input_idx": [[51]],
+        "output_idx": [[49]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          {
+            "id": 6,
+            "category": "substitution",
+            "input_idx": [[25]],
+            "output_idx": [[23]]
+          },
+          {
+            "id": 7,
+            "category": "substitution",
+            "input_idx": [[34]],
+            "output_idx": [[31]]
+          },
+          {
+            "id": 8,
+            "category": "substitution",
+            "input_idx": [[43]],
+            "output_idx": [[40]]
+          },
+          {
+            "id": 9,
+            "category": "substitution",
+            "input_idx": [[53]],
+            "output_idx": [[51]]
+          }
+        ],
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  },
+  {
+    "source": "In the interior, on the facade and the portico, painted decoration is preserved, which was carried out in two time periods, the first with its construction and the second possibly with the change of use of the building after 1913.",
+    "target": "Painted decoration is preserved in the interior and on the facade. || This preservation possibly occurred during its construction and its change of use after 1913.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "new-wiki-1/Human-1-written"
+    },
+    "edits": [
+      {
+        "id": 1,
+        "category": "deletion",
+        "input_idx": [[6, 7, 8]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "deletion",
+        "input_idx": [[14, 15, 16, 17, 18, 19, 20]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 3,
+        "category": "deletion",
+        "input_idx": [[21, 22]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 4,
+        "category": "deletion",
+        "input_idx": [[27, 28]],
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 5,
+        "category": "deletion",
+        "input_idx": [[30, 31]],
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "substitution",
+        "input_idx": [[23]],
+        "output_idx": [[16]],
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "insertion",
+        "output_idx": [[7]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "insertion",
+        "output_idx": [[15]],
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "reorder",
+        "input_idx": [[9, 10, 11, 12]],
+        "output_idx": [[0, 1, 2, 3]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 2,
+        "category": "reorder",
+        "input_idx": [[29]],
+        "output_idx": [[14]],
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        }
+      },
+      {
+        "id": 1,
+        "category": "structure",
+        "constituent_edits": [
+          { "id": 6, "category": "deletion", "input_idx": [[35, 37]] },
+          { "id": 3, "category": "insertion", "output_idx": [[20]] }
+        ],
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        }
+      }
+    ]
+  }
+]

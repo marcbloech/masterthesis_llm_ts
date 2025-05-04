@@ -1,0 +1,452 @@
+[
+  {
+    "source": "To determine whether Corner Post’s APA claim is timely, the Court must interpret §2401(a), which provides that civil actions against the United States “shall be barred unless the complaint is filed within six years after the right of action first accrues.”",
+    "target": "To decide if Corner Post’s APA claim is on time, the Court needs to understand §2401(a). || This section says that lawsuits against the United States must be filed within six years after the right to sue starts.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+    "target": "The Board argues that §2401(a) should not use a \"challenger-by-challenger\" method, but the standard accrual rule in §2401(a) is specific to the plaintiff.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "Importantly, dictionaries from that time said a cause of action starts on the date damage happens, not when the events leading to the damage begin.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board leaves open the possibility that someone could bring an asapplied challenge to a rule when the agency relies on that rule in enforcement proceedings against that person, even if more than six years have passed since the rule’s promulgation.",
+    "target": "The Board allows someone to challenge a rule when it is used against them in enforcement, even if more than six years have passed since the rule was made.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The APA provisions grant Corner Post a cause of action subject to certain conditions, and §2401(a) sets the window within which Corner Post can assert its claim.",
+    "target": "The APA provisions give Corner Post the right to sue under certain conditions, and §2401(a) sets the time limit for Corner Post to make its claim.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Statutes of limitations ‘require plaintiffs to pursue diligent prosecution of known claims’; statutes of repose reflect a ‘legislative judgment that a defendant should be free from liability after the legislatively determined period of time.’",
+    "target": "Statutes of limitations require people to quickly pursue their known claims. || Statutes of repose mean that a defendant should be free from liability after a set time decided by law.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board’s interpretation would thereby decouple the statute of limitations from any injury ‘such that the limitations period begins to run before a plaintiff can file a suit’—for some, but not all, suits governed by §2401(a).",
+    "target": "The Board's interpretation would separate the time limit from any injury, making it start before a person can file a suit, but only for some suits under §2401(a).",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board’s arguments to the contrary lack merit.",
+    "target": "The Board's counterarguments are not strong.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Departing from the traditional rule is particularly inappropriate here because contemporaneous statutes demonstrate that Congress in 1948 knew how to create a limitations period that begins with the defendant’s action instead of the plaintiff’s injury.",
+    "target": "Leaving the traditional rule is not right here because laws from 1948 show that Congress knew how to start the time limit with the defendant's action instead of the plaintiff's injury.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "While §702 equips injured parties with a cause of action, §704 limits the agency actions that are subject to judicial review.",
+    "target": "§702 allows injured people to take legal action. || §704 limits which agency actions can be reviewed by a court.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "This traditional rule constitutes a strong background presumption.",
+    "target": "This traditional rule is a strong starting point.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Notwithstanding Crown Coat’s holding, the Board and the dissent try to marshal support from its dicta.",
+    "target": "Despite Crown Coat’s decision, the Board and the dissent try to find support from its comments.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Absent vacatur, the remedy for a regulated plaintiff would not automatically extend to other regulated parties.",
+    "target": "Without cancellation, the solution for one regulated plaintiff would not automatically apply to others.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Government’s current position on vacatur would de facto overrule Abbott Laboratories as to suits by unregulated parties.",
+    "target": "The Government’s current position on vacatur would effectively overturn Abbott Laboratories for lawsuits by unregulated parties.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "To decide the facial challenges here, the courts below must explore the laws’ full range of applications—the constitutionally impermissible and permissible both—and compare the two sets.",
+    "target": "The courts must look at all the ways the laws can be applied, both allowed and not allowed by the Constitution, and compare them.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "But that conclusion would rest on a serious misunderstanding of First Amendment precedent and principle.",
+    "target": "But that conclusion would be a serious misunderstanding of First Amendment rules and ideas.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "That controversy sounds a familiar note: We have repeatedly faced the question whether ordering a party to provide a forum for someone else’s views implicates the First Amendment.",
+    "target": "We have often asked if making someone give a place for another's views affects the First Amendment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else’s views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+    "target": "The Court has said many times that forcing someone to host another person's views affects the First Amendment only if the person being forced is already sharing their own views and the forced views would change or interrupt their own message.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "From that slew of individual cases, three general points emerge.",
+    "target": "From those many individual cases, three main points appear.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "First, the First Amendment offers protection when an entity engaged\nin compiling and curating others’ speech into an expressive product of\nits own is directed to accommodate messages it would prefer to exclude.",
+    "target": "The First Amendment protects an entity that compiles and curates others' speech into its own product, even if it prefers to exclude some messages.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The next order of business is to decide which of the laws’ applications\nviolate the First Amendment, and to measure them against the rest.",
+    "target": "The next step is to decide which parts of the laws break the First Amendment and compare them to the rest.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "To ensure “the free exchange of ideas and information,” H. B. 20 requires regulated platforms to abide by the following content-moderation and disclosure requirements.",
+    "target": "H. || B. || 20 requires regulated platforms to follow these content moderation and disclosure rules to ensure the free exchange of ideas and information.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "However, the law allows platforms to censor speech that: federal law “specifically authorize[s]” them to censor; speech that the platform is told sexually exploits children or survivors of sexual abuse; speech that “directly incites criminal activity or consists of specific threats of violence targeted against a person or group because of race, color, disability, religion, national origin or ancestry, age, sex or status as peace officer or judge”; and speech that is otherwise unlawful or has been the subject of a user’s request for removal from his or her feed or profile.",
+    "target": "However, the law lets platforms censor speech that is allowed by federal law, speech that involves sexual abuse of children or survivors, speech that incites crime or threatens violence based on race, color, disability, religion, national origin, age, sex, or status as a peace officer or judge, and any other unlawful speech or speech that a user wants removed from their feed or profile.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+    "target": "NetChoice argues that the Florida and Texas laws always violate the First Amendment and cannot be applied to anyone at any time without breaking the Constitution.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Represented by sophisticated counsel, NetChoice made the deliberate choice to mount a facial challenge to both laws, and in doing so, it obviously knew what it would have to show in order to prevail.",
+    "target": "With skilled lawyers, NetChoice chose to challenge both laws directly and knew what it needed to show to win.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The reasons that justify the President’s absolute immunity from criminal prosecution for acts within the scope of his exclusive constitutional authority do not extend to conduct in areas where his authority is shared with Congress.",
+    "target": "The President is completely protected from criminal charges for actions within his exclusive constitutional power. || This protection does not cover actions where his power is shared with Congress.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Appreciating the “unique risks” that arise when the President’s energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+    "target": "The Court has recognized Presidential immunities and privileges. || These are based on the idea of separation of powers and our history. || They understand the risks when the President's focus is taken away by legal issues, making him too careful in doing his job.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "In Fitzgerald, for instance, the Court concluded that a former Presi dent is entitled to absolute immunity from “damages liability for acts within the ‘outer perimeter’ of his official responsibility.”",
+    "target": "In Fitzgerald, the Court decided that a former President cannot be sued for actions within the scope of his official duties.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "And he contended that a President has absolute immunity from crimi nal prosecution for actions performed within the outer pe rimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+    "target": "He argued that a President cannot be criminally prosecuted for actions done as part of his official duties so that he can do his job confidently.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "We conclude that under our constitutional structure of\nseparated powers, the nature of Presidential power re-\nquires that a former President have some immunity from\ncriminal prosecution for official acts during his tenure in\noffice.",
+    "target": "We conclude that a former President needs some protection from criminal charges for official acts done while in office because of our separated powers system.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Following the analysis set forth in Granfinanciera, S. A. v. Nordberg, 492 U. S. 33, and Tull v. United States, 481 U. S. 412, this action implicates the Sev enth Amendment because the SEC’s antifraud provisions replicate common law fraud.",
+    "target": "This action involves the Seventh Amendment because the SEC’s antifraud rules are similar to common law fraud, as explained in Granfinanciera, S. || A. || v. || Nordberg and Tull v. || United States.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "To determine whether a suit is legal in nature, courts must consider whether the cause of action resembles common law causes of action, and whether the remedy is the sort that was traditionally obtained in a court of law.",
+    "target": "To decide if a suit is legal, courts must see if the case is like common law cases and if the remedy was traditionally given by a court.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "On that basis, this Court has repeatedly explained that matters concerning private rights may not be removed from Article III courts.",
+    "target": "This Court has said many times that private rights cases cannot be taken from Article III courts.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Sur veying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quin tessentially suits at common law.”",
+    "target": "The Court looked at English cases and saw that fraudulent conveyance actions were mainly common law suits.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "When a debtor files for bankruptcy, it “creates an estate” that includes virtually all the debtor’s assets.",
+    "target": "When a debtor files for bankruptcy, it creates an estate that includes almost all the debtor's assets.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Under Chapter 11, the debtor must develop a reorganization plan governing\nthe distribution of the estate’s assets and present it to the bankruptcy court for approval.",
+    "target": "Under Chapter 11, the debtor must create a plan to distribute the estate's assets and get it approved by the bankruptcy court.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Section 1123(b) addresses the kinds of provisions that may be included in a Chapter 11 plan.",
+    "target": "Section 1123(b) discusses what can be included in a Chapter 11 plan.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+    "target": "Because provisions like the Sackler discharge are not clearly banned, they believe paragraph (6) must allow them.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "While paragraph (6) doubtlessly confers additional author  ities on a bankruptcy court, it cannot be read under the canon of  ejusdem generis to endow a bankruptcy court with the “radically dif  ferent” power to discharge the debts of a nondebtor without the con  sent of affected claimants.",
+    "target": "Paragraph (6) gives a bankruptcy court extra powers, but it does not allow the court to cancel a nondebtor's debts without consent from those affected.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "If a federal official accepts a bribe for an official act, federal bribery law provides for a 15-year maximum prison sentence.",
+    "target": "If a federal official takes a bribe for an official action, federal bribery law says they can go to prison for up to 15 years.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "In 1984, Congress passed and President Reagan signed a law now codified at 18 U. S. C. §666 that, as relevant here, extended the gratuities prohibition in §201(c) to most state and local officials.",
+    "target": "In 1984, Congress passed a law signed by President Reagan. || The law extended the ban on gratuities to most state and local officials.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "As amended, the text of §666 now closely resembles the bribery provision for federal officials, §201(b), and makes it a crime for most state and local officials to “corruptly” solicit, accept, or agree to accept “anything of value” “intending to be influenced or rewarded in connection with” any official business or transaction worth $5,000 or more.",
+    "target": "The amended text of §666 is similar to the bribery law for federal officials, §201(b). || It makes it a crime for most state and local officials to corruptly ask for, accept, or agree to accept anything of value to be influenced or rewarded in connection with any official business worth $5,000 or more.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The dividing line between §201(b)’s bribery provision and §201(c)’s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+    "target": "Bribery means an official must be corrupt and accept a payment intending to be influenced in an official act. || Gratuities do not require this corrupt intent.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Government says that the statute would not cover\n“innocuous” or “obviously benign” gratuities, but the Government does\nnot identify any remotely clear lines separating such a gratuity from a\ncriminal gratuity.",
+    "target": "The Government says the law would not cover \"harmless\" gratuities, but it does not clearly separate these from criminal gratuities.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Under the doctrine of consular nonreviewability, an executive of ficer’s decision “to admit or to exclude an alien” “is final and conclu sive,”.",
+    "target": "Under the doctrine of consular nonreviewability, an executive officer’s decision to let in or exclude an alien is final and cannot be challenged.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband’s visa violated her consti tutional rights, thereby enabling judicial review.",
+    "target": "Asencio-Cordero cannot use the exception himself. || So, Muñoz must claim that denying her husband's visa violated her constitutional rights, allowing a court to review the case.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "Thus in United States ex rel. Knauff v. Shaughnessy, 338 U. S. 537, the Court reaffirmed, in the case of a noncitizen spouse who was denied admission for confidential security reasons, the longstanding principle “that the United States can, as a matter of public policy . . . forbid aliens or classes of aliens from coming within [its] borders,” and “[n]o limits can be put by the courts upon” that power.",
+    "target": "In the case United States ex rel. || Knauff v. || Shaughnessy, the Court decided that the U.S. || can stop noncitizens from entering the country for security reasons. || The Court also said that there are no limits on this power.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "The District Court granted summary judgment to the State De partment, but the Ninth Circuit vacated the judgment, holding that Muñoz had a constitutionally protected liberty interest in her hus band’s visa application.",
+    "target": "The District Court ruled in favor of the State Department. || However, the Ninth Circuit overturned this decision, stating that Muñoz had a protected liberty interest in her husband’s visa application.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": " Thus in Apprendi v. New Jersey, 530 U. S. 466, the Court held that a novel “sentencing enhancement” was unconstitutional because it violated the rule that only a jury may find “facts that increase the prescribed range of penalties to which a criminal defendant is ex posed.”",
+    "target": "In Apprendi v. || New Jersey, the Court decided that a new sentencing enhancement was unconstitutional because only a jury can find facts that increase the penalties for a criminal defendant.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  },
+  {
+    "source": "But a sentencing procedure followed by a few States hardly represents “convincing” proof that our precedents have mistaken the original meaning of the Fifth and Sixth Amendments.",
+    "target": "But a sentencing procedure used by a few States does not convincingly prove that our past decisions misunderstood the original meaning of the Fifth and Sixth Amendments.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "ChatGPT"
+    },
+    "edits": []
+  }
+]

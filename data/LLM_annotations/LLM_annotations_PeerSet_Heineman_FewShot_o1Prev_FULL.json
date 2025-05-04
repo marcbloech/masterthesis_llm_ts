@@ -1,0 +1,578 @@
+[
+    {
+        "source": "Auch wenn ihn seine Arbeit als Apotheker davon abhielt, viel zu verreisen, unterhielt er ganze Reihe von Briefkontakten, unter anderem mit dem Züricher Botaniker Conrad Gessner und dem Nürnberger Arzt und Botaniker Joachim Camerarius dem Jüngeren.",
+        "target": "Auch wenn ihn seine Arbeit als Apotheker davon abhielt, viel zu verreisen, unterhielt er ganze Reihe von Briefkontakten mit den Jüngeren.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "unter anderem mit dem Züricher Botaniker Conrad Gessner und dem Nürnberger Arzt und Botaniker"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 1
+    },
+    {
+        "source": "Am 22. März 1985 unterzeichnete die Europäische Gemeinschaft gemeinsam mit mehreren Mitgliedstaaten das Wiener Übereinkommen zum Schutz der Ozonschicht und darauf folgend am 16. September 1987 auch das Montrealer Protokoll.",
+        "target": "Die Europäische Gemeinschaft und einige ihrer Mitgliedsstaaten unterzeichneten 1985 ein Abkommen, um die Ozonschicht zu schützen. || Darauf folgte 1987 noch ein weiteres Abkommen in Montreal.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Am 22. März"
+                ],
+                "output_text": [
+                    "1985"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Wiener Übereinkommen zum Schutz der Ozonschicht"
+                ],
+                "output_text": [
+                    "ein Abkommen, um die Ozonschicht zu schützen"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "gemeinsam mit mehreren Mitgliedstaaten"
+                ],
+                "output_text": [
+                    "und einige ihrer Mitgliedsstaaten"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "darauf folgend am 16. September"
+                ],
+                "output_text": [
+                    "1987 noch ein weiteres Abkommen in Montreal"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "das Montrealer Protokoll"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "und"
+                ],
+                "output_text": [
+                    "|| Darauf folgte"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 2
+    },
+    {
+        "source": "Zusätzlich zu den drei Disziplinen wird im Level Elite der Mehrkampf angeboten.",
+        "target": "Im Level Elite gibt es zusätzlich einen Mehrkampf.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "structure",
+                "input_text": [
+                    "Zusätzlich zu den drei Disziplinen wird"
+                ],
+                "output_text": [
+                    "Im Level Elite gibt es zusätzlich"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "im Level Elite"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "angeboten"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "einen"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 3
+    },
+    {
+        "source": "In den Wäldern leben Rehe, Wildschweine und Füchse, während die Wiesen und Felder Lebensraum für Vogelarten wie Rotkehlchen, Meisen und Bussarde bieten",
+        "target": "In den Wäldern leben Rehe, Wildschweine und Füchse. || Die Wiesen und Felder sind Lebensraum für Vogelarten wie Rotkehlchen, Meisen und Bussarde.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    ", bieten"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 0
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "während"
+                ],
+                "output_text": [
+                    "|| Die"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "bieten"
+                ],
+                "output_text": [
+                    "sind"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 4
+    },
+    {
+        "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+        "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Mehrere Jahre"
+                ],
+                "output_text": [
+                    "einige Jahre"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Dieses"
+                ],
+                "output_text": [
+                    "Das"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "schon vor"
+                ],
+                "output_text": [
+                    "nach"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "nach dem Tod des Musikers"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Gestalt"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "anzunehmen"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 5
+    },
+    {
+        "source": "Der Tag wurde als Wendepunkt in der Entwicklung der Unruhen angesehen, jedoch noch nicht als das Ende dieser Vorkommnisse, zumal der relativ friedliche Verlauf dieses Tages möglicherweise hauptsächlich der Abschreckung durch die hohe Polizeipräsenz und durch die ersten Gefängnisstrafen, die für Gewalttäter verhängt worden waren, zu verdanken war.",
+        "target": "Der Tag wurde als Wendepunkt der Unruhen betrachtet, aber noch nicht als ihr Ende. || Der friedliche Verlauf des Tages lag wahrscheinlich an der starken Polizeipräsenz und den ersten Gefängnisstrafen für Gewalttäter.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "in der Entwicklung"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "dieser Vorkommnisse"
+                ],
+                "output_text": [
+                    "ihr"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "zumal"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "relativ"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "möglicherweise hauptsächlich"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Abschreckung durch die hohe Polizeipräsenz"
+                ],
+                "output_text": [
+                    "starken Polizeipräsenz"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Abschreckung"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "verhängt worden waren"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "Vorkommnisse, "
+                ],
+                "output_text": [
+                    "|| Der"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 6
+    },
+    {
+        "source": "Am 31. Juli 2024 kam es bei einer Demonstration unter dem Motto „Enough is enough“ („Genug ist genug“) nahe der Londoner Downing Street, dem Amtssitz des Premierministers, zu gewaltsamen Ausschreitungen zwischen Rechtsradikalen und der Polizei, bei denen über 100 Demonstranten vorübergehend festgenommen wurden.",
+        "target": "Am 31. Juli 2024 kam es bei einer „Genug ist genug“-Demonstration nahe der Downing Street in London zu Gewalt zwischen Rechtsradikalen und der Polizei. || Über 100 Demonstranten wurden vorübergehend festgenommen.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "unter dem Motto „Enough is enough“ („Genug ist genug“)"
+                ],
+                "output_text": [
+                    "„Genug ist genug“"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    ", dem Amtssitz des Premierministers,"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Ausschreitungen"
+                ],
+                "output_text": [
+                    "Gewalt"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "bei denen"
+                ],
+                "output_text": [
+                    "||"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 7
+    },
+    {
+        "source": "Nach dem Bankrott des Handelshauses von Franz von Gumer 1799 und der Zahlungsunfähigkeit von Joseph und Philipp von Gumer 1817 verlor die Familie größtenteils ihr Vermögen und Güter, darunter auch den Landsitz der Gumer, das später sogenannte Toggenburghaus im Weiler Maria Himmelfahrt am Ritten, welches 1818 der Gumer’schen Nichte Annette von Menz aus der Konkursmasse zufiel.",
+        "target": "Nach dem Bankrott des Handelshauses von Franz von Gumer 1799 und der Zahlungsunfähigkeit von Joseph und Philipp von Gumer 1817 verlor die Familie ihr Vermögen. || Sie verloren auch den Landsitz, das Toggenburghaus, das 1818 an ihre Nichte Annette von Menz ging.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "größtenteils"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "und Güter"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    ", darunter auch den Landsitz der Gumer"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "welches"
+                ],
+                "output_text": [
+                    "das"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "später sogenannte"
+                ],
+                "output_text": [
+                    "das"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "der Gumer’schen Nichte Annette von Menz aus der Konkursmasse zufiel"
+                ],
+                "output_text": [
+                    "an ihre Nichte Annette von Menz ging"
+                ],
+                "quality": "neutral",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "verlor die Familie"
+                ],
+                "output_text": [
+                    "|| Sie"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 8
+    },
+    {
+        "source": "Von der Vorläuferbauart wurde auch die Länge über Puffer von 21,72 Metern übernommen, was gegenüber den Anfang der zwanziger Jahre beschafften Fahrzeugen die Vergrößerung der Abteile ermöglichte, teilweise wurde aber auch die Abteilanzahl leicht erhöht.",
+        "target": "Die Länge über Puffer von 21,72 Metern wurde von der Vorläuferbauart übernommen, was größere Abteile ermöglichte. || Manchmal wurde auch die Anzahl der Abteile leicht erhöht.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Von der Vorläuferbauart"
+                ],
+                "output_text": [
+                    "Die Länge über Puffer"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "was gegenüber den Anfang der zwanziger Jahre beschafften Fahrzeugen die Vergrößerung der Abteile ermöglichte"
+                ],
+                "output_text": [
+                    "was größere Abteile ermöglichte"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "teilweise wurde aber auch die Abteilanzahl leicht erhöht"
+                ],
+                "output_text": [
+                    "Manchmal wurde auch die Anzahl der Abteile leicht erhöht"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "und"
+                ],
+                "output_text": [
+                    "||"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 9
+    },
+    {
+        "source": "Unternehmen müssen die Emissionen von geregelten Stoffen in die Umwelt verhindern oder auf ein Mindestmaß reduzieren.",
+        "target": "Die Firmen müssen die Emissionen von geregelten Stoffen in die Umwelt verhindern.",
+        "metadata": {
+            "annotator": "o1-preview",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Unternehmen"
+                ],
+                "output_text": [
+                    "Die Firmen"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "oder auf ein Mindestmaß reduzieren"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 10
+    }
+]

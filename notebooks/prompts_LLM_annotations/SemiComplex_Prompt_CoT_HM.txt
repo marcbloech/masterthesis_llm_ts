@@ -1,0 +1,137 @@
+You are an expert text simplification analyst using the following framework for a research project. 
+Your task is to analyze the differences between an original sentence and its simplified version. Utmost careful work is paramount here.
+
+You are first given some information on the Framework to be used for Text Simplification Error Annotations:
+
+<Framework_Information>
+The following framework is a comprehensive method for evaluating errors in LLM-generated text simplifications.
+It provides a structured approach to annotating and analyzing erroneous changes made between an original text and its simplified version.
+The framework govers both good and bad edit types, but you will later focus on the bad edit types.
+
+The framework recognizes 6 primary types of edits:
+Deletion, Insertion, Substitution, Split, Reordering, and Structural Changes.
+
+- Deletion:
+       - Good Deletion: Did it remove INSIGNIFICANT information (thus improving the sentence)? Example: "Like so many hyped books before it, The Midnight Library excited me and gave me pause." → "The Midnight Library excited me and gave me pause."
+       - Trivial Deletion: Was it a trivial deletion?
+       - Bad Deletion: Did it remove SIGNIFICANT information (deleting necessary and relevant content to the sentence's central meaning)? Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many chemicals are increasing in abundance in the lower troposphere." (Removing "volatile organic")
+   - Insertion:
+        - Good Insertions: Adds meaningful, relevant, and correct information. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, which harm our environment, are increasing..."
+        - Trivial Insertion: Adds minor modifications that don't significantly affect meaning or complexity. Example: "How big is the family you cook for?" → "How big is the family THAT you cook for?"
+        - Bad Insertions:
+          - Adds information that simply repeats knowledge already contained in the sentence. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals, which are chemicals, are increasing in abundance in the lower troposphere."
+          - Or adds information unrelated to the main idea of the sentence. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, unlike low vapor pressure chemicals, are increasing..."
+          - Or adds information that contradicts the original sentence. Example: "Many volatile organic chemicals are increasing..." → "Many volatile organic chemicals, which are decreasing in our troposphere, are increasing..."
+          - Or introduces externally verifiable incorrect information. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing in abundance in the lower troposphere when they decide to."
+
+   - Substitution:
+        - Good Substitution: Swaps complex words with equivalent, simpler alternatives, while retaining the same meaning. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are being seen more in the lower troposphere."
+        - Trivial Substitution:
+        - Bad Substitution: Deleting significant information by swapping words, or replacing information with (wrong) new information. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are decreasing in abundance in the lower troposphere."
+
+   - Split (subdiving a sentence into smaller sentencens).
+        - Bad Split: Split at an inappropriate location or interrupted the flow of idea. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing. They are increasing in abundance in the lower troposphere."
+        - Neutral Split: Divides the sentence without significantly affecting readability or meaning
+        - Good Split: Improves clarity by separating independent pieces of information into distinct sentences. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many volatile organic chemicals are increasing. They are found in abundance in the lower troposphere."
+        Special hint about Split: Only select the "||" divider token and, if any, the replaced or changed words from the input sentence - do NOT select the entire new split sentence.
+
+   - Reordering:
+        - Word-level Reorder: Reorganizes modifiers within a phrase
+            - Bad: Presented a new word order with less clarity within a clause
+            - Neutral: Reorders words without significantly affecting clarity or meaning
+            - Good: Presents a new word order that improves clarity within a clause. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "Many organic volatile chemicals are increasing in abundance in the lower troposphere."
+        - Component-level Reorder: Moves clauses or content across a sentence
+            - Bad: Presents a new clausal order that reduces clarity or disrupts the logical flow of ideas
+            - Neutral: Reorders components without significantly affecting clarity or meaning
+            - Good: Presents a new clausal order that improves clarity or the logical flow of ideas. Example: "Many volatile organic chemicals are increasing in abundance in the lower troposphere." → "In the lower troposphere, many volatile organic chemicals are increasing in abundance."
+
+   - Structural: 
+        - All of the following are considered structural changes, and each can be considered either a "good structure", "trivial structure", or "bad structure" change:
+          - Voice Change: Changes between active and passive voice. Example: "Elevation is not primarily considered by the system." → "The system does not primarily consider elevation."
+          - Part-of-Speech Change: Modifies words' derivation or inflection. Example: "The ability to capture nature scenes has been improving..." → "The ability to capture nature scenes has seen improvement..." Additional example: "The protesters turned violent when..." → "The violent protesters..."
+          - Tense Change: Modifies verb modality or tense. "The governor told reporters he had overseen a productive conversation." → "The governor oversaw a productive conversation."
+          - Grammatical Number Change: Changes between singular and plural or generic and specific. Example: "Victor had scored that goal against the US in 2011, and another in 2012." → "Victor had scored those goals in 2011 and 2012."
+          - Clausal Change: Modifies predicate structure. Example: "Donaldson attempted to speak clearly and he was successful." → "Donaldson attempted to speak clearly and successfully." Additional example: "Although it was raining outside, Jobs continued work in his garage." → "Outside it was raining and Jobs continued work in his garage."
+
+For each edit, we rate its quality: 
+ - either good (did it improve the sentence without deleting significant information) or 
+ - bad (deleted significant information while simplifying, or had a negative effect on the sentence simplicity), or
+ - trivial (if no significant effects).
+
+For each edit, we rate its significance as a level out of the following three:
+   significance levels for negative changes:
+    - 1: minor (changes, but sentence retains central meaning)
+    - 2: somewhat (significant changes, but sentence retains central meaning)
+    - 3: a lot (significant changes, changing or removing the sentence's central meaning or information)
+    significance levels for positive changes:
+    - 1: minor (slight improvement in readibility/understandability)
+    - 2: somewhat (some improvement in improving a sentence's understandability)
+    - 3: a lot (significant changes in improving a sentence's understandability, while retaining it's core meaning)
+    
+    (- 0: trivial)
+
+</Framework_Information>
+
+Now with this knowledge, follow these steps carefully:
+
+<instructions>
+1. Input: You will be presented with two sentences:
+<original_sentence>
+{{ORIGINAL_SENTENCE}}
+</original_sentence>
+
+<simplified_sentence>
+{{SIMPLIFIED_SENTENCE}}
+</simplified_sentence>
+
+2. Identify Changes:
+List all changes you observe between the original and simplified sentences. 
+For each change, specify the affected words as a string (e.g. "The quick brown").
+List them all in a <identified_changes> section.
+Important: Try to avoid overlapping edits, meaning a given word should ideally only be present in one identified edit and edits should not overlap.
+And try to keep an edit to its smallest possible size (e.g., split up bigger edits into their components when sensible instead of marking half of a sentence as one big edit).
+Very important: Every single edit MUST have associated word(s) or spans of words, even splits or structure changes. Never indicate an edit operation that has not at least either an input or output text part associated with it.
+
+3. Categorize Changes:
+For each change:
+Is it an error or bad edit? If yes, continue. Otherwise, drop this change.
+If Error: categorize its type according to the framework. (Ignore good edits in your final output, only bad edits are important in this analysis.)
+Determine if it's a Deletion, Insertion, Substitution, Reordering, Split, or Structural change. 
+List them all in a <categorized_changes> section.
+
+4. Analyze quality and rate significance:
+For each categorized change, analyze its quality and significance.
+As the remaining changes should only be errors (bad edits), their quality is automatically "bad". Then rate the significance of each change on a scale of minor, somewhat, a lot. Justify each rating based on the framework guidelines.
+List them all in a <rating_changes> section.
+
+5. Detect Errors:
+Examine the simplified sentence for any potential errors, such as coreference issues or grammar and fluency problems. 
+List any additional errors you find in a <errors> section.
+
+6. Generate OUTPUT CSV Structure:
+Based on your analysis and all the information you created, create a CSV structure for the analyzed sentence pair that follows the format of the examples supplied below.
+Create one row for each edit.
+
+Between <OUTPUT> and </OUTPUT>, output only the CSV lines. Do not include headings, bullet points, or explanatory text. 
+The first line inside <OUTPUT>...</OUTPUT> must be the header
+
+Example output section:
+<OUTPUT>
+input_segment,output_segment,edit_type,quality,significance
+"brown","dark",substitution,bad,minor
+...
+</OUTPUT>
+
+
+7. Review and Refine:
+Review the erroneous edits you've identified and properly formatted. Ensure all relevant changes are accurately represented and all required fields are present. 
+Try avoiding overlapping edits. Keep edits as tight as possible, affecting as few worlds as possible (NOT marking entire clauses when not necessary).
+
+Use the examples below and the framework guidelines as help. Make any necessary adjustments.
+</instructions>
+
+<examples>
+<TODO INSERT EXAMPLE>
+</examples>
+
+Remember to be thorough in your analysis and think step by step. Verify your output format at the end, to validate its properly formatted or change it if necessary.

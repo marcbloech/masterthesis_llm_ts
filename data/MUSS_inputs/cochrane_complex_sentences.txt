@@ -1,0 +1,50 @@
+TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).
+An inguinal hernia occurs when part of the intestine protrudes through the abdominal muscles. 
+There may be little to no difference between TAPP and TEP laparoscopic techniques for serious adverse events and hernia recurrence.
+TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP.
+CBT may result in a small‐to‐moderate reduction of anxiety post‐treatment (SMD ‐0.51, 95% CI ‐0.66 to ‐0.36, low‐certainty evidence). 
+However, compared to this benefit with CBT immediately after treatment, at three to six months post‐treatment, there was little to no difference between CBT and minimal management (SMD ‐0.29, 95% CI ‐0.59 to 0.01, low‐certainty evidence).
+CBT may result in a reduction of comorbid depression symptoms post‐treatment (SMD ‐0.57, 95% CI ‐0.74 to ‐0.40, low‐certainty evidence).
+There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.
+To assess the effects of Cognitive Behavioural Therapy (CT, BT, CBT and third‐wave CBT interventions) on severity of anxiety symptoms compared with minimal management (not providing therapy) for anxiety and related disorders in older adults, aged 55 years or over. 
+Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. 
+To evaluate the benefits and harms of preoperative statin therapy in adults undergoing cardiac surgery compared to standard of care or placebo. 
+We included all randomised controlled trials (RCTs) comparing any statin treatment before cardiac surgery, for any given duration and dose, versus no preoperative statin therapy (standard of care) or placebo. 
+We excluded trials without a registered trial protocol and trials without approval by an institutional ethics committee. 
+Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate‐certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low‐certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low‐certainty evidence).
+Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). 
+Selection criteria: Randomised and quasi‐randomised trials evaluating the effect of supplementation with vitamin D alone or in combination with other micronutrients for women during pregnancy in comparison to placebo or no intervention. 
+The evidence is very uncertain about the effect of supplementation with vitamin D during pregnancy compared to placebo or no intervention on pre‐eclampsia (risk ratio (RR) 0.53, 95% confidence interval (CI) 0.21 to 1.33; 1 study, 165 women), gestational diabetes (RR 0.53, 95% CI 0.03 to 8.28; 1 study, 165 women), preterm birth (< 37 weeks) (RR 0.76, 95% CI 0.25 to 2.33; 3 studies, 1368 women), nephritic syndrome (RR 0.17, 95% CI 0.01 to 4.06; 1 study, 135 women), or hypercalcaemia (1 study; no cases reported).
+Supplementation with vitamin D during pregnancy may reduce the risk of severe postpartum haemorrhage; however, only one study reported this outcome (RR 0.68, 95% CI 0.51 to 0.91; 1 study, 1134 women; low‐certainty evidence) and may reduce the risk of low birthweight; however, the upper CI suggests that an increase in risk cannot be ruled out (RR 0.69, 95% CI 0.44 to 1.08; 3 studies, 371 infants; low‐certainty evidence). 
+The evidence is very uncertain about the effect of supplementation with vitamin D and calcium on preterm birth (RR not estimable; very low‐certainty evidence) or for low birthweight (RR 1.45, 95% CI 0.14 to 14.94; very low‐certainty evidence) compared to women who received placebo or no intervention. 
+Feeding via a tube misplaced in the trachea can result in severe pneumonia.
+The objective was to assess the diagnostic accuracy of ultrasound alone or in combination with other methods for gastric tube placement confirmation in children and adults. 
+Based on limited evidence, ultrasound does not have sufficient accuracy as a single test to confirm gastric tube placement.
+Our 2009 Cochrane review found that calcium channel blockers (CCBs) improved graft function and prevented graft loss, while the evidence for other BP‐lowering treatments was limited. 
+Randomised controlled trials (RCTs) and quasi‐RCTs evaluating any BP‐lowering agent in recipients of a functioning kidney transplant for at least two weeks were eligible
+Compared to placebo or standard care alone, CCBs probably reduce all‐cause death and graft loss.
+The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. 
+For kidney transplant recipients, the use of CCB therapy to reduce BP probably reduces death and graft loss compared to placebo or standard care alone, while ARB may reduce graft loss
+Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). 
+Normal pressure hydrocephalus (NPH) occurs when the brain ventricles expand, causing a triad of gait, cognitive, and urinary impairment.
+It can occur after a clear brain injury such as trauma, but can also occur without a clear cause (termed idiopathic, or iNPH). 
+Non‐randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)‐shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. 
+CSF‐shunting probably improves gait speed at less than six months post‐surgery .
+CSF‐shunting may improve qualitative gait function at less than six months post‐surgery by an uncertain amount 
+The evidence is very uncertain about the effect of CSF‐shunting on cognitive function at less than six months post‐CSF‐shunt surgery.
+Eczema (atopic dermatitis) is the most burdensome skin condition worldwide and cannot currently be prevented or cured. 
+The objective was to compare and rank the efficacy and safety of topical anti‐inflammatory treatments for people with eczema using a network meta‐analysis. 
+We included 291 studies involving 45,846 participants with the full spectrum of eczema severity, mainly conducted in high‐income countries in secondary care settings.
+Treatment duration and trial participation were a median of 21 and 28 days (ranging from 7 days to 5 years), respectively.
+NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short‐term (median 3 weeks, range 1‐16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.
+The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.
+The objective was to assess the benefits, harms and tolerability of interventions for tobacco use cessation among people living with HIV. 
+We included randomised controlled trials (RCTs) of individual‐/group‐level behavioural or pharmacological interventions, or both, for tobacco use cessation, delivered directly to PLWH aged 18 years and over, who use tobacco.
+We also included RCTs, quasi‐RCTs, other non‐randomised controlled studies (e.g. controlled before and after studies), and interrupted time series studies of system‐change interventions for tobacco use cessation among PLWH. 
+Low‐certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.
+Moderate‐certainty evidence suggested that varenicline may help more PLWH to quit smoking than placebo with no evidence of heterogeneity.
+Low‐certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.
+No studies assessed SAEs for the following: behavioural support plus NRT versus brief advice; varenicline versus NRT and cytisine versus NRT. 
+Repetitive transcranial magnetic stimulation (rTMS) is a non‐invasive therapy involving induction of electrical currents in cortical brain tissue.
+Current pharmacological and psychotherapeutic treatments for PTSD are associated with inadequate symptom improvement and high dropout rates. 
+The evidence is very uncertain about the effect of active rTMS on serious adverse events.

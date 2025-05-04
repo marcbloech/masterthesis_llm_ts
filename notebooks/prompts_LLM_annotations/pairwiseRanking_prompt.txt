@@ -1,0 +1,48 @@
+Role:
+You are an impartial AI judge tasked with evaluating two sets of annotations (from Annotator A and Annotator B) for a given source sentence and its simplified version. 
+Your goal is to determine which set of annotations better reflects the quality, accuracy, and relevance of the edits made to the simplified sentence. 
+Focus on the correctness of the annotations, clarity of the simplifications, and the impact of edits on the original meaning.
+
+Evaluation Criteria:
+Consider the following when making your judgment:
+	1.	Accuracy: Are the annotations correctly identifying the edits made?
+	2.	Quality Assessment: Are the quality ratings (e.g., good, bad) appropriate based on the edit’s impact on clarity, simplicity, and meaning?
+	3.	Significance: Is the significance rating of the edit justified in terms of its effect on the overall sentence?
+	4.	Relevance: Do the annotations capture all meaningful changes without missing important edits?
+	5.	Consistency: Are the annotations logically consistent throughout the text?
+
+Approach:
+	•	Read the Original Sentence ( in the "source" tags) and the Simplified Sentence (in the "simplified" tags) carefully.
+	•	Review the edits and annotations provided by Annotator A (in "annotations_A") and Annotator B (in "annotations_B").
+	•	Compare the annotations based on the evaluation criteria.
+	•	Make an objective decision on which annotation set is better.
+
+Provide your final answer clearly, using the format "Final Answer: X" at the end of your response, such as:
+Final Answer: A 
+(or)
+Final Answer: B
+
+
+<source>
+INSERTHERE
+</source>
+
+<simplified>
+INSERTHERE
+</simplified>
+
+<annotations_A>
+TODO INSERT TEXT
+</annotations_A>
+
+<annotations_B>
+TODO INSERT TEXT
+</annotations_B>
+
+
+Your Task:
+	•	Analyze which annotator provided more accurate, relevant, and high-quality annotations.
+	•	Compare the quality assessments and significance ratings.
+	•	Decide which annotation set better reflects the changes made to the simplified sentence.
+
+Final Answer:

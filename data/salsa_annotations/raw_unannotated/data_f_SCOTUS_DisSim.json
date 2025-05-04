@@ -1,0 +1,452 @@
+[
+  {
+    "source": "To determine whether Corner Post’s APA claim is timely, the Court must interpret §2401(a), which provides that civil actions against the United States “shall be barred unless the complaint is filed within six years after the right of action first accrues.”",
+    "target": "The Court must interpret § 2401 (a), which provides that civil actions against the United States `` shall be barred unless the complaint is filed within six years after the right of action first accrues. || ''. || This was to determine whether Corner Post 's APA claim is timely.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+    "target": "§ 2401 (a) should not be interpreted to adopt a `` challenger-by-challenger '' approach. || This is what the Board argues. || The standard accrual rule that § 2401 (a) exemplifies is plaintiff specific.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "A cause of action accrues `` on [the] date that damage is sustained and not [the] date when causes are set in motion. || This was what dictionaries also explained. || Motion ultimately produce injury.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board leaves open the possibility that someone could bring an asapplied challenge to a rule when the agency relies on that rule in enforcement proceedings against that person, even if more than six years have passed since the rule’s promulgation.",
+    "target": "The Board leaves open the possibility. || Someone could bring an asapplied challenge. || This is to a rule. || The agency relies on that rule in enforcement proceedings against that person. || More than six years have passed since the rule 's promulgation.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The APA provisions grant Corner Post a cause of action subject to certain conditions, and §2401(a) sets the window within which Corner Post can assert its claim.",
+    "target": "Corner Post a cause of action subject to certain conditions. || Corner Post is The APA provisions grant. || § 2401 (a) sets the window. || This is within which Corner Post can assert its claim.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Statutes of limitations ‘require plaintiffs to pursue diligent prosecution of known claims’; statutes of repose reflect a ‘legislative judgment that a defendant should be free from liability after the legislatively determined period of time.’",
+    "target": "Statutes of limitations ` require plaintiffs to pursue diligent prosecution of known claims '. || '. || Legislative judgment that a defendant should be free from liability after the legislatively determined period of time. || This is what statutes of repose reflect a.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board’s interpretation would thereby decouple the statute of limitations from any injury ‘such that the limitations period begins to run before a plaintiff can file a suit’—for some, but not all, suits governed by §2401(a).",
+    "target": "The Board 's interpretation would thereby decouple the statute of limitations -- for some, but not all. || This is from any injury ` such '. || The limitations period begins to run before a plaintiff can file a suit. || All was suits. || Suits were governed by § 2401 (a).",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Board’s arguments to the contrary lack merit.",
+    "target": "The Board 's arguments to the contrary lack merit.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Departing from the traditional rule is particularly inappropriate here because contemporaneous statutes demonstrate that Congress in 1948 knew how to create a limitations period that begins with the defendant’s action instead of the plaintiff’s injury.",
+    "target": "Departing from the traditional rule is particularly inappropriate here because contemporaneous statutes demonstrate that Congress in 1948 knew how to create a limitations period. || A limitations period begins with the defendant 's action instead of the plaintiff 's injury.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "While §702 equips injured parties with a cause of action, §704 limits the agency actions that are subject to judicial review.",
+    "target": "§ 702 equips injured parties. || This is with a cause of action. || § 704 limits the agency actions. || The agency actions are subject to judicial review.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "This traditional rule constitutes a strong background presumption.",
+    "target": "This traditional rule constitutes a strong background presumption.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Notwithstanding Crown Coat’s holding, the Board and the dissent try to marshal support from its dicta.",
+    "target": "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta. || This is notwithstanding Crown Coat 's holding.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Absent vacatur, the remedy for a regulated plaintiff would not automatically extend to other regulated parties.",
+    "target": "Absent vacatur would not automatically extend to other regulated parties. || Absent vacatur is the remedy for a regulated plaintiff.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Government’s current position on vacatur would de facto overrule Abbott Laboratories as to suits by unregulated parties.",
+    "target": "The Government 's current position on vacatur would de facto overrule Abbott Laboratories. || This is as to suits by unregulated parties.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "To decide the facial challenges here, the courts below must explore the laws’ full range of applications—the constitutionally impermissible and permissible both—and compare the two sets.",
+    "target": "The courts below must explore the laws ' full range of applications -- the constitutionally impermissible and permissible both --. || The courts below must compare the two sets. || This is to decide the facial challenges here.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "But that conclusion would rest on a serious misunderstanding of First Amendment precedent and principle.",
+    "target": "But that conclusion would rest on a serious misunderstanding of First Amendment precedent. || But that conclusion would rest on a serious misunderstanding of principle.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "That controversy sounds a familiar note: We have repeatedly faced the question whether ordering a party to provide a forum for someone else’s views implicates the First Amendment.",
+    "target": "That controversy sounds a familiar note. || We have repeatedly faced the question whether ordering a party to provide a forum for someone else 's views implicates the First Amendment.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else’s views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+    "target": "Ordering a party to provide a forum for someone else 's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity. || This was what the Court has repeatedly held. || The mandated access would alter or disrupt its own expressive activity.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "From that slew of individual cases, three general points emerge.",
+    "target": "Three general points emerge. || This is from that slew of individual cases.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "First, the First Amendment offers protection when an entity engaged in compiling and curating others’ speech into an expressive product of its own is directed to accommodate messages it would prefer to exclude.",
+    "target": "The First Amendment offers protection when an entity engaged in compiling and curating others ' speech into an expressive product of its own is directed to accommodate messages. || This was first. || It would prefer to exclude messages.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The next order of business is to decide which of the laws’ applications violate the First Amendment, and to measure them against the rest.",
+    "target": "The next order of business is to decide which of the laws ' applications violate the First Amendment, and to measure them. || This is against the rest.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "To ensure “the free exchange of ideas and information,” H. B. 20 requires regulated platforms to abide by the following content-moderation and disclosure requirements.",
+    "target": "'' H. || B. || 20 requires regulated platforms to abide by the following content-moderation. || '' H. || B. || 20 requires regulated platforms to abide by disclosure requirements. || This is to ensure `` the free exchange of ideas and information.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "However, the law allows platforms to censor speech that: federal law “specifically authorize[s]” them to censor; speech that the platform is told sexually exploits children or survivors of sexual abuse; speech that “directly incites criminal activity or consists of specific threats of violence targeted against a person or group because of race, color, disability, religion, national origin or ancestry, age, sex or status as peace officer or judge”; and speech that is otherwise unlawful or has been the subject of a user’s request for removal from his or her feed or profile.",
+    "target": "The law allows platforms. || This is however. || This was to censor speech that : federal law `` specifically authorize [s] '' them to censor ; speech that the platform is told sexually exploits children or survivors of sexual abuse ; speech that `` directly incites criminal activity or consists of specific threats of violence '' ; and speech. || This was as peace officer or judge. || Violence was targeted against a person or group because of race, color, disability, religion, national origin or ancestry, age, sex or status. || This was from his or her feed or profile. || This was for removal. || This was however. || Speech is otherwise unlawful. || The law has been the subject of a user 's request.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+    "target": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they can not be applied to anyone at any time under any circumstances without violating the Constitution",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Represented by sophisticated counsel, NetChoice made the deliberate choice to mount a facial challenge to both laws, and in doing so, it obviously knew what it would have to show in order to prevail.",
+    "target": "NetChoice was represented by sophisticated counsel. || NetChoice made the deliberate choice. || This was to mount a facial challenge to both laws. || It was doing so. || This was what it knew. || What it would have to show in order to prevail.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The reasons that justify the President’s absolute immunity from criminal prosecution for acts within the scope of his exclusive constitutional authority do not extend to conduct in areas where his authority is shared with Congress.",
+    "target": "The reasons do not extend to conduct in areas where his authority is shared with Congress. || The reasons justify the President 's absolute immunity within the scope of his exclusive constitutional authority. || This is from criminal prosecution for acts.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Appreciating the “unique risks” that arise when the President’s energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+    "target": "The Court was appreciating the `` unique risks ''. || The `` unique risks '' arise. || The President 's energies are diverted by proceedings. || Proceedings might render him `` unduly cautious in the discharge of his official duties. || '' the Court has recognized Presidential immunities and privileges `` rooted in the constitutional tradition of the separation of powers and supported by our history.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "In Fitzgerald, for instance, the Court concluded that a former Presi dent is entitled to absolute immunity from “damages liability for acts within the ‘outer perimeter’ of his official responsibility.”",
+    "target": "In Fitzgerald, for instance, the Court concluded. || ''. || A former Presi dent is entitled to absolute immunity. || This was from `` damages liability for acts. || This was within the ` outer perimeter ' of his official responsibility.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "And he contended that a President has absolute immunity from crimi nal prosecution for actions performed within the outer pe rimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+    "target": "And he contended, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action. || A President has absolute immunity. || This is from crimi nal prosecution for actions. || Actions were performed within the outer pe rimeter of his official responsibilities.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+    "target": "We conclude. || The nature of Presidential power requires. || This is under our constitutional structure of separated powers. || This is during his tenure in office. || This is from criminal prosecution for official acts. || A former President have some immunity.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Following the analysis set forth in Granfinanciera, S. A. v. Nordberg, 492 U. S. 33, and Tull v. United States, 481 U. S. 412, this action implicates the Seventh Amendment because the SEC’s antifraud provisions replicate common law fraud.",
+    "target": "This action implicates the Seventh Amendment. || This is following the analysis set forth in Granfinanciera, S. || A. || v. || Nordberg, 492 U. || S. || 33, and Tull v. || United States. || The SEC 's antifraud provisions replicate common law fraud. || Tull v. || United States is 481 U. || S. || 412.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "To determine whether a suit is legal in nature, courts must consider whether the cause of action resembles common law causes of action, and whether the remedy is the sort that was traditionally obtained in a court of law.",
+    "target": "Courts must consider whether the cause of action resembles common law causes of action, and whether the remedy is the sort. || This was to determine whether a suit is legal in nature. || The sort was traditionally obtained in a court of law.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "On that basis, this Court has repeatedly explained that matters concerning private rights may not be removed from Article III courts.",
+    "target": "Matters concerning private rights may not be removed from Article III courts. || This was what this Court has repeatedly explained on that basis.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+    "target": "The Court was surveying English cases. || The Court was considering the remedy. || These suits provided. || The remedy. || The Court concluded. || Fraudulent conveyance actions were `` quintessentially suits. || ''. || This was at common law.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "When a debtor files for bankruptcy, it “creates an estate” that includes virtually all the debtor’s assets.",
+    "target": "It `` creates an estate '' that includes virtually all the debtor 's assets. || A debtor files for bankruptcy.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Under Chapter 11, the debtor must develop a reorganization plan governing the distribution of the estate’s assets and present it to the bankruptcy court for approval.",
+    "target": "The debtor must develop a reorganization plan governing the distribution of the estate 's assets. || The debtor must present it. || This is to the bankruptcy court for approval. || This is under Chapter 11.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Section 1123(b) addresses the kinds of provisions that may be included in a Chapter 11 plan.",
+    "target": "Section 1123 (b) addresses the kinds of provisions. || Provisions may be included in a Chapter 11 plan.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+    "target": "Because provisions like the Sackler discharge are not expressly prohibited, they reason necessarily permits them. || They reason (6). || Is paragraph reason.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "While paragraph (6) doubtlessly confers additional authorities on a bankruptcy court, it cannot be read under the canon of ejusdem generis to endow a bankruptcy court with the “radically different” power to discharge the debts of a nondebtor without the con sent of affected claimants.",
+    "target": "Paragraph (6) doubtlessly confers additional authorities. || This is on a bankruptcy court. || This was to endow a bankruptcy court with the `` radically different '' power to discharge the debts of a nondebtor without the con sent of affected claimants. || It can not be read under the canon of ejusdem generis.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "If a federal official accepts a bribe for an official act, federal bribery law provides for a 15-year maximum prison sentence.",
+    "target": "Federal bribery law provides for a 15-year maximum prison sentence. || A federal official accepts a bribe for an official act.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "In 1984, Congress passed and President Reagan signed a law now codified at 18 U. S. C. §666 that, as relevant here, extended the gratuities prohibition in §201(c) to most state and local officials.",
+    "target": "Congress passed. || Reagan signed. || This was in 1984. || A law now codified at 18 U. || S. || C. || § 666 that, as relevant here, extended the gratuities prohibition in § 201 (c) to most state and local officials. || Reagan was President.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "As amended, the text of §666 now closely resembles the bribery provision for federal officials, §201(b), and makes it a crime for most state and local officials to “corruptly” solicit, accept, or agree to accept “anything of value” “intending to be influenced or rewarded in connection with” any official business or transaction worth $5,000 or more.",
+    "target": "As amended, the text of § 666 now closely resembles the bribery provision for federal officials to be influenced. || As amended, the text of § 666 now rewarded in connection. || This was worth $ 5,000 or more. || This was with '' any official business. || This was with '' transaction. || This was to be influenced or rewarded in connection with '' any official business or transaction worth $ 5,000 or more. || As amended, the text of § 666 now makes it a crime for most. || State and local officials to `` corruptly '' solicit. || State and local officials to `` corruptly '' accept. || State and local officials to `` corruptly '' agree to accept `` anything of value '' `` intending most. || Federal officials were § 201 (b).",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The dividing line between §201(b)’s bribery provision and §201(c)’s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+    "target": "The dividing line between § 201 (b) 's bribery provision 's gratuities. || § 201 (c) 's gratuities. || Provision is. || Bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act gratuities.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The Government says that the statute would not cover “innocuous” or “obviously benign” gratuities, but the Government does not identify any remotely clear lines separating such a gratuity from a criminal gratuity.",
+    "target": "The statute would not cover `` innocuous ''. || The statute would not cover `` obviously benign '' gratuities. || This is what the Government says. || The Government does not identify any remotely clear lines separating such a gratuity from a criminal gratuity.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Under the doctrine of consular nonreviewability, an executive of ficer’s decision “to admit or to exclude an alien” “is final and conclusive,”.",
+    "target": "Under the doctrine of consular nonreviewability, an executive of ficer 's decision `` to admit or to exclude an alien '' `` is final and conclusive, ''.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband’s visa violated her constitutional rights, thereby enabling judicial review.",
+    "target": "Asencio-Cordero can not invoke the exception himself. || Muñoz must assert. || The denial of her husband 's visa violated her constitutional rights, thereby enabling judicial review.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Thus in United States ex rel. Knauff v. Shaughnessy, 338 U. S. 537, the Court reaffirmed, in the case of a noncitizen spouse who was denied admission for confidential security reasons, the longstanding principle “that the United States can, as a matter of public policy . . . forbid aliens or classes of aliens from coming within [its] borders,” and “[n]o limits can be put by the courts upon” that power.",
+    "target": "... || forbid aliens or classes of aliens. || This was what 338 U. || S. || 537 in the case of a noncitizen spouse who was denied admission for confidential security reasons and `` [n] o limits can be put by the courts upon '' that power thus in United States ex rel. || Knauff v. || Shaughnessy. || This was from coming within [its] borders. || This was as a matter of public policy. || The United States can. || 338 U. || S. || 537 was the Court reaffirmed. || Confidential security reasons were the longstanding principle.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "The District Court granted summary judgment to the State Department, but the Ninth Circuit vacated the judgment, holding that Muñoz had a constitutionally protected liberty interest in her hus band’s visa application.",
+    "target": "The District Court granted summary judgment. || This was to the State Department. || The Ninth Circuit vacated the judgment. || This was what the Ninth Circuit was holding. || Muñoz had a constitutionally protected liberty interest in her hus band 's visa application.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "Thus in Apprendi v. New Jersey, 530 U. S. 466, the Court held that a novel “sentencing enhancement” was unconstitutional because it violated the rule that only a jury may find “facts that increase the prescribed range of penalties to which a criminal defendant is ex posed.”",
+    "target": "A novel `` sentencing enhancement '' was unconstitutional because it violated the rule that only a jury may find `` facts. || ''. || This was what the Court held thus in Apprendi v. || New Jersey. || Facts increase the prescribed range of penalties to which a criminal defendant is ex. || Ex was posed. || Apprendi v. || New Jersey was 530 U. || S. || 466.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  },
+  {
+    "source": "But a sentencing procedure followed by a few States hardly represents “convincing” proof that our precedents have mistaken the original meaning of the Fifth and Sixth Amendments.",
+    "target": "But a sentencing procedure followed by a few States hardly represents `` convincing '' proof. || Our precedents have mistaken the original meaning of the Fifth and Sixth Amendments.",
+    "metadata": {
+      "annotator": "annotator_0",
+      "system": "DisSim"
+    },
+    "edits": []
+  }
+]

@@ -1,0 +1,88 @@
+You are part of a text simplification research project.
+Please validate the extracted CSV/output content that is provided below and convert it
+to the specified JSON data model. Only adapt the format, do not add adittional information.
+
+JSON data model:
+{
+  "source": "<Original complex sentence>",
+  "target": "<Simplified sentence>",
+  "edits": [
+    {
+      "edit_type_level1": "<Omission | Addition | Substitution>",
+      "edit_type_level2": "<Duplication | Other | Should Have Been Left Verbatim | Should Not Have Been Left Verbatim | Lexical Error | Error in Input | Reordering | Other Wrongly Rendered Input | null>",
+      "edit_type_level3": "<Disambiguation Error | Multi-Word Expression Error | Other Wrong Lexical Choice | null>",
+      "input_text": "<Affected words (if any) in the original sentence>",
+      "output_text": "<Affected words (if any) in the simplified sentence>",
+      "orthogonalData": {
+        "meaningDeviation": "<NE Deviation | Polarity Deviation | Numerical Deviation | Other Meaning Deviation | null>",
+        "contextFunction": "<Content Words | Function Words | null>",
+        "numWords": "<Single Word | Multiple Words>",
+        "severity": "<Major | Minor>",
+        "syntacticCategory": "<Subject | Object | Other | null>"
+      }
+    }
+  ]
+}
+
+Important Note About input_text and output_text:
+If the edit affects a continuous span of words, store them as a single string inside the array.
+Example: ["The quick brown fox"], NOT ["The", "quick", "brown", "fox"].
+If multiple non-sequential segments are affected, store them as separate strings inside the array.
+Example: ["The quick", "fox"].
+Very important: Every single edit MUST have associated word(s) or spans of words, even splits or structure changes. Never indicate an edit operation that has not at least either an input or output text part associated with it.
+A note about splits: If the input annotations have marked entire spans of a sentence as affected by a split, you have permission to change it.
+Example: 
+- Wrong annotation: input_text: ["jumped over the bridge and later ran across the"] output_text: ["jumped over the bridge. || He later ran across the"]
+- Correct annotation: input_text: ["and"] output_text: ["|| He"]
+
+Example Final Output (ONLY CORRECT regarding the format, not necessarily the content itself):
+{
+  "source": "Many volatile organic chemicals are increasing in abundance in the lower troposphere.",
+  "target": "Many organic chemicals, which harm the environment, are increasing in the troposphere.",
+  "edits": [
+    {
+      "edit_type_level1": "Omission",
+      "edit_type_level2": null,
+      "edit_type_level3": null,
+      "input_text": "volatile",
+      "output_text": "",
+      "orthogonalData": {
+        "meaningDeviation": null,
+        "contextFunction": "Content Words",
+        "numWords": "Single Word",
+        "severity": "Minor",
+        "syntacticCategory": "Other"
+      }
+    },
+    {
+      "edit_type_level1": "Addition",
+      "edit_type_level2": "Other",
+      "edit_type_level3": null,
+      "input_text": "",
+      "output_text": "which harm the environment",
+      "orthogonalData": {
+        "meaningDeviation": null,
+        "contextFunction": "Content Words",
+        "numWords": "Multiple Words",
+        "severity": "Minor",
+        "syntacticCategory": "Other"
+      }
+    },
+    {
+      "edit_type_level1": "Substitution",
+      "edit_type_level2": "Lexical Error",
+      "edit_type_level3": null,
+      "input_text": "in abundance in the lower troposphere",
+      "output_text": "in the troposphere",
+      "orthogonalData": {
+        "meaningDeviation": "Other Meaning Deviation",
+        "contextFunction": "Content Words",
+        "numWords": "Multiple Words",
+        "severity": "Major",
+        "syntacticCategory": "Other"
+      }
+    }
+  ]
+}
+
+Actual data to convert:

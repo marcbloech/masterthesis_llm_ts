@@ -1,0 +1,3064 @@
+[
+  {
+    "source": "To determine whether Corner Post’s APA claim is timely, the Court must interpret §2401(a), which provides that civil actions against the United States “shall be barred unless the complaint is filed within six years after the right of action first accrues.”",
+    "target": "To determine whether Corner Post's APA claim is timely, the Court must interpret §2401(a), which states that civil actions against the United States must be filed within six years after the right of action first comes into effect.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[97, 105]],
+        "output_idx": [[97, 103]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[247, 256]],
+        "output_idx": [[212, 230]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[151, 191]],
+        "output_idx": [[149, 162]]
+      }
+    ],
+    "_thresh_id": 1
+  },
+  {
+    "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+    "target": "The Board argues that §2401(a) should not be interpreted to mean a \"challenger-by-challenger\" approach. || The standard accrual rule that §2401(a) describes is specific to the plaintiff.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[104, 106]] }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 5]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[66, 71]],
+        "output_idx": [[60, 64]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[151, 162]],
+        "output_idx": [[147, 156]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[176, 185]],
+        "output_idx": [[160, 168]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": { "val": "yes", "yes": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[169, 175]]
+      }
+    ],
+    "_thresh_id": 2
+  },
+  {
+    "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+    "target": "A cause of action, on the other hand, is \"on the date that damage is sustained and not on the date when causes are set in motion which ultimately produce injury.\"",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[80, 87]],
+        "output_idx": [[38, 40]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 61]]
+      }
+    ],
+    "_thresh_id": 3
+  },
+  {
+    "source": "The Board leaves open the possibility that someone could bring an asapplied challenge to a rule when the agency relies on that rule in enforcement proceedings against that person, even if more than six years have passed since the rule’s promulgation.",
+    "target": "The Board leaves open the possibility that someone could bring an asapplied challenge to a rule even if more than six years have passed since the rule was published, when the agency relies on that rule in enforcement proceedings.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": { "val": "trivial" },
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[96, 158]],
+        "output_idx": [[166, 229]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[159, 179]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[230, 250]],
+            "output_idx": [[146, 165]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 4
+  },
+  {
+    "source": "The APA provisions grant Corner Post a cause of action subject to certain conditions, and §2401(a) sets the window within which Corner Post can assert its claim.",
+    "target": "The APA provisions grant Corner Post a cause of action subject to certain conditions. || §2401(a) sets out the conditions within which Corner Post can bring its claim.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[86, 89]],
+            "output_idx": [[86, 88]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion", "bad_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[108, 114]],
+        "output_idx": [[111, 121]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[144, 150]],
+        "output_idx": [[151, 156]]
+      }
+    ],
+    "_thresh_id": 5
+  },
+  {
+    "source": "Statutes of limitations ‘require plaintiffs to pursue diligent prosecution of known claims’; statutes of repose reflect a ‘legislative judgment that a defendant should be free from liability after the legislatively determined period of time.’",
+    "target": "Statutes of limitations require plaintiffs to pursue known claims vigorously; statutes of repose reflect a \"legislative judgment that a defendant should be free from liability after a set period of time has passed.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[197, 242]],
+        "output_idx": [[184, 214]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[54, 62]],
+        "output_idx": [[66, 77]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[63, 77]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[78, 92]],
+        "output_idx": [[53, 65]]
+      }
+    ],
+    "_thresh_id": 6
+  },
+  {
+    "source": "The Board’s interpretation would thereby decouple the statute of limitations from any injury ‘such that the limitations period begins to run before a plaintiff can file a suit’—for some, but not all, suits governed by §2401(a).",
+    "target": "According to the Board, the statute of limitations should be separated from any injury so that the limitations period begins before a plaintiff can file a suit. || For some, but not all, suits governed by §2401(a).",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[161, 163]] }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 32]],
+        "output_idx": [[0, 23]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[33, 40]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[41, 49]],
+        "output_idx": [[51, 70]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[93, 98]],
+        "output_idx": [[87, 89]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[134, 140]]
+      }
+    ],
+    "_thresh_id": 7
+  },
+  {
+    "source": "The Board’s arguments to the contrary lack merit.",
+    "target": "The board's arguments to the contrary are without merit.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[38, 42]],
+        "output_idx": [[38, 49]]
+      }
+    ],
+    "_thresh_id": 8
+  },
+  {
+    "source": "Departing from the traditional rule is particularly inappropriate here because contemporaneous statutes demonstrate that Congress in 1948 knew how to create a limitations period that begins with the defendant’s action instead of the plaintiff’s injury.",
+    "target": "It is particularly inappropriate to depart from the traditional rule here because Congress in 1948 knew how to create a limitations period that begins with the defendant's action instead of the plaintiff's injury.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 65]],
+        "output_idx": [[3, 32]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": { "val": "no" }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[0, 2]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[0, 9]],
+            "output_idx": [[33, 42]]
+          }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[79, 120]]
+      }
+    ],
+    "_thresh_id": 9
+  },
+  {
+    "source": "While §702 equips injured parties with a cause of action, §704 limits the agency actions that are subject to judicial review.",
+    "target": "While §702 provides injured parties with a cause of action, §704 limits what judicial review can take place.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[11, 17]],
+        "output_idx": [[11, 19]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion", "bad_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[70, 108]],
+        "output_idx": [
+          [72, 76],
+          [93, 108]
+        ]
+      }
+    ],
+    "_thresh_id": 10
+  },
+  {
+    "source": "This traditional rule constitutes a strong background presumption.",
+    "target": "This standard rule creates a strong background presumption.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[22, 33]],
+        "output_idx": [[19, 26]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[5, 16]],
+        "output_idx": [[5, 13]]
+      }
+    ],
+    "_thresh_id": 11
+  },
+  {
+    "source": "Notwithstanding Crown Coat’s holding, the Board and the dissent try to marshal support from its dicta.",
+    "target": "Even though Crown Coat holds, the Board and the dissent try to get support from its dicta.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[71, 78]],
+        "output_idx": [[63, 66]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [
+          [0, 15],
+          [29, 37]
+        ],
+        "output_idx": [
+          [0, 11],
+          [23, 29]
+        ]
+      }
+    ],
+    "_thresh_id": 12
+  },
+  {
+    "source": "Absent vacatur, the remedy for a regulated plaintiff would not automatically extend to other regulated parties.",
+    "target": "Without vacatur, a regulated plaintiff's remedy would not automatically extend to other regulated parties.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 6]],
+        "output_idx": [[0, 7]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[20, 26]],
+        "output_idx": [[41, 47]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[27, 32]]
+      }
+    ],
+    "_thresh_id": 13
+  },
+  {
+    "source": "The Government’s current position on vacatur would de facto overrule Abbott Laboratories as to suits by unregulated parties.",
+    "target": "The current Government position would de facto overrule Abbott Laboratories as to suits by unlicensed parties.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[17, 24]],
+        "output_idx": [[4, 11]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[34, 44]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "bad_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[104, 115]],
+        "output_idx": [[91, 101]]
+      }
+    ],
+    "_thresh_id": 14
+  },
+  {
+    "source": "To decide the facial challenges here, the courts below must explore the laws’ full range of applications — the constitutionally impermissible and permissible both — and compare the two sets.",
+    "target": "To decide the facial challenges here, the courts below must explore the full range of the laws, both constitutionally permissible and impermissible, and compare the two sets.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[89, 104]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[72, 88]],
+        "output_idx": [[72, 95]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "word_level",
+            "word_level": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[158, 162]],
+        "output_idx": [[96, 100]]
+      }
+    ],
+    "_thresh_id": 15
+  },
+  {
+    "source": "But that conclusion would rest on a serious misunderstanding of First Amendment precedent and principle.",
+    "target": "However, that conclusion is based on a serious misunderstanding of First Amendment law and practice.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "bad", "bad": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 3]],
+        "output_idx": [[0, 8]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 2,
+            "category": "substitution",
+            "input_idx": [[20, 30]],
+            "output_idx": [[25, 33]]
+          }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[80, 104]],
+        "output_idx": [[83, 100]]
+      }
+    ],
+    "_thresh_id": 16
+  },
+  {
+    "source": "That controversy sounds a familiar note: We have repeatedly faced the question whether ordering a party to provide a forum for someone else’s views implicates the First Amendment.",
+    "target": "That issue sounds a familiar note: We have repeatedly faced the question whether it is possible to order a party to provide a forum for another person's views.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[5, 16]],
+        "output_idx": [[5, 10]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[148, 179]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "irrelevant",
+            "trivial_insertion": { "val": "no" },
+            "irrelevant": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[81, 95]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[87, 95]],
+        "output_idx": [[96, 104]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[127, 141]],
+        "output_idx": [[132, 152]]
+      }
+    ],
+    "_thresh_id": 17
+  },
+  {
+    "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else’s views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+    "target": "The Court has repeatedly held that the First Amendment is at stake if a party is ordered to provide a forum for someone else's views, but only if the regulated party is engaged in its own expressive activity, which the access would change or disrupt.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[131, 137]],
+        "output_idx": [[134, 137]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[127, 130]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[220, 228]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[242, 247]],
+        "output_idx": [[232, 238]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": { "val": "yes", "yes": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[67, 71]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[96, 126]],
+        "output_idx": [[35, 66]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "reorder",
+            "input_idx": [[35, 95]],
+            "output_idx": [[72, 133]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 18
+  },
+  {
+    "source": "From that slew of individual cases, three general points emerge.",
+    "target": "From that group of cases, three general points come up.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[18, 28]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[10, 14]],
+        "output_idx": [[10, 15]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[57, 64]],
+        "output_idx": [[47, 55]]
+      }
+    ],
+    "_thresh_id": 19
+  },
+  {
+    "source": "First, the First Amendment offers protection when an entity engaged in compiling and curating others’ speech into an expressive product of its own is directed to accommodate messages it would prefer to exclude.",
+    "target": "First, the First Amendment provides protection when an entity that collects and curates other people's speech into a product of its own is directed to include messages that it would prefer to exclude.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "elaboration",
+            "elaboration": "minor",
+            "trivial_insertion": { "val": "yes" }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[94, 102]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[117, 127]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[162, 173]],
+        "output_idx": [[151, 158]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": {
+            "val": "trivial_insertion",
+            "trivial_insertion": { "val": "yes", "yes": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[168, 172]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[60, 93]],
+            "output_idx": [[62, 87]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 20
+  },
+  {
+    "source": "The next order of business is to decide which of the laws’ applications violate the First Amendment, and to measure them against the rest.",
+    "target": "The next step is to determine whether the laws violate the First Amendment, and then to measure them against the rest.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[9, 26]],
+        "output_idx": [[9, 13]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[33, 39]],
+        "output_idx": [[20, 29]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[40, 71]],
+        "output_idx": [[30, 46]]
+      }
+    ],
+    "_thresh_id": 21
+  },
+  {
+    "source": "To ensure “the free exchange of ideas and information,” H. B. 20 requires regulated platforms to abide by the following content-moderation and disclosure requirements.",
+    "target": "To ensure the free exchange of information and ideas,  H. B. 20 requires regulated platforms to follow the following content-moderation and disclosure rules.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[97, 105]],
+        "output_idx": [[96, 102]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[154, 167]],
+        "output_idx": [[151, 157]]
+      }
+    ],
+    "_thresh_id": 22
+  },
+  {
+    "source": "However, the law allows platforms to censor speech that: federal law “specifically authorize[s]” them to censor; speech that the platform is told sexually exploits children or survivors of sexual abuse; speech that “directly incites criminal activity or consists of specific threats of violence targeted against a person or group because of race, color, disability, religion, national origin or ancestry, age, sex or status as peace officer or judge”; and speech that is otherwise unlawful or has been the subject of a user’s request for removal from his or her feed or profile.",
+    "target": "However, the law allows platforms to censor speech that: federal law “specifically authorize[s] them to censor; speech that the platform is told sexually exploits children or survivors of sexual abuse; speech that is otherwise unlawful or consists of specific threats of violence targeted against a person or group because of race, color, disability, religion, national origin or ancestry, age, sex or status as peace officer or judge.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": { "val": "good" },
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[456, 489]],
+        "output_idx": [[202, 235]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[490, 578]]
+      }
+    ],
+    "_thresh_id": 23
+  },
+  {
+    "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+    "target": "NetChoice argues that the Florida and Texas laws violate the First Amendment. || This means that they cannot be applied to anyone at any time without violating the First Amendment.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[10, 18]],
+        "output_idx": [[10, 16]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[46, 54]],
+        "output_idx": [[44, 48]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[93, 100]],
+        "output_idx": [[81, 91]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[78, 80]] }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[151, 174]]
+      }
+    ],
+    "_thresh_id": 24
+  },
+  {
+    "source": "Represented by sophisticated counsel, NetChoice made the deliberate choice to mount a facial challenge to both laws, and in doing so, it obviously knew what it would have to show in order to prevail.",
+    "target": "Represented by experienced lawyers, NetChoice chose to mount a face-to-face challenge to both laws, and in doing so, it clearly knew what it would need to show in order to win.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[15, 37]],
+        "output_idx": [[15, 35]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[48, 74]],
+        "output_idx": [[46, 51]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[86, 92]],
+        "output_idx": [[63, 75]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[137, 146]],
+        "output_idx": [[120, 127]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[166, 170]],
+        "output_idx": [[147, 151]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[191, 199]],
+        "output_idx": [[172, 176]]
+      }
+    ],
+    "_thresh_id": 25
+  },
+  {
+    "source": "The reasons that justify the President’s absolute immunity from criminal prosecution for acts within the scope of his exclusive constitutional authority do not extend to conduct in areas where his authority is shared with Congress.",
+    "target": "The President's absolute immunity from criminal prosecution for acts within the scope of his exclusive constitutional authority does not extend to conduct in areas where Congress has given him authority to do so.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 24]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[153, 155]],
+        "output_idx": [[128, 132]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[193, 231]],
+        "output_idx": [[170, 212]]
+      }
+    ],
+    "_thresh_id": 26
+  },
+  {
+    "source": "Appreciating the “unique risks” that arise when the President’s energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+    "target": "The Court has recognized the \"unique risks\" that arise when the President's energies are diverted by proceedings that might render him \"unduly cautious in the discharge of his official duties.\" || Presidential immunities and privileges are based on our history and the constitutional tradition of separation of powers.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[194, 196]] }
+        ]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": { "val": "good" },
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[257, 313]],
+        "output_idx": [[265, 318]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[318, 330]]
+      },
+      {
+        "category": "reorder",
+        "id": 2,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "word_level": { "val": "good" },
+            "component_level": { "val": "bad", "bad": "a lot" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[182, 206]],
+        "output_idx": [[0, 24]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 16]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "voice" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[236, 239]] },
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[246, 256]],
+            "output_idx": [[240, 248]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 27
+  },
+  {
+    "source": "In Fitzgerald, for instance, the Court concluded that a former President is entitled to absolute immunity from “damages liability for acts within the ‘outer perimeter’ of his official responsibility.”",
+    "target": "In Fitzgerald, for instance, the Court said that a former President is allowed to stay in office as long as he was in office, even if he did bad things.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[39, 48]],
+        "output_idx": [[39, 43]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[76, 105]],
+        "output_idx": [[71, 125]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion", "bad_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[106, 200]],
+        "output_idx": [[126, 152]]
+      }
+    ],
+    "_thresh_id": 28
+  },
+  {
+    "source": "And he contended that a President has absolute immunity from criminal prosecution for actions performed within the outer perimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+    "target": "He argued that a President has absolute immunity from criminal prosecution for actions done outside the limits of his official duties. || This way, he could take on the especially sensitive duties of his office with bold and unhesitating action.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 3]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[7, 16]],
+        "output_idx": [[3, 9]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 103]],
+        "output_idx": [[87, 91]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[104, 130]],
+        "output_idx": [[92, 110]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[147, 164]],
+        "output_idx": [[127, 134]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[138, 147]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 2, "category": "insertion", "output_idx": [[135, 137]] }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[165, 179]]
+      },
+      {
+        "category": "substitution",
+        "id": 6,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[187, 196]],
+        "output_idx": [[157, 164]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "tense" },
+          "impact": { "val": "trivial" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 5,
+            "category": "substitution",
+            "input_idx": [[183, 186]],
+            "output_idx": [[151, 156]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 29
+  },
+  {
+    "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+    "target": "We conclude that under our constitutional system of separation of powers, a former President should have some immunity from criminal prosecution for official acts he performed during his time in office.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[55, 64]],
+        "output_idx": [[52, 65]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[73, 119]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[163, 175]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[213, 219]],
+        "output_idx": [[187, 191]]
+      }
+    ],
+    "_thresh_id": 30
+  },
+  {
+    "source": "Following the analysis set forth in Granfinanciera, S. A. v. Nordberg, 492 U. S. 33, and Tull v. United States, 481 U. S. 412, this action implicates the Seventh Amendment because the SEC’s antifraud provisions replicate common law fraud.",
+    "target": "Following the analysis set forth in Granfinanciera, S. A. v. Nordberg, 492 U. S. 33, and Tull v. United States, 481 U. S. 412, the SECs antifraud provisions are similar to common law fraud.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[127, 179]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[211, 220]],
+        "output_idx": [[157, 171]]
+      }
+    ],
+    "_thresh_id": 31
+  },
+  {
+    "source": "To determine whether a suit is legal in nature, courts must consider whether the cause of action resembles common law causes of action, and whether the remedy is the sort that was traditionally obtained in a court of law.",
+    "target": "To determine whether a suit is legal in nature, courts must consider whether the cause of action is similar to common law causes of action, and if the remedy can be found in a court of law.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[97, 106]],
+        "output_idx": [[97, 110]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[140, 147]],
+        "output_idx": [[144, 146]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "bad_deletion", "bad_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[159, 202]],
+        "output_idx": [[158, 170]]
+      }
+    ],
+    "_thresh_id": 32
+  },
+  {
+    "source": "On that basis, this Court has repeatedly explained that matters concerning private rights may not be removed from Article III courts.",
+    "target": "For this reason, this Court has repeatedly said that private rights cannot be taken away from Article III courts.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 14]],
+        "output_idx": [[0, 16]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[41, 50]],
+        "output_idx": [[43, 47]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[90, 108]],
+        "output_idx": [[68, 88]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[56, 74]]
+      }
+    ],
+    "_thresh_id": 33
+  },
+  {
+    "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+    "target": "Surveying English cases and considering the remedy these suits offered, the Court decided that fraudulent conveyance cases were basically common law cases.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[63, 72]],
+        "output_idx": [[63, 71]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[83, 92]],
+        "output_idx": [[82, 89]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[120, 127]],
+        "output_idx": [[117, 122]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[133, 172]],
+        "output_idx": [[128, 155]]
+      }
+    ],
+    "_thresh_id": 34
+  },
+  {
+    "source": "When a debtor files for bankruptcy, it “creates an estate” that includes virtually all the debtor’s assets.",
+    "target": "When a person files for bankruptcy, he or she creates an estate that includes all the debtor's assets.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion", "bad_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[7, 13]],
+        "output_idx": [[7, 13]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[73, 82]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 38]],
+        "output_idx": [[36, 45]]
+      }
+    ],
+    "_thresh_id": 35
+  },
+  {
+    "source": "Under Chapter 11, the debtor must develop a reorganization plan governing the distribution of the estate’s assets and present it to the bankruptcy court for approval.",
+    "target": "Under Chapter 11, the debtor must develop a reorganization plan to control how the estate is distributed and present it to the court for approval.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[136, 146]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[64, 113]],
+            "output_idx": [[64, 104]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 36
+  },
+  {
+    "source": "Section 1123(b) addresses the kinds of provisions that may be included in a Chapter 11 plan.",
+    "target": "Section 1123(b) defines what types of provisions can be included in a Chapter 11 plan.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[16, 58]],
+        "output_idx": [[16, 52]]
+      }
+    ],
+    "_thresh_id": 37
+  },
+  {
+    "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+    "target": "Because the Sackler decision is not expressly prohibited, they say, paragraph (6) makes it possible for them.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[8, 23]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 45]],
+        "output_idx": [[20, 28]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[46, 49]],
+        "output_idx": [[29, 31]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[81, 88]],
+        "output_idx": [[63, 67]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "minor"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 122]],
+        "output_idx": [[82, 103]]
+      }
+    ],
+    "_thresh_id": 38
+  },
+  {
+    "source": "While paragraph (6) doubtlessly confers additional authorities on a bankruptcy court, it cannot be read under the canon of ejusdem generis to endow a bankruptcy court with the “radically different” power to discharge the debts of a nondebtor without the consent of affected claimants.",
+    "target": "While paragraph (6) surely gives more power to a bankruptcy court, it cannot be read under the canon of ejusdem generis to give a bankruptcy court the \"radically different\" power to get rid of a person's debts without asking the affected people first.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[20, 65]],
+        "output_idx": [[20, 46]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [
+          [142, 147],
+          [167, 171]
+        ],
+        "output_idx": [[123, 127]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "bad_deletion", "bad_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[207, 241]],
+        "output_idx": [[182, 209]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[245, 251]]
+      },
+      {
+        "category": "substitution",
+        "id": 5,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[274, 284]],
+        "output_idx": [[238, 244]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "pos" },
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 4,
+            "category": "substitution",
+            "input_idx": [[250, 264]],
+            "output_idx": [[218, 228]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 39
+  },
+  {
+    "source": "If a federal official accepts a bribe for an official act, federal bribery law provides for a 15-year maximum prison sentence.",
+    "target": "If a federal official takes a bribe for an official act, the maximum prison sentence under federal law is 15 years.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[102, 126]],
+        "output_idx": [[61, 84]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[67, 74]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[79, 93]],
+        "output_idx": [
+          [57, 60],
+          [85, 90],
+          [103, 105]
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[22, 29]],
+        "output_idx": [[22, 27]]
+      }
+    ],
+    "_thresh_id": 40
+  },
+  {
+    "source": "In 1984, Congress passed and President Reagan signed a law now codified at 18 U. S. C. §666 that, as relevant here, extended the gratuities prohibition in §201(c) to most state and local officials.",
+    "target": "In 1984, Congress passed and President Reagan signed a law now codified at 18 U. S. C. §666 that, as relevant here, most state and local officials are now required to pay taxes.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[116, 165]],
+        "output_idx": [[147, 177]]
+      },
+      {
+        "category": "reorder",
+        "id": 1,
+        "annotation": {
+          "reorder_level": {
+            "val": "component_level",
+            "component_level": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[166, 197]],
+        "output_idx": [[116, 146]]
+      }
+    ],
+    "_thresh_id": 41
+  },
+  {
+    "source": "As amended, the text of §666 now closely resembles the bribery provision for federal officials, §201(b), and makes it a crime for most state and local officials to “corruptly” solicit, accept, or agree to accept “anything of value” “intending to be influenced or rewarded in connection with” any official business or transaction worth $5,000 or more.",
+    "target": "As amended, the text of §666 now closely resembles the bribery provision for federal officials, §201(b), and makes it a crime for most state and local officials to accept anything of value from a person or company that is worth more than $5,000. || It also makes it a crime to bribe a federal official.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[164, 204]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "irrelevant", "irrelevant": "somewhat" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[249, 302]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": { "impact": { "val": "trivial" }, "grammar_error": "no" },
+        "constituent_edits": [
+          { "id": 2, "category": "insertion", "output_idx": [[246, 248]] }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[189, 213]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[329, 350]],
+        "output_idx": [[214, 245]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[232, 328]]
+      }
+    ],
+    "_thresh_id": 42
+  },
+  {
+    "source": "The dividing line between §201(b)’s bribery provision and §201(c)’s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+    "target": "The main difference between §201 (b) and §201 (c) is that §201 (b) requires an official to have a corrupt state of mind. || §201 (c) requires an official to accept (or agree to accept) a payment for an official act.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[4, 17]],
+        "output_idx": [[4, 19]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[36, 53]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[68, 88]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion", "bad_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[97, 104]],
+        "output_idx": [[58, 66]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "bad", "bad": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 3,
+            "category": "substitution",
+            "input_idx": [[158, 161]],
+            "output_idx": [[121, 123]]
+          }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "contradiction",
+            "contradiction": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[124, 132]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": { "val": "repetition", "repetition": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[133, 156]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[203, 229]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[230, 232]],
+        "output_idx": [[195, 198]]
+      }
+    ],
+    "_thresh_id": 43
+  },
+  {
+    "source": "The Government says that the statute would not cover “innocuous” or “obviously benign” gratuities, but the Government does not identify any remotely clear lines separating such a gratuity from a criminal gratuity.",
+    "target": "The Government says that the law would not cover so-called \"innocuous\" or \"obviously benign\" gratuities. || However, there is no clear line between such a gratuity and a criminal gratuity.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[105, 107]] }
+        ]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[29, 36]],
+        "output_idx": [[29, 32]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[49, 58]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion", "good_deletion": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[103, 139]],
+        "output_idx": [[117, 128]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[140, 148]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[155, 171]],
+        "output_idx": [[135, 147]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "bad_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[99, 102]],
+        "output_idx": [[108, 116]]
+      }
+    ],
+    "_thresh_id": 44
+  },
+  {
+    "source": "Under the doctrine of consular nonreviewability, an executive officer’s decision “to admit or to exclude an alien” “is final and conclusive,”.",
+    "target": "Under the doctrine of consular nonreviewability, the executive officer's decision is final and conclusive, and must be followed by all parties.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[49, 51]],
+        "output_idx": [[49, 52]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[81, 114]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[107, 144]]
+      }
+    ],
+    "_thresh_id": 45
+  },
+  {
+    "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband’s visa violated her constitutional rights, thereby enabling judicial review.",
+    "target": "Because Asencio-Cordero cannot use the exception himself, Muñoz must claim that the government did not honor her constitutional rights. || This would allow judicial review.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[0, 7]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[53, 57]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "less",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion", "good_deletion": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[23, 29]],
+        "output_idx": [[31, 34]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[69, 75]],
+        "output_idx": [[69, 74]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[150, 166]],
+        "output_idx": [[139, 155]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 2, "category": "insertion", "output_idx": [[136, 138]] }
+        ]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "a lot" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[81, 113]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[80, 94]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[114, 122]],
+        "output_idx": [[95, 108]]
+      }
+    ],
+    "_thresh_id": 46
+  },
+  {
+    "source": "Thus in United States ex rel. Knauff v. Shaughnessy, 338 U. S. 537, the Court reaffirmed, in the case of a noncitizen spouse who was denied admission for confidential security reasons, the longstanding principle “that the United States can, as a matter of public policy . . . forbid aliens or classes of aliens from coming within [its] borders,” and “[n]o limits can be put by the courts upon” that power.",
+    "target": "In Knauff v. Shaughnessy, 338 U. S. 537, the Court said that it could not stop a noncitizen spouse from coming to the United States for confidential security reasons. || The court said that the \"United States can, as a matter of public policy ... forbid aliens or classes of aliens from coming within [its] borders.\"",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 4]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[8, 29]]
+      },
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" },
+            "less": { "val": "good_deletion" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[78, 89]],
+        "output_idx": [[51, 60]]
+      },
+      {
+        "category": "split",
+        "id": 1,
+        "annotation": {
+          "impact": { "val": "good", "good": "minor" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          { "id": 1, "category": "insertion", "output_idx": [[167, 169]] }
+        ]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "minor" },
+          "grammar_error": "no"
+        },
+        "output_idx": [[170, 184]]
+      },
+      {
+        "category": "deletion",
+        "id": 3,
+        "annotation": {
+          "deletion_type": {
+            "val": "bad_deletion",
+            "bad_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[346, 405]]
+      },
+      {
+        "category": "deletion",
+        "id": 4,
+        "annotation": {
+          "deletion_type": { "val": "good_deletion", "good_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[90, 104]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "less": { "val": "good_deletion" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[133, 149]],
+        "output_idx": [[61, 78]]
+      },
+      {
+        "category": "deletion",
+        "id": 5,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[185, 211]]
+      },
+      {
+        "category": "insertion",
+        "id": 2,
+        "annotation": {
+          "insertion_type": { "val": "elaboration", "elaboration": "somewhat" },
+          "grammar_error": "yes"
+        },
+        "output_idx": [[99, 131]]
+      }
+    ],
+    "_thresh_id": 47
+  },
+  {
+    "source": "The District Court granted summary judgment to the State Department, but the Ninth Circuit vacated the judgment, holding that Muñoz had a constitutionally protected liberty interest in her husband’s visa application.",
+    "target": "The District Court granted summary judgment to the State Department, but the Ninth Circuit threw out the decision, saying that Muñoz had a right to a fair trial when she applied for a visa.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "somewhat" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[91, 112]],
+        "output_idx": [[91, 114]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[113, 120]],
+        "output_idx": [[115, 121]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[182, 216]],
+        "output_idx": [[161, 189]]
+      },
+      {
+        "category": "substitution",
+        "id": 4,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "a lot"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[138, 181]],
+        "output_idx": [[139, 160]]
+      }
+    ],
+    "_thresh_id": 48
+  },
+  {
+    "source": "Thus in Apprendi v. New Jersey, 530 U. S. 466, the Court held that a novel “sentencing enhancement” was unconstitutional because it violated the rule that only a jury may find “facts that increase the prescribed range of penalties to which a criminal defendant is exposed.”",
+    "target": "In Apprendi v. New Jersey, 530 U. S. 466, the Court held that a novel \"sentencing enhancement\" was unconstitutional because it violated the rule that only a jury may decide if a sentence is too high or too low.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "trivial_deletion" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 4]]
+      },
+      {
+        "category": "deletion",
+        "id": 2,
+        "annotation": {
+          "deletion_type": {
+            "val": "good_deletion",
+            "good_deletion": "somewhat"
+          },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[231, 273]]
+      },
+      {
+        "category": "insertion",
+        "id": 1,
+        "annotation": {
+          "insertion_type": {
+            "val": "contradiction",
+            "contradiction": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "output_idx": [[199, 211]]
+      },
+      {
+        "category": "structure",
+        "id": 1,
+        "annotation": {
+          "structure_type": { "val": "clausal" },
+          "impact": { "val": "good", "good": "somewhat" },
+          "grammar_error": "no"
+        },
+        "constituent_edits": [
+          {
+            "id": 1,
+            "category": "substitution",
+            "input_idx": [[171, 230]],
+            "output_idx": [[166, 198]]
+          }
+        ]
+      }
+    ],
+    "_thresh_id": 49
+  },
+  {
+    "source": "But a sentencing procedure followed by a few States hardly represents “convincing” proof that our precedents have mistaken the original meaning of the Fifth and Sixth Amendments.",
+    "target": "However, a sentencing procedure followed by a few states does not represent \"convincing\" proof that the Fifth and Sixth Amendments were originally meant that way.",
+    "metadata": { "annotator": "annotator_0", "system": "MUSS" },
+    "edits": [
+      {
+        "category": "substitution",
+        "id": 1,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "trivial" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[0, 3]],
+        "output_idx": [[0, 8]]
+      },
+      {
+        "category": "substitution",
+        "id": 2,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "same",
+            "same": { "val": "good", "good": "minor" }
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[52, 58]],
+        "output_idx": [[57, 65]]
+      },
+      {
+        "category": "deletion",
+        "id": 1,
+        "annotation": {
+          "deletion_type": { "val": "bad_deletion", "bad_deletion": "minor" },
+          "coreference": "no",
+          "grammar_error": "no"
+        },
+        "input_idx": [[94, 108]]
+      },
+      {
+        "category": "substitution",
+        "id": 3,
+        "annotation": {
+          "substitution_info_change": {
+            "val": "different",
+            "same": { "val": "good" },
+            "different": "somewhat"
+          },
+          "grammar_error": "no"
+        },
+        "input_idx": [[109, 146]],
+        "output_idx": [[131, 162]]
+      }
+    ],
+    "_thresh_id": 50
+  }
+]

@@ -1,0 +1,3087 @@
+[
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise died, Pionsenay stayed with his brother. || When Skinya and Tahzay started a war in 1875, Pionsenay joined them.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "of"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "in 1875"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "remained loyal",
+                    "stayed"
+                ],
+                "output_text": [
+                    "stayed with his brother."
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "When Skinya and Tahzay started a war in 1875,"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "structure",
+                "input_text": [
+                    "."
+                ],
+                "output_text": [
+                    ". ||"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            }
+        ],
+        "_thresh_id": 1
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Doctors can use both percutaneous (through the skin) and surgical methods with albendazole to treat simple liver cysts caused by echinococcosis. However, there is little evidence from random studies that compare these treatments directly.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Percutaneous",
+                    "surgical interventions"
+                ],
+                "output_text": [
+                    "Doctors",
+                    "percutaneous (through the skin)",
+                    "surgical methods"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "uncomplicated hepatic cystic echinococcosis"
+                ],
+                "output_text": [
+                    "simple liver cysts caused by echinococcosis"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "scarcity of randomised evidence"
+                ],
+                "output_text": [
+                    "little evidence from random studies"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "directly comparing these interventions"
+                ],
+                "output_text": [
+                    "that compare these treatments directly"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "However,"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 2
+    },
+    {
+        "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence).",
+        "target": "Statins make little or no difference in heart attacks and strokes but may slightly lower the risk of irregular heartbeat.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "probably"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "(RR 0.88, 95% CI 0.73 to 1.06;"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "may"
+                ],
+                "output_text": [
+                    "but may slightly lower the risk of"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "result in little to no difference in myocardial infarction"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "atrial fibrillation"
+                ],
+                "output_text": [
+                    "irregular heartbeat"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "(RR 0.87, 95% CI 0.72 to 1.05;"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "but"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "may result in little to no difference in stroke"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "(RR 1.47, 95% CI 0.90 to 2.40;"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "make"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 3
+    },
+    {
+        "source": "Non-randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)-shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+        "target": "Non-randomised studies have shown a benefit from surgically diverting cerebrospinal fluid (CSF) to an area of lower pressure in iNPH. || However, there have been limited randomised controlled trial (RCT) data to confirm this.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "ventricular fluid"
+                ],
+                "output_text": [
+                    "cerebrospinal fluid (CSF)"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Split",
+                "input_text": [
+                    "by cerebrospinal fluid (CSF)-shunting in iNPH, but"
+                ],
+                "output_text": [
+                    "in iNPH. || However,"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 4
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "Importantly, dictionaries from that time said a cause of action starts on the date damage happens, not when the events leading to the damage begin.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "contemporaneous"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "explained"
+                ],
+                "output_text": [
+                    "said"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "accrues"
+                ],
+                "output_text": [
+                    "starts"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "on [the] date that damage is sustained"
+                ],
+                "output_text": [
+                    "on the date damage happens"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "and not [the] date when causes are set in motion which ultimately produce injury"
+                ],
+                "output_text": [
+                    "not when the events leading to the damage begin"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 5
+    },
+    {
+        "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+        "target": "The Board says §2401(a) shouldn't be applied in separate cases, but it applies to each case individually.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "while the Board argues that"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "§2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "The Board says §2401(a) shouldn't be applied in separate cases, but it applies to each case individually."
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 6
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues on the date of the injury.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Importantly"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\""
+                ],
+                "output_text": [
+                    "A cause of action accrues on the date of the injury."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "[the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "which ultimately produce injury"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 7
+    },
+    {
+        "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+        "target": "They say these laws directly contradict the First Amendment.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Deletion",
+                "input_text": [
+                    "NetChoice contends that the Florida and Texas statutes"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "these laws"
+                ],
+                "output_text": [
+                    "meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "facially violate"
+                ],
+                "output_text": [
+                    "directly contradict"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "Insertion",
+                "input_text": [],
+                "output_text": [
+                    "They say"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 8
+    },
+    {
+        "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband's visa violated her constitutional rights, thereby enabling judicial review.",
+        "target": "Muñoz had to say that denying her husband's visa broke Asencio-Cordero's constitutional rights.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "thus Muñoz must assert that the denial of her husband's visa"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "thereby enabling judicial review"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Asencio-Cordero"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "Muñoz had to say"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "violated her constitutional rights"
+                ],
+                "output_text": [
+                    "broke Asencio-Cordero's constitutional rights"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 9
+    },
+    {
+        "source": "Appreciating the “unique risks” that arise when the President's energies are diverted by proceedings that might render him “unduly cautious in the discharge of his official duties,” the Court has recognized Presidential immunities and privileges “rooted in the constitutional tradition of the separation of powers and supported by our history.",
+        "target": "The Court has recognized the \"unique risks\" that arise when the President's energies are diverted by proceedings that might render him \"unduly cautious in the discharge of his official duties.\" || Presidential immunities and privileges are based on our history and the constitutional tradition of separation of powers.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Appreciating"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "The Court has recognized"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "||"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "rooted in the constitutional tradition of the separation of powers and supported by our history"
+                ],
+                "output_text": [
+                    "are based on our history and the constitutional tradition of separation of powers"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 10
+    },
+    {
+        "source": "And he contended that a President has absolute immunity from criminal prosecution for actions performed within the outer perimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+        "target": "He argued that a President has absolute immunity from criminal prosecution for actions done outside the limits of his official duties. || This way, he could take on the especially sensitive duties of his office with bold and unhesitating action.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "his official responsibilities"
+                ],
+                "output_text": [
+                    "his official duties"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "within the outer perimeter"
+                ],
+                "output_text": [
+                    "outside the limits of"
+                ],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "And"
+                ],
+                "output_text": [
+                    "|| This way"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "This way"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            }
+        ],
+        "_thresh_id": 11
+    },
+    {
+        "source": "The dividing line between §201(b)'s bribery provision and §201(c)'s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+        "target": "The main difference between §201 (b) and §201 (c) is that §201 (b) requires an official to have a corrupt state of mind. || §201 (c) requires an official to accept (or agree to accept) a payment for an official act.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "§201(b)'s bribery provision"
+                ],
+                "output_text": [
+                    "§201 (b)"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "§201(c)'s gratuities provision"
+                ],
+                "output_text": [
+                    "§201 (c)"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "a corrupt state of mind"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| §201 (c)"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 12
+    },
+    {
+        "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+        "target": "Ordering a party to provide a forum for someone else 's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity. || This was what the Court has repeatedly held. || The mandated access would alter or disrupt its own expressive activity.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "The Court has repeatedly held that"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    ". || This was what the Court has repeatedly held"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "which"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "the mandated access would alter or disrupt"
+                ],
+                "output_text": [
+                    "The mandated access would alter or disrupt"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 13
+    },
+    {
+        "source": "Calzolari trat in die Fußstapfen seines Vaters und widmete sich mit Hingabe seiner Arbeit in der Apotheke, deren Leitung er übernahm.",
+        "target": "Nachdem sein Vater aus dem Geschäft ausgestiegen war, übernahm Calzolari dessen Position als Apothekeneigentümer. || Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Die Fußstapfen seines Vaters"
+                ],
+                "output_text": [
+                    "Nachdem sein Vater aus dem Geschäft ausgestiegen war"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "seine Arbeit in der Apotheke"
+                ],
+                "output_text": [
+                    "dessen Position als Apothekeneigentümer"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "mit Hingabe seiner"
+                ],
+                "output_text": [
+                    "Er engagierte sich sehr für die Apotheke"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "und"
+                ],
+                "output_text": [
+                    "|| Er"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "deren Leitung"
+                ],
+                "output_text": [
+                    "die Apotheke"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "er übernahm"
+                ],
+                "output_text": [
+                    "dessen Position als Apothekeneigentümer"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "er führte sie erfolgreich weiter"
+                ],
+                "output_text": [
+                    "Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 14
+    },
+    {
+        "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+        "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "vor Motians Tod"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "wurde bereits"
+                ],
+                "output_text": [
+                    "wurde erst"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "konzipiert"
+                ],
+                "output_text": [
+                    "entwickelt"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "brauchte mehrere Jahre"
+                ],
+                "output_text": [
+                    "benötigte einige Jahre"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "um Gestalt anzunehmen"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "nach dem Tod des Musikers"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 15
+    },
+    {
+        "source": "On the outbreak of the 1965 Indo-Pakistani war, the squadron flew 24 Aerial reconnaissance missions with the Lockheed RT-33s providing vital photographic data coverage to the PAF and the Army.",
+        "target": "During the 1965 India-Pakistan war, the squadron flew 24 spy missions using planes that took photos which were very helpful to Pakistan's army and air force.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "The Lockheed RT-33s"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "PAF and the Army"
+                ],
+                "output_text": [
+                    "Pakistan's army and air force"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "vital photographic data coverage"
+                ],
+                "output_text": [
+                    "take photos which were very helpful"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "the 1965 Indo-Pakistani war"
+                ],
+                "output_text": [
+                    "the 1965 India-Pakistan war"
+                ],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "structure",
+                "input_text": [],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 16
+    },
+    {
+        "source": "Acmispon tomentosus var. tomentosus is the one subspecies in the genus, generally identified by having less red in their buds and a lot more hairy leaves.",
+        "target": "Acmispon tomentosus has one subspecies with buds that are not as red and hairy leaves that are very thick.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Acmispon tomentosus var. tomentosus"
+                ],
+                "output_text": [
+                    "Acmispon tomentosus"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "in the genus"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "less red in their buds and"
+                ],
+                "output_text": [
+                    "buds that are not as red"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "that are"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "very thick"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 17
+    },
+    {
+        "source": "As a key component of the country's road network, the N1 facilitates connectivity between the capital and the northeastern regions, playing a role in the nation's economic and social development.",
+        "target": "The N1 connects the capital with the northeastern regions, helping the country's economy and society.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "As a key component of the country's road network"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "facilitates connectivity between the capital and the northeastern regions"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "N1 connects the capital with the northeastern regions"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "playing a role in the nation's economic and social development"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "helping the country's economy and society"
+                ],
+                "output_text": [
+                    "helping the country's economy and society"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 18
+    },
+    {
+        "source": "Due to the influx of Catholic immigration in Zurich in the 19th century, the church was built from 1893 to 1894 under the Romanesque Revival architecture designs of the architect August Hardegger.",
+        "target": "The church was built between 1893 and 1894 according to the Romanesque Revival style.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Due to the influx of Catholic immigration in Zurich in the 19th century,"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "church was built from 1893 to 1894 under the Romanesque Revival architecture designs of the architect August Hardegger."
+                ],
+                "output_text": [
+                    "built between 1893 and 1894 according to the Romanesque Revival style"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 19
+    },
+    {
+        "source": "Breedlove was born in 1875 in Granville County, North Carolina near Oxford, to John Henry Breedlove and Susan Caroline Hunt Breedlove. ",
+        "target": "Breedlove was born in 1875. || This was in Granville County, North Carolina near Oxford. || This was to John Henry Breedlove. || This was to Susan Caroline Hunt Breedlove.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| This was to"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "in"
+                ],
+                "output_text": [
+                    "|| This was in"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "to John Henry Breedlove and Susan Caroline Hunt Breedlove"
+                ],
+                "output_text": [
+                    "This was to John Henry Breedlove",
+                    "This was to Susan Caroline Hunt Breedlove"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 20
+    },
+    {
+        "source": "After the war, the squadron was disbanded in June 1972 with it's assets transferred to No. 2 Squadron.",
+        "target": "After the war, No. 2 Squadron took over its assets and was disbanded in June 1972.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "squadron was disbanded in June 1972 with it's"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "it's"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "No. 2 Squadron"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "squadron was disbanded"
+                ],
+                "output_text": [
+                    "was disbanded"
+                ],
+                "quality": "neutral",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "its assets and were transferred to"
+                ],
+                "output_text": [
+                    "assets were transferred to"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "with"
+                ],
+                "output_text": [
+                    "to"
+                ],
+                "quality": "neutral",
+                "significance": 3
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "take over"
+                ],
+                "output_text": [
+                    "take over"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 21
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white people, including a Medal of Honor winner.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "men"
+                ],
+                "output_text": [
+                    "people"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "including Medal of Honor recipient Orizoba Spence"
+                ],
+                "output_text": [
+                    "including a Medal of Honor winner"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 22
+    },
+    {
+        "source": "In 1876, the Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches led by Pionsenay.",
+        "target": "The Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches. || This was in 1876. || Apaches was led by Pionsenay.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Deletion",
+                "input_text": [
+                    "In 1876,"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Insertion",
+                "input_text": [],
+                "output_text": [
+                    "This was in 1876."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Split",
+                "input_text": [
+                    "by Pionsenay"
+                ],
+                "output_text": [
+                    "|| Apaches was led"
+                ],
+                "quality": "neutral",
+                "significance": 0
+            },
+            {
+                "category": "Reorder",
+                "input_text": [
+                    "In 1876,",
+                    "by a band",
+                    "led by Pionsenay"
+                ],
+                "output_text": [
+                    "This was in 1876.",
+                    "Apaches was",
+                    "by Pionsenay"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 23
+    },
+    {
+        "source": "Prior to his acting debut, he was one of the regular hosts of the university student-focused talk show College Talk",
+        "target": "Before he started acting, he was one of the regular hosts of the college talk show College Talk.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Prior"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "university"
+                ],
+                "output_text": [
+                    "college"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "his acting debut"
+                ],
+                "output_text": [
+                    "he started acting"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 24
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for his brutal raids, his rivalry with Cochise's sons, and killing several white men.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "the brutality of his raids"
+                ],
+                "output_text": [
+                    "his brutal raids"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "his brutality of"
+                ],
+                "output_text": [
+                    "his brutal"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "the sons of Cochise"
+                ],
+                "output_text": [
+                    "Cochise's sons"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "and for the murder of several white men including Medal of Honor recipient Orizoba Spence"
+                ],
+                "output_text": [
+                    "killing several white men"
+                ],
+                "quality": "bad",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 25
+    },
+    {
+        "source": "Originating in the capital city of Bangui, the road extends northwest, ultimately terminating at the international border with Chad, near the town of Békoro.",
+        "target": "The road is originating in the capital city of Bangui. || The road extends northwest near the town of Békoro. || Northwest is ultimately terminating at the international border with Chad.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "from the capital city of Bangui"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "The road is originating in the capital city of Bangui."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "||"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "from the capital city of Bangui"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 26
+    },
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise's death, Pionsenay stayed loyal to his brother during a disagreement in 1875.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "the death of Cochise"
+                ],
+                "output_text": [
+                    "Cochise's death"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "remained"
+                ],
+                "output_text": [
+                    "stayed"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "the schism between Skinya and Tahzay"
+                ],
+                "output_text": [
+                    "a disagreement"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 27
+    },
+    {
+        "source": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BCE, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger, who was renowned as a promising rhetorician, having been instructed in rhetoric by his grandfather Asinius.",
+        "target": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BC, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger. || He was known as a good writer, and his grandfather Asinius had taught him rhetoric.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "BCE"
+                ],
+                "output_text": [
+                    "BC"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "who"
+                ],
+                "output_text": [
+                    "|| He"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "renowned as a promising rhetorician"
+                ],
+                "output_text": [
+                    "known as a good writer"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "having been instructed in rhetoric by his grandfather Asinius"
+                ],
+                "output_text": [
+                    "his grandfather Asinius had taught him rhetoric"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 28
+    },
+    {
+        "source": "Influenced by his father Jinghui, whom was also a linguist, Saišangga was proficient in Manchu, Mongolian and Chinese.",
+        "target": "Saišangga learned Manchu, Mongolian, and Chinese because his father Jinghui, who was also a linguist, influenced him.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "his father Jinghui, whom was also a linguist"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "was proficient in Manchu, Mongolian and Chinese"
+                ],
+                "output_text": [
+                    "Saišangga learned Manchu, Mongolian, and Chinese"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Influenced by his father Jinghui"
+                ],
+                "output_text": [
+                    "Saišangga learned"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "whom was also a linguist"
+                ],
+                "output_text": [
+                    "who was also a linguist"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "in"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "because"
+                ],
+                "output_text": [
+                    "him"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 29
+    },
+    {
+        "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short-term (median 3 weeks, range 1-16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+        "target": "A study of 25 trials found no evidence of increased skin thinning with short-term use (average 3 weeks) of mild, moderate, potent, or very potent TCS. || Confidence in these results was low.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "NMA"
+                ],
+                "output_text": [
+                    "A study"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "no evidence for"
+                ],
+                "output_text": [
+                    "no evidence of"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "short-term (median 3 weeks, range 1-16 weeks)"
+                ],
+                "output_text": [
+                    "short-term use (average 3 weeks)"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "mild TCS, moderate TCS, potent TCS"
+                ],
+                "output_text": [
+                    "mild, moderate, potent"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "with low confidence"
+                ],
+                "output_text": [
+                    "|| Confidence in these results was low."
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 30
+    },
+    {
+        "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+        "target": "Cell transplantation can help fix damaged heart and blood vessel tissue.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "offers"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "a potential therapeutic approach to the repair and regeneration of"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "can help fix"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Cell transplantation"
+                ],
+                "output_text": [
+                    "Cell transplantation can help fix"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "repair and regeneration of damaged vascular and cardiac tissue"
+                ],
+                "output_text": [
+                    "damaged heart and blood vessel tissue"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "(AMI)"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 31
+    },
+    {
+        "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+        "target": "A tube that goes into the wrong part of the throat can cause serious pneumonia.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "via"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "a"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "tube misplaced in the trachea"
+                ],
+                "output_text": [
+                    "A tube that goes into the wrong part of the throat"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "can result in severe pneumonia"
+                ],
+                "output_text": [
+                    "can cause serious pneumonia"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 32
+    },
+    {
+        "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+        "target": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (fatal or nonfatal myocardial infarction, stroke or other adverse events) were not known.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "including"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "or"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "uncertain"
+                ],
+                "output_text": [
+                    "not known"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "fatal or nonfatal stroke"
+                ],
+                "output_text": [
+                    "stroke"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "structure",
+                "input_text": [
+                    "on cardiovascular outcomes",
+                    "or other adverse events"
+                ],
+                "output_text": [
+                    "on cardiovascular outcomes",
+                    "stroke or other adverse events"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 33
+    },
+    {
+        "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+        "target": "Tobacco use is much more common among people living with HIV.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "The prevalence of"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "is up to four times higher than in the general population"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "(PLWH)"
+                ],
+                "output_text": [
+                    "people living with HIV"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 34
+    },
+    {
+        "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+        "target": "TEP technique may carry a higher risk of conversion when compared to TAPP (2.5 % versus 0.7 % ; OR 0.28 P). || This was to another hernia repair method (either TAPP technique). || This was to another hernia repair method (open surgery). || = 0.02 OR 0.28 P. || OR 0.28 P = 0.02 was I2 = 0 % ; 13 studies, 1178 participants ; low certainty of evidence. || 2.5 % versus 0.7 % ; OR 0.28 was 95 % CI 0.09 to 0.84.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "TEP technique may carry"
+                ],
+                "output_text": [
+                    "a higher risk of conversion"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "a"
+                ],
+                "output_text": [
+                    "when"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "higher"
+                ],
+                "output_text": [
+                    "risk"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "risk of conversion to another hernia repair method"
+                ],
+                "output_text": [
+                    "conversion when compared to TAPP"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "TEP technique or open surgery"
+                ],
+                "output_text": [
+                    "TAPP technique or open surgery"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "2.5 % versus 0.7 %"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "OR 0.28",
+                    "95% CI 0.09 to 0.84"
+                ],
+                "output_text": [
+                    "P = 0.02 I2 = 0 %"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "13 studies",
+                    "1178 participants",
+                    "low certainty of evidence"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "TEP technique may carry"
+                ],
+                "output_text": [
+                    "a higher risk of conversion when compared to TAPP"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "= 0.02 OR 0.28 P"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "OR 0.28 P = 0.02 I2 = 0 % ; 13 studies, 1178 participants ; low certainty of evidence"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "2.5 % versus 0.7 % ; OR 0.28 was 95 % CI 0.09 to 0.84."
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "conversion to another hernia repair method (either TAPP technique or open surgery)"
+                ],
+                "output_text": [
+                    "|| This was to another hernia repair method (either TAPP technique). || This was to another hernia repair method (open surgery)."
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 35
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence does not show that giving extra help to people living with HIV helps them stop smoking more than just a quick tip or nothing at all.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared"
+                ],
+                "output_text": [
+                    "does not show that giving extra help to people living with HIV helps them stop smoking more than"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "with brief advice or no intervention"
+                ],
+                "output_text": [
+                    "just a quick tip or nothing at all"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 36
+    },
+    {
+        "source": "Low-certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+        "target": "Low-certainty evidence did not detect a difference between varenicline and placebo. || This was in the proportion of participants. || Participants were experiencing SAEs.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| This"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "in the proportion of participants",
+                    "experiencing SAEs"
+                ],
+                "output_text": [
+                    " Participants were",
+                    " Participants were experiencing SAEs"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "a difference"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 37
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates. || This was in PLWH. || PLWH was randomised to receive behavioural support. || This was compared with brief advice. || This was compared with no intervention.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "ceasement rates"
+                ],
+                "output_text": [
+                    "tobacco use cessation rates"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "This was in PLWH."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "PLWH was randomised to receive behavioural support."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "compared with brief advice or no intervention"
+                ],
+                "output_text": [
+                    "|| This was compared with brief advice"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "This was compared with no intervention."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates"
+                ],
+                "output_text": [
+                    "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 38
+    },
+    {
+        "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+        "target": "There is not enough proof to know if CBT works better than other therapies for anxiety in older adults.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "to determine whether"
+                ],
+                "output_text": [
+                    "to know"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "more effective"
+                ],
+                "output_text": [
+                    "works better"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "enough evidence"
+                ],
+                "output_text": [
+                    "enough proof"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 39
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Percutaneous and surgical treatments, along with albendazole, are used for uncomplicated liver cysts caused by echinococcosis, but there's limited research that compares them directly.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "combined"
+                ],
+                "output_text": [
+                    "treatments,"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "interventions"
+                ],
+                "output_text": [
+                    "treatments,"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "hepatic"
+                ],
+                "output_text": [
+                    "liver"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "cystic"
+                ],
+                "output_text": [
+                    "cysts"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [
+                    "albendazole,"
+                ],
+                "output_text": [
+                    "along with albendazole,"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "however, there is a scarcity of randomised evidence directly comparing these interventions."
+                ],
+                "output_text": [
+                    "but there's limited research that compares them directly."
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "structure",
+                "input_text": [
+                    "can be used to treat uncomplicated hepatic cystic echinococcosis;"
+                ],
+                "output_text": [
+                    "are used for uncomplicated liver cysts caused by echinococcosis,"
+                ],
+                "quality": "good",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 40
+    },
+    {
+        "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+        "target": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth). || Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies). || Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage).",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies)"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage)"
+                ],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "and low birthweight babies"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 41
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues `` on [the] date that damage is sustained and not [the] date when causes are set in motion. || This was what dictionaries also explained. || Motion ultimately produce injury.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Importantly"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "contemporaneous dictionaries also explained that"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "This was what dictionaries also explained."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "which ultimately produce injury"
+                ],
+                "output_text": [
+                    "|| Motion ultimately produce injury"
+                ],
+                "quality": "bad",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 42
+    },
+    {
+        "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+        "target": "The Court looked at English cases and saw that fraudulent conveyance actions were mainly common law suits.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Surveying"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "the"
+                ],
+                "output_text": [
+                    "Cut"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "English"
+                ],
+                "output_text": [
+                    "cases and"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "considering"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "and"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and that"
+                ],
+                "output_text": [
+                    "and saw that"
+                ],
+                "quality": "bad",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 43
+    },
+    {
+        "source": "To decide the facial challenges here, the courts below must explore the laws' full range of applications — the constitutionally impermissible and permissible both — and compare the two sets.",
+        "target": "The courts must look at all the ways the laws can be applied, both allowed and not allowed by the Constitution, and compare them.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "Deletion",
+                "input_text": [
+                    "to decide the facial challenges here"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Substitution",
+                "input_text": [
+                    "explore"
+                ],
+                "output_text": [
+                    "look at"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "Reorder",
+                "input_text": [
+                    "the laws' full range of applications — the constitutionally impermissible and permissible both"
+                ],
+                "output_text": [
+                    "all the ways the laws can be applied, both allowed and not allowed by the Constitution"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "Split",
+                "input_text": [
+                    "—"
+                ],
+                "output_text": [
+                    ", and compare them"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 44
+    },
+    {
+        "source": "Notwithstanding Crown Coat's holding, the Board and the dissent try to marshal support from its dicta.",
+        "target": "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta. || This is notwithstanding Crown Coat 's holding.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Notwithstanding Crown Coat's holding"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "the Board and the"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "dissent"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Crown Coat's"
+                ],
+                "output_text": [
+                    "Crown Coat 's"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "holding"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "from its dicta."
+                ],
+                "output_text": [
+                    "This is from its dicta."
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "the Board try to marshal support"
+                ],
+                "output_text": [
+                    "The Board try to marshal support"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "and the dissent try to marshal support"
+                ],
+                "output_text": [
+                    "The dissent try to marshal support"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "split",
+                "input_text": [
+                    "and"
+                ],
+                "output_text": [
+                    "|| The"
+                ],
+                "quality": "good",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 45
+    },
+    {
+        "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+        "target": "We conclude that under our constitutional system of separation of powers, a former President should have some immunity from criminal prosecution for official acts he performed during his time in office.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "under our constitutional structure"
+                ],
+                "output_text": [
+                    "under our constitutional system"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "of separated powers"
+                ],
+                "output_text": [
+                    "of separation"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "the nature of Presidential power"
+                ],
+                "output_text": [
+                    "the nature"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "should"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "during his tenure in office"
+                ],
+                "output_text": [
+                    "during his time in office"
+                ],
+                "quality": "good",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 46
+    },
+    {
+        "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+        "target": "Because the Sackler decision is not expressly prohibited, they say, paragraph (6) makes it possible for them.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "provisions like the Sackler discharge"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "they reason"
+                ],
+                "output_text": [
+                    "they say"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "necessarily permits them"
+                ],
+                "output_text": [
+                    "makes it possible for them"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "it"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 47
+    },
+    {
+        "source": "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs wurde am oberen Froschweiher das städtische Freibad eingerichtet, dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden.",
+        "target": "Nach dem Ende des Ersten Weltkriegs wurde beim oberen Froschweiher ein städtisches Freibad gebaut. || Das erste Freibad davor war in der Nähe der Wileneggstrasse in Weingarten.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "deletion",
+                "input_text": [
+                    "der"
+                ],
+                "output_text": [],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Auflösung"
+                ],
+                "output_text": [
+                    "dem",
+                    "end"
+                ],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "am"
+                ],
+                "output_text": [
+                    "bem"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "das"
+                ],
+                "output_text": [
+                    "ein"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "städtische"
+                ],
+                "output_text": [
+                    "städtisches"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "Freibad eingerichtet"
+                ],
+                "output_text": [
+                    "Freibad gebaut"
+                ],
+                "quality": "bad",
+                "significance": 1
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "Garnison",
+                    "Weingarten"
+                ],
+                "output_text": [
+                    "Garnison",
+                    "Weingarten"
+                ],
+                "quality": "neutral",
+                "significance": 0
+            },
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "Das"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "der Vorläufer"
+                ],
+                "output_text": [
+                    "davor"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "Vorläufer"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "wurde"
+                ],
+                "output_text": [
+                    "wurde"
+                ],
+                "quality": "neutral",
+                "significance": 0
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "Weingarten"
+                ],
+                "output_text": [
+                    "Weingarten"
+                ],
+                "quality": "neutral",
+                "significance": 0
+            },
+            {
+                "category": "structure",
+                "input_text": [
+                    "sich in der Nähe"
+                ],
+                "output_text": [
+                    "sie befanden"
+                ],
+                "quality": "good",
+                "significance": 2
+            },
+            {
+                "category": "reorder",
+                "input_text": [
+                    "die",
+                    "Nähe"
+                ],
+                "output_text": [
+                    "in der"
+                ],
+                "quality": "trivial",
+                "significance": 0
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "der",
+                    "Wileneggstrasse"
+                ],
+                "output_text": [
+                    "die",
+                    "Weilenggstrasse"
+                ],
+                "quality": "bad",
+                "significance": 3
+            },
+            {
+                "category": "structure",
+                "input_text": [
+                    "in"
+                ],
+                "output_text": [],
+                "quality": "bad",
+                "significance": 2
+            }
+        ],
+        "_thresh_id": 48
+    },
+    {
+        "source": "Das Flugzeug war laut VoePass „ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit“.",
+        "target": "Laut dem Unternehmen VoePass war das Flugzeug startbereit.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "insertion",
+                "input_text": [],
+                "output_text": [
+                    "dem Unternehmen"
+                ],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "war",
+                    "laut VoePass"
+                ],
+                "output_text": [],
+                "quality": "good",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit"
+                ],
+                "output_text": [
+                    "startbereit"
+                ],
+                "quality": "bad",
+                "significance": 3
+            }
+        ],
+        "_thresh_id": 49
+    },
+    {
+        "source": "Nach der österreichischen Rückeroberung Tirols zog er sich 1814 nach Italien zurück und starb in Trient als Gubernialrat.",
+        "target": "Nachdem Österreich Tirol zurückerobert hatte, ging er 1814 nach Italien und starb als Regierungsrat in Trient.",
+        "metadata": {
+            "annotator": "localLLAMA",
+            "system": "local"
+        },
+        "edits": [
+            {
+                "category": "substitution",
+                "input_text": [
+                    "nach Italien zurück und starb in Trient als Gubernialrat."
+                ],
+                "output_text": [
+                    "ging er 1814 nach Italien und starb als Regierungsrat in Trient."
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "deletion",
+                "input_text": [
+                    "nach Italien zurück"
+                ],
+                "output_text": [
+                    "nach Italien"
+                ],
+                "quality": "good",
+                "significance": 3
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "und starb in Trient als Gubernialrat."
+                ],
+                "output_text": [
+                    "und starb als Regierungsrat in Trient."
+                ],
+                "quality": "trivial",
+                "significance": 1
+            },
+            {
+                "category": "substitution",
+                "input_text": [
+                    "als Gubernialrat."
+                ],
+                "output_text": [
+                    "als Regierungsrat"
+                ],
+                "quality": "trivial",
+                "significance": 1
+            }
+        ],
+        "_thresh_id": 50
+    }
+]

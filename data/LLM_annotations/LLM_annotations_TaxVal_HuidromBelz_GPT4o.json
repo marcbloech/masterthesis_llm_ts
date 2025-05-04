@@ -1,0 +1,3641 @@
+[
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise died, Pionsenay stayed with his brother. || When Skinya and Tahzay started a war in 1875, Pionsenay joined them.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the death of Cochise"
+                ],
+                "output_text": [
+                    "Cochise died"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "remained loyal to his brother during the schism"
+                ],
+                "output_text": [
+                    "stayed with his brother"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "schism between Skinya and Tahzay in 1875"
+                ],
+                "output_text": [
+                    "Skinya and Tahzay started a war in 1875"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "Pionsenay joined them."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 1
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Doctors can use both percutaneous (through the skin) and surgical methods with albendazole to treat simple liver cysts caused by echinococcosis. However, there is little evidence from random studies that compare these treatments directly.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "Doctors"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "combined with"
+                ],
+                "output_text": [
+                    "and"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "uncomplicated hepatic cystic echinococcosis"
+                ],
+                "output_text": [
+                    "simple liver cysts caused by echinococcosis"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": "Object"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "there is a scarcity"
+                ],
+                "output_text": [
+                    "there is little"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "of randomised evidence"
+                ],
+                "output_text": [
+                    "evidence from random studies"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "directly comparing these interventions"
+                ],
+                "output_text": [
+                    "compare these treatments directly"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            }
+        ],
+        "_thresh_id": 2
+    },
+    {
+        "source": "Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence).",
+        "target": "Statins make little or no difference in heart attacks and strokes but may slightly lower the risk of irregular heartbeat.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "probably result in"
+                ],
+                "output_text": [
+                    "make"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "little to no difference in myocardial infarction"
+                ],
+                "output_text": [
+                    "little or no difference in heart attacks"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "may result in little to no difference in atrial fibrillation"
+                ],
+                "output_text": [
+                    "may slightly lower the risk of irregular heartbeat"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "may result in little to no difference in stroke"
+                ],
+                "output_text": [
+                    "little or no difference in strokes"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "and may result in"
+                ],
+                "output_text": [
+                    "but may"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 3
+    },
+    {
+        "source": "Non-randomised studies have shown a benefit from surgically diverting ventricular fluid to an area of lower pressure by cerebrospinal fluid (CSF)-shunting in iNPH, but historically there have been limited randomised controlled trial (RCT) data to confirm this. ",
+        "target": "Non-randomised studies have shown a benefit from surgically diverting cerebrospinal fluid (CSF) to an area of lower pressure in iNPH. || However, there have been limited randomised controlled trial (RCT) data to confirm this.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "ventricular fluid"
+                ],
+                "output_text": [
+                    "cerebrospinal fluid (CSF)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "by cerebrospinal fluid (CSF)-shunting"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "but historically"
+                ],
+                "output_text": [
+                    "|| However,"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 4
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "Importantly, dictionaries from that time said a cause of action starts on the date damage happens, not when the events leading to the damage begin.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "contemporaneous"
+                ],
+                "output_text": [
+                    "from that time"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "explained"
+                ],
+                "output_text": [
+                    "said"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "accrues"
+                ],
+                "output_text": [
+                    "starts"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "on [the] date that damage is sustained"
+                ],
+                "output_text": [
+                    "on the date damage happens"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "[the] date when causes are set in motion which ultimately produce injury"
+                ],
+                "output_text": [
+                    "when the events leading to the damage begin"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 5
+    },
+    {
+        "source": "While the Board argues that §2401(a) should not be interpreted to adopt a “challenger-by-challenger” approach, the standard accrual rule that §2401(a) exemplifies is plaintiff specific.",
+        "target": "The Board says §2401(a) shouldn't be applied in separate cases, but it applies to each case individually.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "While"
+                ],
+                "output_text": [
+                    "The Board says"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "argues that"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "should not be interpreted to adopt a \"challenger-by-challenger\" approach"
+                ],
+                "output_text": [
+                    "should not be applied in separate cases"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the standard accrual rule that §2401(a) exemplifies is plaintiff specific"
+                ],
+                "output_text": [
+                    "it applies to each case individually"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 6
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues on the date of the injury.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "Importantly, contemporaneous dictionaries also explained that"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "on [the] date that damage is sustained"
+                ],
+                "output_text": [
+                    "on the date of the injury"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "and not [the] date when causes are set in motion which ultimately produce injury"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": "Other"
+                }
+            }
+        ],
+        "_thresh_id": 7
+    },
+    {
+        "source": "NetChoice contends that the Florida and Texas statutes facially violate the First Amendment, meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution",
+        "target": "They say these laws directly contradict the First Amendment.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "NetChoice contends"
+                ],
+                "output_text": [
+                    "They say"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the Florida and Texas statutes facially violate"
+                ],
+                "output_text": [
+                    "these laws directly contradict"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the First Amendment,"
+                ],
+                "output_text": [
+                    "the First Amendment."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "meaning that they cannot be applied to anyone at any time under any circumstances without violating the Constitution"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 8
+    },
+    {
+        "source": "Asencio-Cordero cannot invoke the exception himself, thus Muñoz must assert that the denial of her husband's visa violated her constitutional rights, thereby enabling judicial review.",
+        "target": "Muñoz had to say that denying her husband's visa broke Asencio-Cordero's constitutional rights.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Asencio-Cordero"
+                ],
+                "output_text": [
+                    "Asencio-Cordero's"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "cannot invoke the exception himself, thus"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "must assert that"
+                ],
+                "output_text": [
+                    "had to say that"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the denial of her husband's visa"
+                ],
+                "output_text": [
+                    "denying her husband's visa"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "violated her constitutional rights, thereby enabling judicial review"
+                ],
+                "output_text": [
+                    "broke Asencio-Cordero's constitutional rights"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 9
+    },
+    {
+        "source": "And he contended that a President has absolute immunity from criminal prosecution for actions performed within the outer perimeter of his official responsibilities, to ensure that he can undertake the especially sensitive duties of his office with bold and unhesitating action.",
+        "target": "He argued that a President has absolute immunity from criminal prosecution for actions done outside the limits of his official duties. || This way, he could take on the especially sensitive duties of his office with bold and unhesitating action.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "And he contended"
+                ],
+                "output_text": [
+                    "He argued"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "for actions performed within the outer perimeter of his official responsibilities"
+                ],
+                "output_text": [
+                    "for actions done outside the limits of his official duties"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Polarity Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "|| This way, he could take on"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 11
+    },
+    {
+        "source": "The dividing line between §201(b)'s bribery provision and §201(c)'s gratuities provision is that bribery requires an official to have a corrupt state of mind and to accept (or agree to accept) a payment intending to be influenced in an official act.",
+        "target": "The main difference between §201 (b) and §201 (c) is that §201 (b) requires an official to have a corrupt state of mind. || §201 (c) requires an official to accept (or agree to accept) a payment for an official act.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "dividing line between §201(b)'s bribery provision and §201(c)'s gratuities provision"
+                ],
+                "output_text": [
+                    "difference between §201 (b) and §201 (c)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "§201(b)'s bribery provision"
+                ],
+                "output_text": [
+                    "§201 (b)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "||"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "bribery requires an official to"
+                ],
+                "output_text": [
+                    "§201 (b) requires an official to"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "influenced in an official act."
+                ],
+                "output_text": [
+                    "for an official act."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    ""
+                ],
+                "output_text": [
+                    "§201 (c) requires an official to accept (or agree to accept) a payment"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 12
+    },
+    {
+        "source": "The Court has repeatedly held that ordering a party to provide a forum for someone else's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity, which the mandated access would alter or disrupt.",
+        "target": "Ordering a party to provide a forum for someone else 's views implicates the First Amendment if, though only if, the regulated party is engaged in its own expressive activity. || This was what the Court has repeatedly held. || The mandated access would alter or disrupt its own expressive activity.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "The Court has repeatedly held that"
+                ],
+                "output_text": [
+                    "This was what the Court has repeatedly held"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "which"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 13
+    },
+    {
+        "source": "Calzolari trat in die Fußstapfen seines Vaters und widmete sich mit Hingabe seiner Arbeit in der Apotheke, deren Leitung er übernahm.",
+        "target": "Nachdem sein Vater aus dem Geschäft ausgestiegen war, übernahm Calzolari dessen Position als Apothekeneigentümer. || Er engagierte sich sehr für die Apotheke und führte sie erfolgreich weiter.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "trat in die Fußstapfen seines Vaters"
+                ],
+                "output_text": [
+                    "Nachdem sein Vater aus dem Geschäft ausgestiegen war"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "widmete sich mit Hingabe seiner Arbeit in der Apotheke"
+                ],
+                "output_text": [
+                    "engagierte sich sehr für die Apotheke"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "deren Leitung er übernahm"
+                ],
+                "output_text": [
+                    "übernahm Calzolari dessen Position als Apothekeneigentümer"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 14
+    },
+    {
+        "source": "Dieses Projekt wurde bereits vor Motians Tod konzipiert und brauchte mehrere Jahre, um Gestalt anzunehmen.",
+        "target": "Das Projekt wurde erst nach dem Tod des Musikers entwickelt und benötigte einige Jahre.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Dieses"
+                ],
+                "output_text": [
+                    "Das"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "bereits vor Motians Tod"
+                ],
+                "output_text": [
+                    "erst nach dem Tod des Musikers"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "konzipiert"
+                ],
+                "output_text": [
+                    "entwickelt"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "brauchte mehrere Jahre, um Gestalt anzunehmen"
+                ],
+                "output_text": [
+                    "benötigte einige Jahre"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 15
+    },
+    {
+        "source": "On the outbreak of the 1965 Indo-Pakistani war, the squadron flew 24 Aerial reconnaissance missions with the Lockheed RT-33s providing vital photographic data coverage to the PAF and the Army.",
+        "target": "During the 1965 India-Pakistan war, the squadron flew 24 spy missions using planes that took photos which were very helpful to Pakistan's army and air force.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "On the outbreak of"
+                ],
+                "output_text": [
+                    "During"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Indo-Pakistani"
+                ],
+                "output_text": [
+                    "India-Pakistan"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Aerial reconnaissance missions"
+                ],
+                "output_text": [
+                    "spy missions"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the Lockheed RT-33s"
+                ],
+                "output_text": [
+                    "planes that took photos"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "providing vital photographic data coverage to the PAF and the Army"
+                ],
+                "output_text": [
+                    "which were very helpful to Pakistan's army and air force"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 16
+    },
+    {
+        "source": "Acmispon tomentosus var. tomentosus is the one subspecies in the genus, generally identified by having less red in their buds and a lot more hairy leaves.",
+        "target": "Acmispon tomentosus has one subspecies with buds that are not as red and hairy leaves that are very thick.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Acmispon tomentosus var. tomentosus is the one subspecies in the genus"
+                ],
+                "output_text": [
+                    "Acmispon tomentosus has one subspecies"
+                ],
+                "orthogonalData": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "generally identified by"
+                ],
+                "output_text": [],
+                "orthogonalData": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "having less red in their buds"
+                ],
+                "output_text": [
+                    "buds that are not as red"
+                ],
+                "orthogonalData": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "a lot more hairy leaves"
+                ],
+                "output_text": [
+                    "hairy leaves that are very thick"
+                ],
+                "orthogonalData": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 17
+    },
+    {
+        "source": "As a key component of the country's road network, the N1 facilitates connectivity between the capital and the northeastern regions, playing a role in the nation's economic and social development.",
+        "target": "The N1 connects the capital with the northeastern regions, helping the country's economy and society.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "As a key component of the country's road network, the"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "facilitates connectivity between"
+                ],
+                "output_text": [
+                    "connects"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "playing a role"
+                ],
+                "output_text": [
+                    "helping"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "nation's economic and social development"
+                ],
+                "output_text": [
+                    "country's economy and society"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            }
+        ],
+        "_thresh_id": 18
+    },
+    {
+        "source": "Due to the influx of Catholic immigration in Zurich in the 19th century, the church was built from 1893 to 1894 under the Romanesque Revival architecture designs of the architect August Hardegger.",
+        "target": "The church was built between 1893 and 1894 according to the Romanesque Revival style.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "Due to the influx of Catholic immigration in Zurich in the 19th century"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "the architect August Hardegger"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": "Subject"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "under the Romanesque Revival architecture designs of"
+                ],
+                "output_text": [
+                    "according to the Romanesque Revival style"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "from"
+                ],
+                "output_text": [
+                    "between"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "to"
+                ],
+                "output_text": [
+                    "and"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 19
+    },
+    {
+        "source": "Breedlove was born in 1875 in Granville County, North Carolina near Oxford, to John Henry Breedlove and Susan Caroline Hunt Breedlove. ",
+        "target": "Breedlove was born in 1875. || This was in Granville County, North Carolina near Oxford. || This was to John Henry Breedlove. || This was to Susan Caroline Hunt Breedlove.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "in Granville County, North Carolina near Oxford, to John Henry Breedlove and Susan Caroline Hunt Breedlove"
+                ],
+                "output_text": [
+                    "This was in Granville County, North Carolina near Oxford"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "to John Henry Breedlove"
+                ],
+                "output_text": [
+                    "This was to John Henry Breedlove"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "to Susan Caroline Hunt Breedlove"
+                ],
+                "output_text": [
+                    "This was to Susan Caroline Hunt Breedlove"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 20
+    },
+    {
+        "source": "After the war, the squadron was disbanded in June 1972 with it's assets transferred to No. 2 Squadron.",
+        "target": "After the war, No. 2 Squadron took over its assets and was disbanded in June 1972.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "the squadron was disbanded in June 1972"
+                ],
+                "output_text": [
+                    "was disbanded in June 1972"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": "Other Wrongly Rendered Input",
+                "input_text": [
+                    "with it's assets transferred to No. 2 Squadron"
+                ],
+                "output_text": [
+                    "No. 2 Squadron took over its assets"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 21
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white people, including a Medal of Honor winner.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "white men"
+                ],
+                "output_text": [
+                    "white people"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Medal of Honor recipient Orizoba Spence"
+                ],
+                "output_text": [
+                    "a Medal of Honor winner"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 22
+    },
+    {
+        "source": "In 1876, the Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches led by Pionsenay.",
+        "target": "The Sulphur Springs overland mail station in the Arizona Territory was raided by a band of Apaches. || This was in 1876. || Apaches was led by Pionsenay.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "In 1876"
+                ],
+                "output_text": [
+                    "This was in 1876"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Context Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "led by Pionsenay"
+                ],
+                "output_text": [
+                    "Apaches was led by Pionsenay"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "|| This was in 1876. || Apaches was led by Pionsenay."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 23
+    },
+    {
+        "source": "Prior to his acting debut, he was one of the regular hosts of the university student-focused talk show College Talk",
+        "target": "Before he started acting, he was one of the regular hosts of the college talk show College Talk.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Prior to his acting debut"
+                ],
+                "output_text": [
+                    "Before he started acting"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "university student-focused"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "university student-focused talk show"
+                ],
+                "output_text": [
+                    "college talk show"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 24
+    },
+    {
+        "source": "He is known for the brutality of his raids, his rivalry with the sons of Cochise, and for the murder of several white men including Medal of Honor recipient Orizoba Spence.",
+        "target": "He is known for his brutal raids, his rivalry with Cochise's sons, and killing several white men.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the brutality of his raids"
+                ],
+                "output_text": [
+                    "his brutal raids"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the sons of Cochise"
+                ],
+                "output_text": [
+                    "Cochise's sons"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Omission",
+                "edit_type_level3": null,
+                "input_text": [
+                    "for the murder of several white men including Medal of Honor recipient Orizoba Spence"
+                ],
+                "output_text": [
+                    "killing several white men"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 25
+    },
+    {
+        "source": "Originating in the capital city of Bangui, the road extends northwest, ultimately terminating at the international border with Chad, near the town of Békoro.",
+        "target": "The road is originating in the capital city of Bangui. || The road extends northwest near the town of Békoro. || Northwest is ultimately terminating at the international border with Chad.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Originating in"
+                ],
+                "output_text": [
+                    "The road is originating in"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "extends northwest, ultimately terminating at near the town of Békoro"
+                ],
+                "output_text": [
+                    "The road extends northwest near the town of Békoro"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "ultimately terminating at the international border with Chad"
+                ],
+                "output_text": [
+                    "Northwest is ultimately terminating at the international border with Chad"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 26
+    },
+    {
+        "source": "After the death of Cochise, Pionsenay remained loyal to his brother during the schism between Skinya and Tahzay in 1875.",
+        "target": "After Cochise's death, Pionsenay stayed loyal to his brother during a disagreement in 1875.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the death of Cochise"
+                ],
+                "output_text": [
+                    "Cochise's death"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Content Words",
+                    "numWords": "Multiple Words",
+                    "severity": "Minor",
+                    "syntacticCategory": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "remained"
+                ],
+                "output_text": [
+                    "stayed"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Content Words",
+                    "numWords": "Single Word",
+                    "severity": "Minor",
+                    "syntacticCategory": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "schism between Skinya and Tahzay"
+                ],
+                "output_text": [
+                    "disagreement"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": "NE Deviation",
+                    "contextFunction": "Content Words",
+                    "numWords": "Single Word",
+                    "severity": "Major",
+                    "syntacticCategory": null
+                }
+            }
+        ],
+        "_thresh_id": 27
+    },
+    {
+        "source": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BCE, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger, who was renowned as a promising rhetorician, having been instructed in rhetoric by his grandfather Asinius.",
+        "target": "She married Marcus Claudius Marcellus Aeserninus, consul in 22 BC, and had at least one son, Marcus Claudius Marcellus Aeserninus the younger. || He was known as a good writer, and his grandfather Asinius had taught him rhetoric.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "22 BCE"
+                ],
+                "output_text": [
+                    "22 BC"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "who was renowned as a promising rhetorician, having been instructed in rhetoric by his grandfather Asinius"
+                ],
+                "output_text": [
+                    "He was known as a good writer, and his grandfather Asinius had taught him rhetoric"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 28
+    },
+    {
+        "source": "Influenced by his father Jinghui, whom was also a linguist, Saišangga was proficient in Manchu, Mongolian and Chinese.",
+        "target": "Saišangga learned Manchu, Mongolian, and Chinese because his father Jinghui, who was also a linguist, influenced him.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Influenced by his father Jinghui, whom was also a linguist,"
+                ],
+                "output_text": [
+                    "because his father Jinghui, who was also a linguist, influenced him"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "proficient in"
+                ],
+                "output_text": [
+                    "learned"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 29
+    },
+    {
+        "source": "NMA of 25 trials reporting skin thinning found no evidence for increased skin thinning with short-term (median 3 weeks, range 1-16 weeks) use of mild TCS, moderate TCS, potent TCS, or very potent TCS , all with low confidence.",
+        "target": "A study of 25 trials found no evidence of increased skin thinning with short-term use (average 3 weeks) of mild, moderate, potent, or very potent TCS. || Confidence in these results was low.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "NMA of"
+                ],
+                "output_text": [
+                    "A study of"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "reporting skin thinning"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "skin thinning found"
+                ],
+                "output_text": [
+                    "found"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "short-term (median 3 weeks, range 1-16 weeks)"
+                ],
+                "output_text": [
+                    "short-term use (average 3 weeks)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "TCS ,"
+                ],
+                "output_text": [
+                    "TCS."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "all with low confidence"
+                ],
+                "output_text": [
+                    "Confidence in these results was low"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 30
+    },
+    {
+        "source": "Cell transplantation offers a potential therapeutic approach to the repair and regeneration of damaged vascular and cardiac tissue after acute myocardial infarction (AMI). ",
+        "target": "Cell transplantation can help fix damaged heart and blood vessel tissue.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "offers a potential therapeutic approach to the repair and regeneration of"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "vascular and cardiac"
+                ],
+                "output_text": [
+                    "heart and blood vessel"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "tissue after acute myocardial infarction (AMI)"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "help fix"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 31
+    },
+    {
+        "source": "Feeding via a tube misplaced in the trachea can result in severe pneumonia.",
+        "target": "A tube that goes into the wrong part of the throat can cause serious pneumonia.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Feeding via"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "misplaced"
+                ],
+                "output_text": [
+                    "goes into the wrong part of"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": "Subject"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "trachea"
+                ],
+                "output_text": [
+                    "throat"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Object"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "severe"
+                ],
+                "output_text": [
+                    "serious"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            }
+        ],
+        "_thresh_id": 32
+    },
+    {
+        "source": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other adverse events were uncertain. ",
+        "target": "The effects of CCBs, ACEi or ARB compared to placebo or standard care alone on cardiovascular outcomes (fatal or nonfatal myocardial infarction, stroke or other adverse events) were not known.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "including fatal or nonfatal myocardial infarction, fatal or nonfatal stroke) or other"
+                ],
+                "output_text": [
+                    "fatal or nonfatal myocardial infarction, stroke or other"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "uncertain"
+                ],
+                "output_text": [
+                    "not known"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 33
+    },
+    {
+        "source": "The prevalence of tobacco use among people living with HIV (PLWH) is up to four times higher than in the general population.",
+        "target": "Tobacco use is much more common among people living with HIV.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "The prevalence of tobacco use among"
+                ],
+                "output_text": [
+                    "Tobacco use among"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "is up to four times higher than in the general population"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": "Numerical Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 34
+    },
+    {
+        "source": "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery) when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence).",
+        "target": "TEP technique may carry a higher risk of conversion when compared to TAPP (2.5 % versus 0.7 % ; OR 0.28 P). || This was to another hernia repair method (either TAPP technique). || This was to another hernia repair method (open surgery). || = 0.02 OR 0.28 P. || OR 0.28 P = 0.02 was I2 = 0 % ; 13 studies, 1178 participants ; low certainty of evidence. || 2.5 % versus 0.7 % ; OR 0.28 was 95 % CI 0.09 to 0.84.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "TEP technique may carry a higher risk of conversion to another hernia repair method (either TAPP technique or open surgery)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "when compared to TAPP (2.5% versus 0.7%; OR 0.28, 95% CI 0.09 to 0.84, P = 0.02, I2 = 0%; 13 studies, 1178 participants; low certainty of evidence)"
+                ],
+                "output_text": [
+                    ""
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 35
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence does not show that giving extra help to people living with HIV helps them stop smoking more than just a quick tip or nothing at all.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "did not demonstrate a clear benefit"
+                ],
+                "output_text": [
+                    "does not show that giving extra help helps them stop smoking"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "PLWH"
+                ],
+                "output_text": [
+                    "people living with HIV"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "randomised to receive behavioural support"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "brief advice"
+                ],
+                "output_text": [
+                    "a quick tip"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "intervention"
+                ],
+                "output_text": [
+                    "nothing at all"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 36
+    },
+    {
+        "source": "Low-certainty evidence did not detect a difference between varenicline and placebo in the proportion of participants experiencing SAEs.",
+        "target": "Low-certainty evidence did not detect a difference between varenicline and placebo. || This was in the proportion of participants. || Participants were experiencing SAEs.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "in the proportion of participants experiencing SAEs"
+                ],
+                "output_text": [
+                    "|| This was in the proportion of participants. || Participants were experiencing SAEs."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "Other Meaning Deviation",
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 37
+    },
+    {
+        "source": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention.",
+        "target": "Low-certainty evidence did not demonstrate a clear benefit for tobacco use cessation rates. || This was in PLWH. || PLWH was randomised to receive behavioural support. || This was compared with brief advice. || This was compared with no intervention.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "tobacco use cessation rates in PLWH randomised to receive behavioural support compared with brief advice or no intervention."
+                ],
+                "output_text": [
+                    "tobacco use cessation rates."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "This was in PLWH."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "PLWH was randomised to receive behavioural support."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "This was compared with brief advice."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Addition",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [],
+                "output_text": [
+                    "This was compared with no intervention."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 38
+    },
+    {
+        "source": "There is not enough evidence to determine whether CBT is more effective than alternative psychological therapies for anxiety in older adults.",
+        "target": "There is not enough proof to know if CBT works better than other therapies for anxiety in older adults.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "evidence"
+                ],
+                "output_text": [
+                    "proof"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "to determine whether"
+                ],
+                "output_text": [
+                    "to know if"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other",
+                "edit_type_level3": null,
+                "input_text": [
+                    "is more effective than alternative psychological therapies"
+                ],
+                "output_text": [
+                    "works better than other therapies"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 39
+    },
+    {
+        "source": "Percutaneous and surgical interventions combined with albendazole can be used to treat uncomplicated hepatic cystic echinococcosis; however, there is a scarcity of randomised evidence directly comparing these interventions. ",
+        "target": "Percutaneous and surgical treatments, along with albendazole, are used for uncomplicated liver cysts caused by echinococcosis, but there's limited research that compares them directly.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "interventions"
+                ],
+                "output_text": [
+                    "treatments"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "combined with"
+                ],
+                "output_text": [
+                    "along with"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "to treat"
+                ],
+                "output_text": [
+                    "for"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "hepatic cystic echinococcosis"
+                ],
+                "output_text": [
+                    "liver cysts caused by echinococcosis"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": "NE Deviation",
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "; however,"
+                ],
+                "output_text": [
+                    ", but"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "there is a scarcity of randomised evidence directly comparing these interventions"
+                ],
+                "output_text": [
+                    "there's limited research that compares them directly"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 40
+    },
+    {
+        "source": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth and low birthweight babies) and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage). ",
+        "target": "Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as fewer preterm birth). || Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies). || Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage).",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "and low birthweight babies"
+                ],
+                "output_text": [
+                    ". || Vitamin D supplementation during pregnancy may help improve maternal and neonatal health outcomes (such as low birthweight babies)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "and reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage)."
+                ],
+                "output_text": [
+                    ". || Vitamin D supplementation during pregnancy may help reduce the risk of adverse pregnancy outcomes (such as severe postpartum haemorrhage)"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": "Other"
+                }
+            }
+        ],
+        "_thresh_id": 41
+    },
+    {
+        "source": "Importantly, contemporaneous dictionaries also explained that a cause of action accrues \"on [the] date that damage is sustained and not [the] date when causes are set in motion which ultimately produce injury.\"",
+        "target": "A cause of action accrues `` on [the] date that damage is sustained and not [the] date when causes are set in motion. || This was what dictionaries also explained. || Motion ultimately produce injury.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Importantly, contemporaneous dictionaries also explained that"
+                ],
+                "output_text": [
+                    "This was what dictionaries also explained."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "and not [the] date when causes are set in motion which ultimately produce injury"
+                ],
+                "output_text": [
+                    "not [the] date when causes are set in motion. || Motion ultimately produce injury"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 42
+    },
+    {
+        "source": "Surveying English cases and considering the remedy these suits provided, the Court concluded that fraudulent conveyance actions were “quintessentially suits at common law.”",
+        "target": "The Court looked at English cases and saw that fraudulent conveyance actions were mainly common law suits.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Surveying English cases"
+                ],
+                "output_text": [
+                    "looked at English cases"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "and considering the remedy these suits provided"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "concluded"
+                ],
+                "output_text": [
+                    "saw"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "“quintessentially suits at common law."
+                ],
+                "output_text": [
+                    "mainly common law suits"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 43
+    },
+    {
+        "source": "To decide the facial challenges here, the courts below must explore the laws' full range of applications — the constitutionally impermissible and permissible both — and compare the two sets.",
+        "target": "The courts must look at all the ways the laws can be applied, both allowed and not allowed by the Constitution, and compare them.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "To decide the facial challenges here,"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "below"
+                ],
+                "output_text": [
+                    "The courts"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": "Other Wrong Lexical Choice",
+                "input_text": [
+                    "explore"
+                ],
+                "output_text": [
+                    "look at"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "full range of applications — the constitutionally impermissible and permissible both —"
+                ],
+                "output_text": [
+                    "all the ways the laws can be applied, both allowed and not allowed by the Constitution,"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 44
+    },
+    {
+        "source": "Notwithstanding Crown Coat's holding, the Board and the dissent try to marshal support from its dicta.",
+        "target": "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta. || This is notwithstanding Crown Coat 's holding.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Notwithstanding Crown Coat's holding,"
+                ],
+                "output_text": [
+                    "This is notwithstanding Crown Coat's holding."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "the Board and the dissent try to marshal support from its dicta."
+                ],
+                "output_text": [
+                    "The Board try to marshal support. || The dissent try to marshal support. || This is from its dicta."
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 45
+    },
+    {
+        "source": "We conclude that under our constitutional structure of separated powers, the nature of Presidential power requires that a former President have some immunity from criminal prosecution for official acts during his tenure in office.",
+        "target": "We conclude that under our constitutional system of separation of powers, a former President should have some immunity from criminal prosecution for official acts he performed during his time in office.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrong Lexical Choice",
+                "edit_type_level3": null,
+                "input_text": [
+                    "structure of separated powers"
+                ],
+                "output_text": [
+                    "system of separation of powers"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "the nature of Presidential power requires that"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "during his tenure in office"
+                ],
+                "output_text": [
+                    "he performed during his time in office"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Function Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 46
+    },
+    {
+        "source": "Because provisions like the Sackler discharge are not expressly prohibited, they reason, paragraph (6) necessarily permits them.",
+        "target": "Because the Sackler decision is not expressly prohibited, they say, paragraph (6) makes it possible for them.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "provisions like the Sackler discharge"
+                ],
+                "output_text": [
+                    "the Sackler decision"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Content Words",
+                    "numWords": "Multiple Words",
+                    "severity": "Major",
+                    "syntacticCategory": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "are not expressly prohibited"
+                ],
+                "output_text": [
+                    "is not expressly prohibited"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Function Words",
+                    "numWords": "Multiple Words",
+                    "severity": "Minor",
+                    "syntacticCategory": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "they reason,"
+                ],
+                "output_text": [
+                    "they say,"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Content Words",
+                    "numWords": "Multiple Words",
+                    "severity": "Minor",
+                    "syntacticCategory": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "necessarily permits them"
+                ],
+                "output_text": [
+                    "makes it possible for them"
+                ],
+                "orthogonalData": {
+                    "meaningDeviation": null,
+                    "contextFunction": "Content Words",
+                    "numWords": "Multiple Words",
+                    "severity": "Minor",
+                    "syntacticCategory": null
+                }
+            }
+        ],
+        "_thresh_id": 47
+    },
+    {
+        "source": "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs wurde am oberen Froschweiher das städtische Freibad eingerichtet, dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden.",
+        "target": "Nach dem Ende des Ersten Weltkriegs wurde beim oberen Froschweiher ein städtisches Freibad gebaut. || Das erste Freibad davor war in der Nähe der Wileneggstrasse in Weingarten.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "Nach der Auflösung der Garnison Weingarten nach Beendigung des Ersten Weltkriegs"
+                ],
+                "output_text": [
+                    "Nach dem Ende des Ersten Weltkriegs"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "eingerichtet"
+                ],
+                "output_text": [
+                    "gebaut"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Reordering",
+                "edit_type_level3": null,
+                "input_text": [
+                    "dessen Vorläufer sich in der Nähe der Wileneggstrasse in Weingarten befanden"
+                ],
+                "output_text": [
+                    "Das erste Freibad davor war in der Nähe der Wileneggstrasse in Weingarten"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": null,
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 48
+    },
+    {
+        "source": "Das Flugzeug war laut VoePass „ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit“.",
+        "target": "Laut dem Unternehmen VoePass war das Flugzeug startbereit.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Other Wrongly Rendered Input",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Laut VoePass"
+                ],
+                "output_text": [
+                    "Laut dem Unternehmen VoePass"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Omission",
+                "edit_type_level2": null,
+                "edit_type_level3": null,
+                "input_text": [
+                    "ohne betriebliche Einschränkungen gestartet und alle Systeme waren für den Flug bereit"
+                ],
+                "output_text": [],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 49
+    },
+    {
+        "source": "Nach der österreichischen Rückeroberung Tirols zog er sich 1814 nach Italien zurück und starb in Trient als Gubernialrat.",
+        "target": "Nachdem Österreich Tirol zurückerobert hatte, ging er 1814 nach Italien und starb als Regierungsrat in Trient.",
+        "metadata": {
+            "annotator": "gpt-4o-latest",
+            "system": "azure"
+        },
+        "edits": [
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Should Not Have Been Left Verbatim",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Nach der österreichischen Rückeroberung Tirols"
+                ],
+                "output_text": [
+                    "Nachdem Österreich Tirol zurückerobert hatte"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Multiple Words",
+                    "severity": "Minor",
+                    "syntactic_category": null
+                }
+            },
+            {
+                "edit_type_level1": "Substitution",
+                "edit_type_level2": "Lexical Error",
+                "edit_type_level3": null,
+                "input_text": [
+                    "Gubernialrat"
+                ],
+                "output_text": [
+                    "Regierungsrat"
+                ],
+                "orthogonal_data": {
+                    "meaning_deviation": null,
+                    "context_function": "Content Words",
+                    "num_words": "Single Word",
+                    "severity": "Major",
+                    "syntactic_category": null
+                }
+            }
+        ],
+        "_thresh_id": 50
+    }
+]
